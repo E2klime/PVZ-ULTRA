@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="LevelData" format=3]
+
+[ext_resource type="Script" path="res://core/data/level_data.gd" id="1_iuraw"]
+
+[resource]
+script = ExtResource("1_iuraw")
+id = &"lawn_bonus_1"
+name_key = "LEVEL_LAWN_BONUS_1_NAME"
+desc_key = "LEVEL_LAWN_BONUS_1_DESC"
+zombie_pool = Array[StringName]([&"shambler", &"sprinter"])
+threat_growth = 0.65
+first_wave_delay = 34.0
+wave_interval = 30.0
+allow_hybrids = false
+reward_plant = &"dandelion_puff"
+reward_coins = 100
+hint_key = "HINT_LAWN_BONUS_1"
+water = PackedStringArray()

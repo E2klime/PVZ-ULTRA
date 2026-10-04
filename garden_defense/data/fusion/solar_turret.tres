@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="FusionRecipe" format=3]
+[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1"]
+[resource]
+script = ExtResource("1")
+base_id = &"sunbud"
+catalyst_id = &"pod_shooter"
+result_id = &"solar_turret"
+fee = 25

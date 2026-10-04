@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/zombies/zombie_ranged.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"angler"
+name_key = "Angler"
+desc_key = "Catch of the day: your front plant. Lobs damage within five cells."
+behavior = ExtResource("2")
+ability_kind = &"lob"
+hp = 390
+armor_hp = 0
+speed = 0.15
+damage = 100
+eat_interval = 0.5
+threat_cost = 1.3
+weight = 6.0
+ability_power = 65
+ability_interval = 10
+body_scale = 1.0
+color_skin = Color(0.69, 0.6299999999999999, 0.54, 1)
+color_cloth = Color(0.25, 0.44000000000000006, 0.38, 1)
+tier = 3

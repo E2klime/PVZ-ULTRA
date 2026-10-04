@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_trap.gd" id="1_np2gi"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_660m1"]
+
+[resource]
+script = ExtResource("2_660m1")
+id = &"vortex_trap"
+name_key = "PLANT_VORTEX_TRAP_NAME"
+desc_key = "PLANT_VORTEX_TRAP_DESC"
+cost = 275
+role = &"trap"
+behavior = ExtResource("1_np2gi")
+is_seed = false
+is_hybrid = true
+damage = 400
+pull_range = 1.5
+chew_time = 32.0
+color_main = Color(0.3, 0.55, 0.6, 1)
+color_accent = Color(0.6, 0.95, 0.9, 1)

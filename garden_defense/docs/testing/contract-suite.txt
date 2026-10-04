@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+CAMPAIGN TEST: instantiated all 25 missions in lawn
+CAMPAIGN TEST: instantiated all 25 missions in pool
+CAMPAIGN TEST: instantiated all 25 missions in night
+CAMPAIGN TEST: instantiated all 25 missions in desert
+CAMPAIGN TEST: instantiated all 25 missions in roof
+CAMPAIGN TEST: instantiated all 25 missions in frost
+CAMPAIGN TEST: instantiated all 25 missions in factory
+CAMPAIGN TEST: instantiated all 25 missions in moon
+CAMPAIGN TEST: checks=15397 failures=0

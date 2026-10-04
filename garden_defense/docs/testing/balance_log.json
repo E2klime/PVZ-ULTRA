@@ -1,0 +1,1095 @@
+[
+ {
+  "level": "pool_07",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    20,
+    22
+   ]
+  ]
+ },
+ {
+  "level": "pool_19",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    20,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "night_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    20
+   ]
+  ]
+ },
+ {
+  "level": "night_20",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    22
+   ]
+  ]
+ },
+ {
+  "level": "desert_07",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "start_sun",
+    880,
+    980
+   ]
+  ]
+ },
+ {
+  "level": "desert_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    2,
+    3
+   ]
+  ]
+ },
+ {
+  "level": "desert_14",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    4,
+    5
+   ]
+  ]
+ },
+ {
+  "level": "desert_23",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    20,
+    22
+   ]
+  ]
+ },
+ {
+  "level": "roof_07",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "start_sun",
+    990,
+    1090
+   ]
+  ]
+ },
+ {
+  "level": "roof_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    20
+   ]
+  ]
+ },
+ {
+  "level": "roof_18",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    22
+   ]
+  ]
+ },
+ {
+  "level": "frost_06",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "start_sun",
+    1100,
+    1200
+   ]
+  ]
+ },
+ {
+  "level": "frost_07",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    20
+   ]
+  ]
+ },
+ {
+  "level": "frost_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    2,
+    3
+   ]
+  ]
+ },
+ {
+  "level": "frost_11",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    6,
+    10
+   ]
+  ]
+ },
+ {
+  "level": "frost_17",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    4,
+    5
+   ]
+  ]
+ },
+ {
+  "level": "frost_23",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    18,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "factory_06",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    17,
+    20
+   ]
+  ]
+ },
+ {
+  "level": "factory_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "start_sun",
+    1210,
+    1310
+   ]
+  ]
+ },
+ {
+  "level": "factory_11",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    6,
+    10
+   ]
+  ]
+ },
+ {
+  "level": "factory_17",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    4,
+    5
+   ]
+  ]
+ },
+ {
+  "level": "factory_19",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    17,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "moon_06",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    2,
+    3
+   ]
+  ]
+ },
+ {
+  "level": "moon_07",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "start_sun",
+    1320,
+    1420
+   ]
+  ]
+ },
+ {
+  "level": "moon_10",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    16,
+    19
+   ]
+  ]
+ },
+ {
+  "level": "moon_11",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    6,
+    10
+   ]
+  ]
+ },
+ {
+  "level": "moon_12",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "loss_limit",
+    3,
+    4
+   ]
+  ]
+ },
+ {
+  "level": "moon_23",
+  "date": "2026-10-03",
+  "reason": "v0.6b objective retune after sweep 1",
+  "changes": [
+   [
+    "plant_limit",
+    16,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "night_07",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 6430,
+  "hp_after": 5780,
+  "spawns_removed": 1,
+  "start_sun": [
+   670,
+   745
+  ]
+ },
+ {
+  "level": "night_11",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 8320,
+  "hp_after": 7030,
+  "spawns_removed": 2,
+  "start_sun": [
+   670,
+   745
+  ]
+ },
+ {
+  "level": "night_23",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 18310,
+  "hp_after": 15570,
+  "spawns_removed": 2,
+  "start_sun": [
+   570,
+   645
+  ]
+ },
+ {
+  "level": "night_24",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 19820,
+  "hp_after": 17080,
+  "spawns_removed": 2,
+  "start_sun": [
+   720,
+   795
+  ]
+ },
+ {
+  "level": "night_25",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 24580,
+  "hp_after": 21290,
+  "spawns_removed": 3,
+  "start_sun": [
+   970,
+   1045
+  ]
+ },
+ {
+  "level": "desert_12",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 11240,
+  "hp_after": 9570,
+  "spawns_removed": 2,
+  "start_sun": [
+   680,
+   755
+  ]
+ },
+ {
+  "level": "desert_18",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 17520,
+  "hp_after": 14780,
+  "spawns_removed": 2,
+  "start_sun": [
+   680,
+   755
+  ]
+ },
+ {
+  "level": "desert_19",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 12020,
+  "hp_after": 9980,
+  "spawns_removed": 2,
+  "start_sun": [
+   680,
+   755
+  ]
+ },
+ {
+  "level": "desert_24",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 22090,
+  "hp_after": 19700,
+  "spawns_removed": 2,
+  "start_sun": [
+   830,
+   905
+  ]
+ },
+ {
+  "level": "roof_19",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 21760,
+  "hp_after": 19020,
+  "spawns_removed": 2,
+  "start_sun": [
+   790,
+   865
+  ]
+ },
+ {
+  "level": "roof_24",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 25890,
+  "hp_after": 22870,
+  "spawns_removed": 5,
+  "start_sun": [
+   940,
+   1015
+  ]
+ },
+ {
+  "level": "frost_05",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 9480,
+  "hp_after": 8060,
+  "spawns_removed": 2,
+  "start_sun": [
+   900,
+   975
+  ]
+ },
+ {
+  "level": "frost_20",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1)",
+  "hp_before": 23940,
+  "hp_after": 21200,
+  "spawns_removed": 2,
+  "start_sun": [
+   900,
+   975
+  ]
+ },
+ {
+  "level": "factory_07",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 16490,
+  "hp_after": 14490,
+  "spawns_removed": 2,
+  "start_sun": [
+   1110,
+   1185
+  ]
+ },
+ {
+  "level": "factory_12",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 21820,
+  "hp_after": 19080,
+  "spawns_removed": 2,
+  "start_sun": [
+   1010,
+   1085
+  ]
+ },
+ {
+  "level": "factory_13",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 21090,
+  "hp_after": 18350,
+  "spawns_removed": 2,
+  "start_sun": [
+   1010,
+   1085
+  ]
+ },
+ {
+  "level": "factory_20",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 25940,
+  "hp_after": 22150,
+  "spawns_removed": 3,
+  "start_sun": [
+   1160,
+   1235
+  ]
+ },
+ {
+  "level": "factory_23",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 37740,
+  "hp_after": 32260,
+  "spawns_removed": 4,
+  "start_sun": [
+   1010,
+   1085
+  ]
+ },
+ {
+  "level": "factory_24",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 40090,
+  "hp_after": 34650,
+  "spawns_removed": 9,
+  "start_sun": [
+   1160,
+   1235
+  ]
+ },
+ {
+  "level": "factory_25",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 44850,
+  "hp_after": 39250,
+  "spawns_removed": 6,
+  "start_sun": [
+   1410,
+   1485
+  ]
+ },
+ {
+  "level": "moon_17",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 21380,
+  "hp_after": 18770,
+  "spawns_removed": 3,
+  "start_sun": [
+   1120,
+   1195
+  ]
+ },
+ {
+  "level": "moon_18",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 33010,
+  "hp_after": 28900,
+  "spawns_removed": 3,
+  "start_sun": [
+   1120,
+   1195
+  ]
+ },
+ {
+  "level": "moon_19",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 28340,
+  "hp_after": 24570,
+  "spawns_removed": 3,
+  "start_sun": [
+   1270,
+   1345
+  ]
+ },
+ {
+  "level": "moon_20",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 25200,
+  "hp_after": 21980,
+  "spawns_removed": 3,
+  "start_sun": [
+   1120,
+   1195
+  ]
+ },
+ {
+  "level": "moon_25",
+  "date": "2026-10-03",
+  "reason": "lost standard + strong bot (sweep 1), late world",
+  "hp_before": 34620,
+  "hp_after": 30460,
+  "spawns_removed": 7,
+  "start_sun": [
+   1520,
+   1595
+  ]
+ },
+ {
+  "level": "lawn_11",
+  "date": "2026-10-03",
+  "reason": "rush lost in final sweep (both sweeps for most)",
+  "hp_before": 6030,
+  "hp_after": 5280,
+  "spawns_removed": 2,
+  "wave_interval": [
+   27,
+   30
+  ],
+  "time_limit": [
+   330,
+   340
+  ]
+ },
+ {
+  "level": "roof_11",
+  "date": "2026-10-03",
+  "reason": "rush lost in final sweep (both sweeps for most)",
+  "hp_before": 13620,
+  "hp_after": 11660,
+  "spawns_removed": 3,
+  "wave_interval": [
+   27,
+   30
+  ],
+  "time_limit": [
+   370,
+   380
+  ]
+ },
+ {
+  "level": "frost_11",
+  "date": "2026-10-03",
+  "reason": "rush lost in final sweep (both sweeps for most)",
+  "hp_before": 13970,
+  "hp_after": 11230,
+  "spawns_removed": 3,
+  "wave_interval": [
+   27,
+   30
+  ],
+  "time_limit": [
+   370,
+   380
+  ]
+ },
+ {
+  "level": "factory_11",
+  "date": "2026-10-03",
+  "reason": "rush lost in final sweep (both sweeps for most)",
+  "hp_before": 18340,
+  "hp_after": 16020,
+  "spawns_removed": 2,
+  "wave_interval": [
+   27,
+   30
+  ],
+  "time_limit": [
+   370,
+   380
+  ]
+ },
+ {
+  "level": "moon_11",
+  "date": "2026-10-03",
+  "reason": "rush lost in final sweep (both sweeps for most)",
+  "hp_before": 19680,
+  "hp_after": 16040,
+  "spawns_removed": 3,
+  "wave_interval": [
+   27,
+   30
+  ],
+  "time_limit": [
+   370,
+   380
+  ]
+ },
+ {
+  "level": "night_07",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 5780,
+  "hp_after": 5130,
+  "spawns_removed": 1,
+  "start_sun": [
+   745,
+   820
+  ]
+ },
+ {
+  "level": "night_23",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 15570,
+  "hp_after": 14200,
+  "spawns_removed": 1,
+  "start_sun": [
+   645,
+   720
+  ]
+ },
+ {
+  "level": "night_24",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 17080,
+  "hp_after": 15440,
+  "spawns_removed": 3,
+  "start_sun": [
+   795,
+   870
+  ]
+ },
+ {
+  "level": "desert_12",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 9570,
+  "hp_after": 8280,
+  "spawns_removed": 2,
+  "start_sun": [
+   755,
+   830
+  ]
+ },
+ {
+  "level": "desert_14",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 11420,
+  "hp_after": 10050,
+  "spawns_removed": 1,
+  "start_sun": [
+   680,
+   755
+  ]
+ },
+ {
+  "level": "desert_19",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 9980,
+  "hp_after": 8960,
+  "spawns_removed": 1,
+  "start_sun": [
+   755,
+   830
+  ]
+ },
+ {
+  "level": "roof_19",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 19020,
+  "hp_after": 16280,
+  "spawns_removed": 2,
+  "start_sun": [
+   865,
+   940
+  ]
+ },
+ {
+  "level": "roof_24",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 22870,
+  "hp_after": 20970,
+  "spawns_removed": 4,
+  "start_sun": [
+   1015,
+   1090
+  ]
+ },
+ {
+  "level": "frost_05",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 8060,
+  "hp_after": 7400,
+  "spawns_removed": 1,
+  "start_sun": [
+   975,
+   1050
+  ]
+ },
+ {
+  "level": "frost_08",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 12290,
+  "hp_after": 10920,
+  "spawns_removed": 1,
+  "start_sun": [
+   900,
+   975
+  ]
+ },
+ {
+  "level": "frost_10",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 10430,
+  "hp_after": 9130,
+  "spawns_removed": 2,
+  "start_sun": [
+   1000,
+   1075
+  ]
+ },
+ {
+  "level": "factory_07",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 14490,
+  "hp_after": 12590,
+  "spawns_removed": 2,
+  "start_sun": [
+   1185,
+   1260
+  ]
+ },
+ {
+  "level": "factory_20",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 22150,
+  "hp_after": 19410,
+  "spawns_removed": 2,
+  "start_sun": [
+   1235,
+   1310
+  ]
+ },
+ {
+  "level": "factory_23",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 32260,
+  "hp_after": 28470,
+  "spawns_removed": 3,
+  "start_sun": [
+   1085,
+   1160
+  ]
+ },
+ {
+  "level": "factory_24",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 34650,
+  "hp_after": 31740,
+  "spawns_removed": 5,
+  "start_sun": [
+   1235,
+   1310
+  ]
+ },
+ {
+  "level": "factory_25",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 39250,
+  "hp_after": 35840,
+  "spawns_removed": 7,
+  "start_sun": [
+   1485,
+   1560
+  ]
+ },
+ {
+  "level": "moon_17",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 18770,
+  "hp_after": 16200,
+  "spawns_removed": 2,
+  "start_sun": [
+   1195,
+   1270
+  ]
+ },
+ {
+  "level": "moon_18",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 28900,
+  "hp_after": 26160,
+  "spawns_removed": 2,
+  "start_sun": [
+   1195,
+   1270
+  ]
+ },
+ {
+  "level": "moon_19",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 24570,
+  "hp_after": 22170,
+  "spawns_removed": 2,
+  "start_sun": [
+   1345,
+   1420
+  ]
+ },
+ {
+  "level": "moon_25",
+  "date": "2026-10-03",
+  "reason": "lost both full sweeps (standard bot), second step",
+  "hp_before": 30460,
+  "hp_after": 26900,
+  "spawns_removed": 9,
+  "start_sun": [
+   1595,
+   1670
+  ]
+ },
+ {
+  "level": "pool_19",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "night_20",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "desert_23",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "roof_18",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "frost_23",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "factory_19",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "moon_23",
+  "date": "2026-10-03",
+  "reason": "cap levels ended with 600-1260 unusable sun; add Twin Pod to fixed deck",
+  "changes": [
+   [
+    "fixed_seeds",
+    "+twin_pod"
+   ]
+  ]
+ },
+ {
+  "level": "night_20",
+  "date": "2026-10-03",
+  "reason": "reached final wave at cap with 560-875 unusable sun in 3 sweeps",
+  "changes": [
+   [
+    "plant_limit",
+    22,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "roof_18",
+  "date": "2026-10-03",
+  "reason": "reached final wave at cap with 560-875 unusable sun in 3 sweeps",
+  "changes": [
+   [
+    "plant_limit",
+    22,
+    24
+   ]
+  ]
+ },
+ {
+  "level": "frost_23",
+  "date": "2026-10-03",
+  "reason": "reached final wave at cap with 560-875 unusable sun in 3 sweeps",
+  "changes": [
+   [
+    "plant_limit",
+    24,
+    26
+   ]
+  ]
+ },
+ {
+  "level": "factory_06",
+  "date": "2026-10-03",
+  "reason": "reached final wave at cap with 560-875 unusable sun in 3 sweeps",
+  "changes": [
+   [
+    "plant_limit",
+    20,
+    22
+   ]
+  ]
+ },
+ {
+  "level": "moon_23",
+  "date": "2026-10-03",
+  "reason": "reached final wave at cap with 560-875 unusable sun in 3 sweeps",
+  "changes": [
+   [
+    "plant_limit",
+    24,
+    26
+   ]
+  ]
+ }
+]

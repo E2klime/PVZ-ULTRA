@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_shooter.gd" id="1_vnbh3"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_4gxc0"]
+
+[resource]
+script = ExtResource("2_4gxc0")
+id = &"pod_shooter"
+name_key = "PLANT_POD_SHOOTER_NAME"
+desc_key = "PLANT_POD_SHOOTER_DESC"
+behavior = ExtResource("1_vnbh3")
+damage = 20
+attack_interval = 1.45
+color_main = Color(0.45, 0.78, 0.3, 1)
+color_accent = Color(0.6, 0.9, 0.35, 1)

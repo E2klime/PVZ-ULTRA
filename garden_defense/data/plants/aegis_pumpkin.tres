@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_wall.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"aegis_pumpkin"
+name_key = "PLANT_AEGIS_PUMPKIN_NAME"
+desc_key = "PLANT_AEGIS_PUMPKIN_DESC"
+behavior = ExtResource("1_b")
+cost = 250
+recharge = 40.0
+start_cooldown = 20.0
+max_hp = 8000
+role = &"wall"
+layer = &"shell"
+rarity = &"legendary"
+max_on_board = 2
+badge = "Legendary shell"
+thorns_damage = 30
+regen_per_sec = 40.0
+fusion_ready_time = 99.0
+color_main = Color(1, 0.78, 0.25, 1)
+color_accent = Color(0.45, 0.6, 0.95, 1)

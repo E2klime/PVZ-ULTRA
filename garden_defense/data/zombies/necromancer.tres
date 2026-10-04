@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/zombies/zombie_support.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"necromancer"
+name_key = "Necromancer"
+desc_key = "Raises staffing levels, literally. Summons at most three interns."
+behavior = ExtResource("2")
+ability_kind = &"summon"
+hp = 650
+armor_hp = 0
+speed = 0.13
+damage = 100
+eat_interval = 0.5
+threat_cost = 2.2
+weight = 6.0
+ability_power = 40
+ability_interval = 10
+body_scale = 1.0
+summon_id = &"intern_imp"
+color_skin = Color(0.53, 0.57, 0.64, 1)
+color_cloth = Color(0.39, 0.6000000000000001, 0.54, 1)
+tier = 3

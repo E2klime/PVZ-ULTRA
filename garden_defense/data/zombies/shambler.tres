@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+
+[ext_resource type="Script" path="res://entities/zombies/zombie.gd" id="1_tnl4d"]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="2_576f5"]
+
+[resource]
+script = ExtResource("2_576f5")
+id = &"shambler"
+name_key = "ZOMBIE_SHAMBLER_NAME"
+desc_key = "ZOMBIE_SHAMBLER_DESC"
+speed = 0.17
+behavior = ExtResource("1_tnl4d")
+tier = 1

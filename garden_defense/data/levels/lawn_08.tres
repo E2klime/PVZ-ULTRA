@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelData" format=3]
+
+[ext_resource type="Script" path="res://core/data/level_data.gd" id="1_eskiu"]
+
+[resource]
+script = ExtResource("1_eskiu")
+id = &"lawn_08"
+name_key = "LEVEL_LAWN_08_NAME"
+desc_key = "LEVEL_LAWN_08_DESC"
+waves = 12
+zombie_pool = Array[StringName]([&"shambler", &"cone_head", &"bucket_head", &"hurdler", &"shield_carrier"])
+threat_growth = 0.78
+hybrid_cap = 3
+reward_plant = &"lantern_bloom"
+reward_coins = 120
+hint_key = "HINT_LAWN_08"
+water = PackedStringArray()

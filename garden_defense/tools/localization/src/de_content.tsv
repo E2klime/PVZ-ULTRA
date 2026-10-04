@@ -1,0 +1,513 @@
+0	Legendäre Schale
+1	Legendär
+2	Reihe & Spalte
+3	Bienenkanone
+4	Hybride
+5	Fliegend
+6	Feuer
+7	Zeit
+8	Wurf
+9	Flächenschaden
+10	Sonne
+11	Glutschote
+12	Glutschnapper
+13	Glutranke
+14	Frostbarriere
+15	Unten
+16	Verlangsamung
+17	Böenschote
+18	Knoblauch
+19	Gletscherstock
+20	Hagelsalve
+21	Heillaterne
+22	Eismine
+23	Nadelsturm
+24	Flache Schüsse
+25	Pfefferstock
+26	Pfefferwall
+27	Schale
+28	Solarbarrikade
+29	Solargeschütz
+30	Flugabwehr
+31	Durchdringend
+32	Sturmschote
+33	Sonnenmine
+34	Trifft Kartons
+35	Dornenlaterne
+36	Hybride Schale
+37	Tempo-Aura
+38	Angler
+39	Fang des Tages: deine vorderste Pflanze. Wurfangriffe treffen im Umkreis von fünf Feldern.
+40	Astronaut
+41	Ein kleiner Sprung für einen unbezahlten Praktikanten. Eine hohe Pflanze stoppt den Sprung.
+42	Kaktusanzug
+43	Dresscode: stachelig-leger. Die Panzerung senkt Geschossschaden; nutze Explosionen.
+44	Kamelreiter
+45	Das Kamel ist auch ein Zombie. Springt einmal, sofern keine hohe Pflanze ihn stoppt.
+46	Schornsteinfeger
+47	Drei Sekunden Zündschnur, null Sicherheitsschulung. Erledige ihn, bevor er eine Pflanze erreicht.
+48	Disco-Manager
+49	Pflichtspaß treibt Kollegen in der Nähe voran. Schalte den Truppführer aus.
+50	Taucher
+51	Zwei Sekunden unter Wasser, sechs Ausreden. Im Wasser kurz nicht angreifbar.
+52	Traumwandler
+53	Schlafwandelt zwei Sekunden lang durch Hindernisse. Halte eine Verteidigung hinten.
+54	Vorarbeiter
+55	Die Deadline steht vor deiner Tür. Treibt Zombies in der Nähe voran.
+56	Kältetechniker
+57	Kühlt deine Samentüte. Fernangriffe sperren kurz ihr Nachladen.
+58	Gartendoktor
+59	Verschreibt allen außer dir Kompost. Heilt Zombies in der Nähe; konzentriere das Feuer.
+60	Ofen-Gargantua
+61	Ofenimpulse auf kurze Distanz. Frost pausiert die Heizung; Sprengstoff bricht die Panzerung.
+62	Granit-Gargantua
+63	Wirft bei halber Gesundheit zwei Praktikanten. Friere den Riesen ein und sichere die hinteren Reihen.
+64	Sturm-Gargantua
+65	Bei halber Gesundheit verzögert ein EMP kurz die Samen; Impulse treffen benachbarte Reihen. Verteile die Verteidigung.
+66	Gleitflieger
+67	Hat die malerische Route über deine Mauer genommen. Hohe Pflanzen fangen die Landung ab.
+68	Schwerkraftmönch
+69	Die Erleuchtung liegt offenbar in der Nachbarreihe. Deckung muss sich überlappen.
+70	Eisläufer
+71	Keine Bremsen, keine Rückerstattung. Wird bei Kälte langsamer.
+72	Praktikanten-Kobold
+73	Klein, schnell und noch in der Probezeit. Billiger Flächenschaden löst das Meeting auf.
+74	Laternendieb
+75	Sonnensteuereintreiber. Stiehlt kleine Sonnenbeträge; halte Reserven.
+76	Rettungsschwimmer
+77	Beschützt alle außer den Schwimmern. Gibt begrenzte Panzerung in der Nähe.
+78	Mondherold
+79	Verkündet den Untergang in dreifacher Ausfertigung. Begrenzte Beschwörungen; bekämpfe zuerst den Herold.
+80	Magnetsachbearbeiter
+81	Akzeptiert nur Sonnenwährung. Saugt begrenzte Mengen Sonne ab.
+82	Fata Morgana
+83	Leider keine Halluzination. Wird kurz körperlos; das Timing von Flächenangriffen zählt.
+84	Mumie
+85	Ein Rückgaberecht älter als der Handel. Ersteht einmal wieder auf; Mäher umgehen das.
+86	Nekromant
+87	Erhöht den Personalbestand, buchstäblich. Beschwört höchstens drei Praktikanten.
+88	Zeitungsleser
+89	Verliert das Kreuzworträtsel, verdoppelt das Tempo. Erledige ihn vor halber Gesundheit.
+90	Paketbote
+91	Zustellhinweis: über die Mauer werfen. Hohe Mauern stoppen den ersten Sprung.
+92	Phasenprüfer
+93	Deine Verteidigung hat eine metaphysische Prüfung nicht bestanden. Wird regelmäßig körperlos.
+94	Taubenzüchter
+95	Die Tauben haben Homeoffice beantragt. Schickt stattdessen drei Praktikanten.
+96	Spaßvogel
+97	Wechselt die Reihe ohne zu blinken. Decke benachbarte Reihen ab.
+98	Dachkurier
+99	Jede Treppe ist die falsche Treppe. Wechselt regelmäßig die Reihe.
+100	Schrottbot
+101	Mach ihn kaputt und erhalte zwei kleinere Probleme. Teilt sich, außer er wird gemäht.
+102	Schrottling
+103	Leider etwas Montage erforderlich. Zerbrechlicher Nachwuchs des Schrottbots.
+104	Schnorchler
+105	Hat im Pool für die Schnellspur bezahlt. Schwimmt schneller, als er geht.
+106	Schneesanitäter
+107	Kühlpacks für die ohnehin Kalten. Heilt verletzte Zombies in der Nähe.
+108	Schneeballwerfer
+109	Ein Schneeball, mehrere Beschwerden. Wirft auf die vorderste Pflanze.
+110	Schweißer
+111	Repariert Helme, keine Beziehungen. Stellt vorhandene Panzerung in der Nähe wieder her.
+112	Wüstenumleitung
+113	Alle 28 Sekunden trifft Hitze eine angekündigte Reihe und fügt Pflanzen 25 Schaden zu.
+114	Sand in der Samentüte
+115	Baue eine Wirtschaft auf und decke alle fünf Reihen ab.
+116	Auf der Fußmatte steht Willkommen, nicht All-you-can-eat.
+117	Der Kaktus ist der einzige Einheimische in passender Arbeitskleidung.
+118	Karton-Zombies verstecken sich hinter anderen: nutze flache Schüsse, Katapulte oder Dornen.
+119	Ballons fliegen über Bodenpflanzen: bring Flugabwehr mit.
+120	Schleudern zielen auf fliegende Pflanzen.
+121	Solarofen-Ökonomie
+122	Baue die Sonnenproduktion auf, bevor du die Schützen verdoppelst.
+123	Sonnenlicht bleibt kostenlos.
+124	Das Zombie-Abo ist schwerer zu kündigen.
+125	Die Oase hat wegen zu vieler Zombies nur einen Stern.
+126	Abteilung Mumienrückgabe
+127	Ein neuer Spezialist reiht sich ein.
+128	Lies vor dem Start seinen Almanach-Eintrag.
+129	Örtlicher Verkehrspylon ins mittlere Management befördert.
+130	Die Mumie hat eine lebenslange Garantie und will sie nutzen.
+131	Nur Kamelparkplätze
+132	Der Doktor empfiehlt mehr Gehirne.
+133	Hol eine zweite Meinung ein.
+134	Das Kamel weigert sich, den Parkschein zu entwerten.
+135	Fata-Morgana-Management
+136	Deine Lieferung ist drei Reihen entfernt und als zugestellt markiert.
+137	Sand ist das hartnäckigste Support-Ticket der Natur.
+138	Zwanzig Oasengenehmigungen
+139	Gewinne mit höchstens 20 Pflanzaktionen, einschließlich Veredelungen und Flößen.
+140	Bonusklausel: Verliere höchstens 6 Pflanzen.
+141	Zwanzig Pflanzen.
+142	Unendlich viele ungefragte Gartenmeinungen.
+143	Kein Mäher in der Wüste
+144	Keine Mäher.
+145	Jeder Durchbruch lässt die Mission scheitern.
+146	Die Mäher haben einen Tag für ihre psychische Gesundheit beantragt.
+147	Dünen ohne Blinker
+148	Blinker sind offenbar eine Funktion für Lebende.
+149	Die Oasenreserve
+150	Spare 4500 unverbrauchte Sonne an und wehre alle Wellen ab.
+151	Das Sammeln geht nach dem letzten Zombie weiter.
+152	Viertausend Sonne auf dem Sparkonto.
+153	Reicht trotzdem nicht für einen Geräteschuppen.
+154	Wurzeln haben Rechte
+155	Verliere höchstens 3 Pflanzen durch Angriffe oder die Schaufel.
+156	Einwegpflanzen zählen nicht.
+157	Die Wurzeln haben eine Gewerkschaft gegründet.
+158	Bitte halte sie am Leben.
+159	Praktikanten-Ausgrabung
+160	Wehre die schnellen Wellen innerhalb von 330 Sekunden ab.
+161	Ein Praktikum mit hervorragender Sichtbarkeit und ohne Puls.
+162	Ruinen im Umbau
+163	Dunkle durchgestrichene Felder können nicht bepflanzt werden.
+164	Zombies laufen trotzdem hindurch.
+165	Diese Felder sind für einen künftigen Parkplatz reserviert.
+166	Oasen-Degustationsmenü
+167	Das gestellte Samenmenü ist fest.
+168	Gestellte Samen sind ausgeliehen, auch wenn sie noch nicht freigeschaltet sind.
+169	Der Koch besteht darauf, dass das Menü eine taktische Einschränkung ist.
+170	Fünf welke Berichte
+171	Verliere höchstens 5 Pflanzen.
+172	Verwandlungen und absichtliche Einwegpflanzen sind ausgenommen.
+173	Fünf Verluste sind eine Tragödie.
+174	Sechs sind ein gescheitertes Level.
+175	Veredeln wie ein Ägypter
+176	Mache mindestens 2 Veredelungen und wehre die Wellen ab.
+177	Zwillingshybriden aus gleichen Pflanzen zählen auch.
+178	Botanik: jetzt mit rechtlich fragwürdigem Schweißen.
+179	Sandstrahl-Artillerie
+180	Keine Pflanzen oder Samen nötig.
+181	Klicke auf ein Feld, um eine kostenlose, nachladende Flächenkanone abzufeuern.
+182	Heute keine Pflanzen.
+183	Der Salat hat Artillerie genehmigt.
+184	Kaktus-Dresscode
+185	Decke die Spezialistenwelle ab; verlass dich nicht auf eine einzige vordere Mauer.
+186	Diese Welle hat die AGB gelesen.
+187	Du nicht.
+188	Eimer-Archäologie
+189	Panzerung schluckt Geschosse.
+190	Spare Sprengstoff für dicht gedrängte Helme auf.
+191	Eimer schützen Gehirne, nicht die zerbrechliche Arbeitsmoral.
+192	Zweimal tot, einmal bezahlt
+193	Beschwörer und kleine Läufer verlangen Deckung hinten, nicht nur einen vorderen Tank.
+194	Keine Durchbrüche: Praktikanten haben im Haus nichts verloren.
+195	Frische Praktikanten sind eingetroffen.
+196	Ihre Einarbeitung ist dein Problem.
+197	Sonnenuntergang ohne Sonne
+198	Keine Himmelssonne.
+199	Starte mit den gestellten Ersparnissen und pflanze deine eigene Wirtschaft.
+200	Solarstrom bei Nacht: Die Buchhaltung möchte dich sprechen.
+201	Rette die Oase
+202	Kein Pflanzen.
+203	Ein ausgewachsener Garten wird gestellt.
+204	Schütze ihn; klicke auf eine beschädigte Pflanze für eine kostenlose 1200-LP-Reparatur alle 3 Sekunden.
+205	Hergestellte Werkzeuge sind optional.
+206	Der Garten ist schon bepflanzt.
+207	Laut Stellenbeschreibung soll das so bleiben.
+208	Viertausendfünfhundert Grad
+209	Sammle in dieser Schlacht insgesamt 4500 Sonne.
+210	Ausgaben verringern diese Summe nicht.
+211	Sammle 4000 Sonne.
+212	Nicht direkt auf den Zähler starren.
+213	Dürrerationen
+214	Festes Fünf-Samen-Deck (veredle zwei Schotenschützen zu einer Doppelschote für doppeltes Feuer) und insgesamt höchstens 22 Pflanzaktionen.
+215	Die Samen hat ein Minimalist gepackt.
+216	Wüsten-Rushhour
+217	Langer gemischter Angriff.
+218	Teile dir die Wirtschaft ein: Die Wellen hören nie auf, höflich daran zu erinnern.
+219	Das Komitee hat beschlossen, gleichzeitig anzugreifen.
+220	Ofeninspektionstag
+221	Zwei Riesenankünfte mit einem Fenster zum Wiederaufbauen.
+222	Kontere seine Spezialfähigkeit und räume dann das Feld.
+223	Der Riese hat eine Keule mitgebracht.
+224	Die Eigentümergemeinschaft hat ein Bußgeld mitgebracht.
+225	Kompostfabrik
+226	Förderbandimpulse schieben eine angekündigte Reihe um 35 Pixel vor.
+227	Halte Feuerkraft hinten.
+228	Fabrikeinführung
+229	Laut Sicherheitsplakat null Unfälle seit zwölf Sekunden.
+230	Solare Gehaltsverhandlungen
+231	Der Vorarbeiter hat die Kaffeepause wegoptimiert.
+232	Den falschen Helm schweißen
+233	Die Kompostmaschine besteht darauf, dass alles bio ist.
+234	Magnetische Buchhaltung
+235	Die Schweißmaske verbessert das Urteilsvermögen ihres Trägers nicht.
+236	Der Vorarbeiter drängelt
+237	Das Fließband hat eine Schlange von Beschwerden montiert.
+238	Zweiundzwanzig Produktionseinheiten
+239	Gewinne mit höchstens 22 Pflanzaktionen, einschließlich Veredelungen und Flößen.
+240	Ursachenanalyse
+241	Gewerkschaftsregeln begrenzen dich außerdem auf 26 Pflanzaktionen.
+242	Fließband-Umleitung
+243	Notstromreserve
+244	Mäher im Streik
+245	Praktikanten mit Schutzhelm
+246	Wehre die schnellen Wellen innerhalb von 380 Sekunden ab.
+247	Tempo ist keine Ausrede: Verliere höchstens 10 Pflanzen.
+248	Halle wegen Wartung geschlossen
+249	Schrottbot-Garantiefall
+250	Spezialisten rechnen stündlich ab: höchstens 30 Pflanzaktionen.
+251	Festes Kantinenmenü
+252	Veredelungs-Qualitätssicherung
+253	Industrielle Salatkanone
+254	Fünf Arbeitsunfälle
+255	Etwas Demontage erforderlich
+256	Schlanke Samenfertigung
+257	Festes Fünf-Samen-Deck (veredle zwei Schotenschützen zu einer Doppelschote für doppeltes Feuer) und insgesamt höchstens 24 Pflanzaktionen.
+258	Stromausfall in der Nachtschicht
+259	Rette den Gewerkschaftsgarten
+260	Fünftausend Solarcredits
+261	Sammle in dieser Schlacht insgesamt 5000 Sonne.
+262	Eimer-ISO-Zertifizierung
+263	Pflichtüberstunden
+264	Sturmsicherheitsaudit
+265	Gefrorener Schrebergarten
+266	Kälteimpulse verzögern alle Samen-Ladezeiten um 1,5 Sekunden und verlangsamen eine Zombiereihe.
+267	Kalter Einstieg
+268	Der Schneemann sagt, das sei ein feindliches Arbeitsumfeld.
+269	Sonne im Gefrierfach
+270	Das Kühlhaus war nie für deine Samentüten gedacht.
+271	Eislaufen ohne Einwilligung
+272	Die Eisbahn hat das Geländer aus Budgetgründen entfernt.
+273	Besuch vom Gerätetechniker
+274	Das Thermostat ist jetzt Verhandlungspartner.
+275	Schneeballverhandlungen
+276	Der Kakaofonds wurde in Notfallbotanik umgeleitet.
+277	Mäher auf dünnem Eis
+278	Verliere außerdem höchstens 8 Pflanzen.
+279	Zwanzig Eistöpfe
+280	Abkürzung des Schneesanitäters
+281	Winterbrennstoffreserve
+282	Erfrierungen für Gemüse
+283	Praktikanten in Thermosocken
+284	Tiefkühlmenü-Auswahl
+285	Wegen Abtauen geschlossen
+286	Schneeball-Fightclub
+287	Veredeln mit Fäustlingen
+288	Schneekanone ohne Pflanzen
+289	Fünf kalte Fälle
+290	Picknick in der Polarnacht
+291	Sanitäter auf Eis
+292	Eimer mit gefrorenem Henkel
+293	Rette den Wintergarten
+294	Fünftausend warme Gedanken
+295	Das Haus ist ebenfalls tabu: keine Durchbrüche.
+296	Samentüten-Unterkühlung
+297	Festes Fünf-Samen-Deck (veredle zwei Schotenschützen zu einer Doppelschote für doppeltes Feuer) und insgesamt höchstens 26 Pflanzaktionen.
+298	Das Schneesturm-Komitee
+299	Ofen-Abtauzyklus
+300	Vorstadtrasen
+301	Fünf Reihen, gesperrte Blumenbeete und die unprofessionellste Nachbarschaftswache.
+302	Fußmatte
+303	Die Eigentümergemeinschaft hat Gehirne nach 21 Uhr verboten.
+304	Sonne ist kein Abo
+305	Dein Nachbar besteht darauf, dass das normales Rasenlüften ist.
+306	Kegel der Schande
+307	Der Zaunbauer akzeptiert Bezahlung in Schreien.
+308	Der Rasendoktor
+309	Ein geschmackvoller Gartenzwerg hat ein Eingreifen abgelehnt.
+310	Expresslieferung
+311	Die Nachbarschaftswache beobachtet gerade von drinnen.
+312	Zwanzig reichen
+313	Keine Rückerstattung für Wurzeln
+314	Falsche Reihe, Kumpel
+315	Das Sonnensparkonto
+316	Spare 4000 unverbrauchte Sonne an und wehre alle Wellen ab.
+317	Überstunden für die Mäher
+318	Praktikanten am Tor
+319	Wehre die schnellen Wellen innerhalb von 340 Sekunden ab.
+320	Kreuzworträtsel-Gewalt
+321	Salat bitte selbst mitbringen
+322	Höchstens fünf Verluste
+323	Der Veredelungsentwurf
+324	Gartenartillerie-Verein
+325	Zaungenehmigung ausstehend
+326	Vorschau auf die Nachtschicht
+327	Eimerliste
+328	Samentüten-Diät
+329	Festes Vier-Samen-Deck und insgesamt höchstens 20 Pflanzaktionen.
+330	Rette das Picknick
+331	Kein Pflanzen; verliere höchstens 5 Pflanzen.
+332	Viertausend Gründe
+333	Sammle in dieser Schlacht insgesamt 4000 Sonne.
+334	Das unbezahlte Praktikum
+335	Nachbarschaftstreffen
+336	Granits Räumungsbescheid
+337	Mondgewächshaus
+338	Schwerkraftimpulse verschieben eine angekündigte Reihe in die Nachbarreihe.
+339	Nutze überlappende Deckung.
+340	Eine kleine Pflanze
+341	Die Gewächshausschleuse ist kein All-you-can-eat-Eingang.
+342	Sonne kostet Roaminggebühren
+343	Die Schwerkraft hat flexible Arbeitszeiten beantragt.
+344	Astronauten-Praktikum
+345	Der Mondvermieter will den Krater bis Montag zurück.
+346	Schwerkraft ist optional
+347	Im All ist es still; die Samentüte ist lautstark enttäuscht.
+348	Realitätsprüfung
+349	Die Missionskontrolle hat mit einem Garten-Emoji geantwortet.
+350	Wurzeln im Vakuum
+351	Mäher können nicht atmen
+352	Die erleuchtete Umleitung
+353	Orbitale Sonnenreserve
+354	Der Buchhalter verbietet außerdem, mehr als 8 Pflanzen zu verlieren.
+355	Neunzehn Mondlizenzen
+356	Gewinne mit höchstens 19 Pflanzaktionen, einschließlich Veredelungen und Flößen.
+357	Praktikanten im Orbit
+358	Vier kosmische Verluste
+359	Verliere höchstens 4 Pflanzen.
+360	Raumfahrtnahrung zur Auswahl
+361	Mondkrater brauchen Genehmigungen
+362	Veredeln in der Schwerelosigkeit
+363	Orbitale Gartenkanone
+364	Der Herold der Mahngebühren
+365	Eimer mit Lebenserhaltung
+366	Picknick bei Sonnenfinsternis
+367	Personalkrise im Multiversum
+368	Rette das letzte Gewächshaus
+369	Fünftausend Sterne
+370	Samen-Nutzlastlimit
+371	Der Drei-Riesen-Gipfel
+372	Auf dem Mond kommen alle drei Gargantuas in getrennten Wellen.
+373	Letzte Mahnung: Runter von meinem Mond
+374	Mitternachtsfriedhof
+375	Keine natürliche Himmelssonne.
+376	Mondlichtimpulse geben 50 Sonne; Produzenten sind unverzichtbar.
+377	Friedhofseinführung
+378	Die Ruhezeiten auf dem Friedhof wurden auf unbestimmte Zeit verschoben.
+379	Mondlicht auf Kredit
+380	Nekromantie steht nicht im Mitarbeiterhandbuch.
+381	Laternensteuer
+382	Der Geist wollte einen Fensterplatz in einem Gebäude ohne Fenster.
+383	Personalabteilungs-Nekromantie
+384	Die Disco hat eine strenge Bring-deinen-eigenen-Puls-Regel.
+385	Traumwandeln, hier entlang
+386	Der Totengräber verlangt jetzt Geld für jede Zugabe.
+387	Kein Mäher nach Mitternacht
+388	Die Wurzel allen Übels
+389	Disco im falschen Grab
+390	Die Mitternachtsreserve
+391	Zwanzig Grabsteinpflanzer
+392	Praktikanten aus der Buchhaltung
+393	Höchstens fünf Grabreden
+394	Gräber brauchen Genehmigungen
+395	Pflicht-Disco
+396	Schicht auf dem Veredelungsfriedhof
+397	Geisterjäger ohne Pflanzen
+398	Trauergesteck
+399	Auferstehungsformulare
+400	Picknick beim Stromausfall
+401	Samen für Schlaflose
+402	Schütze die Nachtwache
+403	Viertausendfünfhundert Monde
+404	Eimer aus dem Jenseits
+405	Letzter Tanz im Morgengrauen
+406	Granits Grabfehler
+407	Panik am Pool
+408	Wasser braucht Seerosenflöße.
+409	Ein Flutimpuls liefert alle 28 Sekunden 75 Sonne.
+410	Was machst du da im Wasser
+411	Tauchen verboten, außer für den Typen, der das Schild ignoriert hat.
+412	Erst das Floß, dann die Vernunft
+413	Der Poolfilter überdenkt seine Karriere.
+414	Das tiefe Becken
+415	Die Pfeife des Rettungsschwimmers ist offenbar Deko.
+416	Geprüfter Rettungsschwimmer
+417	Das Nichtschwimmerbecken hat erstaunlich tiefe Personalprobleme.
+418	Fischige Geschäfte
+419	Eine Gummiente hat den einzigen brauchbaren Vorfallbericht eingereicht.
+420	Keine Spritzer auf die Sonnenknospen
+421	Zweiundzwanzig schwimmende Entscheidungen
+422	Bahnleine optional
+423	Solar-Poolheizung
+424	Spare 3500 unverbrauchte Sonne an und wehre alle Wellen ab.
+425	Erwachsene schwimmen zuletzt
+426	Tauchen nach Beschwerden
+427	Poolbuffet
+428	Schnorchel auf der Schnellspur
+429	Inselgärtnern
+430	Veredelte Seerosen
+431	Wasserbomben-Dienstag
+432	Höchstens fünf Treibende
+433	Licht aus im Freibad
+434	Floßrationierung
+435	Eimer und Schaufel
+436	Rette den Bademeisterstuhl
+437	Viertausend Sonnencremes
+438	Praktikanten über Bord
+439	Alle raus aus dem Pool
+440	Granit macht einen Platscher
+441	Dachkrawall
+442	Angekündigte Böen schieben Zombies in einer Reihe zurück.
+443	Bauarbeiten blockieren einige Felder.
+444	Treppe nicht inbegriffen
+445	Der Aufzug ist kaputt, der gesunde Menschenverstand auch.
+446	Solarpaneele nicht inbegriffen
+447	Die Tauben haben jede Haftung an die Geschäftsleitung delegiert.
+448	Schornstein-Sicherheitsseminar
+449	Die Dachgarantie schließt Riesenkeulen ausdrücklich aus.
+450	Gleitfliegerparkplatz
+451	Der Schornsteinfeger hat Aufräumen als Abriss verstanden.
+452	Der Kurier nimmt den Aufzug
+453	Ein Penthouse-Blick umfasst offenbar anrückende Zombies.
+454	Wurzeln auf dem Dach
+455	Mäher haben Höhenangst
+456	Taubenflugsicherung
+457	Notreserve auf dem Dach
+458	Zwanzig Dachtöpfe
+459	Praktikanten auf der Feuertreppe
+460	Die Taubengewerkschaft
+461	Fünf fallende Blumentöpfe
+462	Baugenehmigung ausstehend
+463	Veredeln über den Wolken
+464	Flugabwehr-Salatbatterie
+465	Dachcafé
+466	Samen im Handgepäck
+467	Eimer unter einem Leck
+468	Sonderlieferung nach oben
+469	Rette den Dachgarten
+470	Viertausendfünfhundert Dachfenster
+471	Nacht auf den Ziegeln
+472	Rushhour auf dem Dach
+473	Ofen auf der Feuertreppe
+474	Flaschensonne
+475	Füge sofort 200 Sonne hinzu.
+476	Gekaufte Sonne kann ausgegeben und angespart werden, zählt aber nicht für „Sonne sammeln“-Ziele.
+477	Komposttee
+478	Heilt jede lebende Pflanze um 750 LP, bis zu ihrem Maximum.
+479	Frostflasche
+480	Friert alle angreifbaren Gegner 5 Sekunden lang ein; Riesen widerstehen zur Hälfte.
+481	Pfefferbombe
+482	900 Flächenschaden um den Gegner, der dem Haus am nächsten ist.
+483	Haus-Reparaturset
+484	Stellt einen Punkt Basisintegrität wieder her.
+485	Kann ein gescheitertes Ziel ohne Durchbruch nicht ungeschehen machen.
+486	Samenuhr
+487	Setzt alle Samen-Ladezeiten sofort zurück.
+488	Samenlizenz: Raureif-Salat
+489	Schaltet diesen Samen dauerhaft frei.
+490	Samenlizenz: Sonnenmonarchin
+491	Samenlizenz: Phönixlilie
+492	Samenlizenz: Sturmdistel
+493	Samenlizenz: Uralte Eiche
+494	Sonnenmagnet
+495	Sammelt sofort jede Sonne auf dem Feld ein.
+496	Zählt als normales Sammeln.
+497	Klebefalle
+498	Halbiert 8 Sekunden lang das Tempo jedes Zombies auf dem Feld.
+499	Gargantuas finden das zutiefst beleidigend.
+500	Sprinkler I
+501	Jeder Samen lädt pro Stufe 5 % schneller.
+502	Bewässerung ist ein Lebensstil.
+503	Sprinkler II
+504	Sprinkler III
+505	Samenbeutel I
+506	Anfängliche Samen-Ladezeiten pro Stufe 25 % kürzer.
+507	Taschen, aber strategisch.
+508	Samenbeutel II
+509	Sonnenlinse I
+510	Fallende Himmelssonne ist pro Stufe +5 wert.
+511	Die Sonne hat dem nicht zugestimmt.
+512	Sonnenlinse II

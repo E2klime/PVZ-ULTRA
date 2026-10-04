@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_support.gd" id="1_evv0d"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_he7bb"]
+
+[resource]
+script = ExtResource("2_he7bb")
+id = &"lantern_bloom"
+name_key = "PLANT_LANTERN_BLOOM_NAME"
+desc_key = "PLANT_LANTERN_BLOOM_DESC"
+cost = 125
+recharge = 15.0
+role = &"support"
+tags = Array[StringName]([&"light"])
+behavior = ExtResource("1_evv0d")
+buff_mult = 1.25
+color_main = Color(1, 0.82, 0.42, 1)
+color_accent = Color(0.8, 0.45, 0.2, 1)

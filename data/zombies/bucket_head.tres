@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+
+[ext_resource type="Script" path="res://entities/zombies/zombie.gd" id="1_7ybfj"]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="2_m8nmo"]
+
+[resource]
+script = ExtResource("2_m8nmo")
+id = &"bucket_head"
+name_key = "ZOMBIE_BUCKET_HEAD_NAME"
+desc_key = "ZOMBIE_BUCKET_HEAD_DESC"
+armor_hp = 1100
+armor_kind = &"bucket"
+behavior = ExtResource("1_7ybfj")
+threat_cost = 4.0
+weight = 3.0
+color_cloth = Color(0.35, 0.4, 0.5, 1)
+tier = 3

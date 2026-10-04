@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="DifficultyData" format=3]
+
+[ext_resource type="Script" path="res://core/data/difficulty_data.gd" id="1_fcy3r"]
+
+[resource]
+script = ExtResource("1_fcy3r")
+id = &"standard"
+name_key = "DIFFICULTY_STANDARD"

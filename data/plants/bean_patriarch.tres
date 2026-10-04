@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_aura.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"bean_patriarch"
+name_key = "PLANT_BEAN_PATRIARCH_NAME"
+desc_key = "PLANT_BEAN_PATRIARCH_DESC"
+behavior = ExtResource("1_b")
+cost = 275
+recharge = 45.0
+start_cooldown = 20.0
+max_hp = 1200
+role = &"support"
+rarity = &"legendary"
+max_on_board = 1
+badge = "Legendary · Row & column"
+speed_aura = 1.35
+aura_radius = 9
+sun_amount = 25
+sun_interval = 18.0
+fusion_ready_time = 99.0
+color_main = Color(0.75, 0.55, 0.25, 1)
+color_accent = Color(0.95, 0.85, 0.4, 1)

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/plants/plant_mine.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"ice_mine"
+name_key = "Ice Mine"
+desc_key = "Graft thorn_mine + frost_mint. {'damage': 1000, 'arm_time': 5, 'aoe_radius': 1.3, 'slow_factor': 0.4, 'slow_duration': 6}"
+behavior = ExtResource("2")
+is_seed = false
+is_hybrid = true
+role = &"mine"
+color_main = Color(0.4, 0.65, 0.6, 1)
+color_accent = Color(0.9, 0.7, 0.2, 1)
+damage = 1000
+arm_time = 5
+aoe_radius = 1.3
+slow_factor = 0.4
+slow_duration = 6

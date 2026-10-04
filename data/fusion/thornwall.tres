@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FusionRecipe" format=3]
+
+[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1_3c3a1"]
+
+[resource]
+script = ExtResource("1_3c3a1")
+base_id = &"bark_wall"
+catalyst_id = &"bramble_vine"
+result_id = &"thornwall"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/plants/plant_support.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"thorn_lantern"
+name_key = "Thorn Lantern"
+desc_key = "Graft lantern_bloom + bark_wall. {'max_hp': 2300, 'buff_mult': 1.4, 'thorns_damage': 50}"
+behavior = ExtResource("2")
+is_seed = false
+is_hybrid = true
+role = &"support"
+color_main = Color(0.4, 0.65, 0.6, 1)
+color_accent = Color(0.9, 0.7, 0.2, 1)
+max_hp = 2300
+buff_mult = 1.4
+thorns_damage = 50

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_chrono.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"chrono_clover"
+name_key = "PLANT_CHRONO_CLOVER_NAME"
+desc_key = "PLANT_CHRONO_CLOVER_DESC"
+behavior = ExtResource("1_b")
+cost = 300
+recharge = 45.0
+start_cooldown = 25.0
+max_hp = 500
+role = &"support"
+rarity = &"legendary"
+max_on_board = 1
+badge = "Legendary · Time"
+attack_interval = 14.0
+slow_factor = 0.5
+slow_duration = 4.0
+stun_time = 2.0
+fusion_ready_time = 99.0
+color_main = Color(0.35, 0.85, 0.55, 1)
+color_accent = Color(0.95, 0.85, 0.35, 1)

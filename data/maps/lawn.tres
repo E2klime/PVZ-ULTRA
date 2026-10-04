@@ -1,0 +1,157 @@
+[gd_resource type="Resource" script_class="MapData" format=3]
+
+[ext_resource type="Script" path="res://core/data/map_node_data.gd" id="1_1wa6t"]
+[ext_resource type="Script" path="res://core/data/map_data.gd" id="2_5bofq"]
+
+[sub_resource type="Resource" id="Resource_1wa6t"]
+script = ExtResource("1_1wa6t")
+id = &"n_01"
+position = Vector2(230, 870)
+level_id = &"lawn_01"
+next_ids = Array[StringName]([&"n_02"])
+
+[sub_resource type="Resource" id="Resource_5bofq"]
+script = ExtResource("1_1wa6t")
+id = &"n_02"
+position = Vector2(420, 770)
+level_id = &"lawn_02"
+next_ids = Array[StringName]([&"n_03"])
+
+[sub_resource type="Resource" id="Resource_ld7j5"]
+script = ExtResource("1_1wa6t")
+id = &"n_03"
+position = Vector2(610, 850)
+level_id = &"lawn_03"
+next_ids = Array[StringName]([&"n_04"])
+
+[sub_resource type="Resource" id="Resource_ne8vg"]
+script = ExtResource("1_1wa6t")
+id = &"n_04"
+position = Vector2(790, 730)
+level_id = &"lawn_04"
+next_ids = Array[StringName]([&"n_05", &"n_b1", &"n_shop1"])
+
+[sub_resource type="Resource" id="Resource_vkoti"]
+script = ExtResource("1_1wa6t")
+id = &"n_shop1"
+type = 1
+position = Vector2(700, 960)
+optional = true
+
+[sub_resource type="Resource" id="Resource_agfs3"]
+script = ExtResource("1_1wa6t")
+id = &"n_05"
+position = Vector2(900, 570)
+level_id = &"lawn_05"
+next_ids = Array[StringName]([&"n_06"])
+
+[sub_resource type="Resource" id="Resource_31l1u"]
+script = ExtResource("1_1wa6t")
+id = &"n_06"
+position = Vector2(1080, 480)
+level_id = &"lawn_06"
+next_ids = Array[StringName]([&"n_07"])
+
+[sub_resource type="Resource" id="Resource_jr1wi"]
+script = ExtResource("1_1wa6t")
+id = &"n_b1"
+type = 3
+position = Vector2(1020, 840)
+level_id = &"lawn_bonus_1"
+next_ids = Array[StringName]([&"n_07"])
+optional = true
+
+[sub_resource type="Resource" id="Resource_hqo10"]
+script = ExtResource("1_1wa6t")
+id = &"n_07"
+position = Vector2(1240, 610)
+level_id = &"lawn_07"
+next_ids = Array[StringName]([&"n_08"])
+
+[sub_resource type="Resource" id="Resource_vwpx2"]
+script = ExtResource("1_1wa6t")
+id = &"n_08"
+position = Vector2(1390, 470)
+level_id = &"lawn_08"
+next_ids = Array[StringName]([&"n_09"])
+
+[sub_resource type="Resource" id="Resource_xfqak"]
+script = ExtResource("1_1wa6t")
+id = &"n_09"
+position = Vector2(1570, 380)
+level_id = &"lawn_09"
+next_ids = Array[StringName]([&"n_gate1", &"n_b2"])
+
+[sub_resource type="Resource" id="Resource_t2x5h"]
+script = ExtResource("1_1wa6t")
+id = &"n_b2"
+type = 3
+position = Vector2(1790, 520)
+level_id = &"lawn_bonus_2"
+optional = true
+
+[sub_resource type="Resource" id="Resource_gygyl"]
+script = ExtResource("1_1wa6t")
+id = &"n_gate1"
+type = 2
+position = Vector2(1620, 230)
+next_ids = Array[StringName]([&"n_10"])
+requires_stars = 8
+
+[sub_resource type="Resource" id="Resource_bhjby"]
+script = ExtResource("1_1wa6t")
+id = &"n_10"
+position = Vector2(1420, 200)
+level_id = &"lawn_10"
+next_ids = Array[StringName]([&"n_11"])
+
+[sub_resource type="Resource" id="Resource_www4t"]
+script = ExtResource("1_1wa6t")
+id = &"n_11"
+position = Vector2(1230, 270)
+level_id = &"lawn_11"
+next_ids = Array[StringName]([&"n_gate2", &"n_b3", &"n_shop2"])
+
+[sub_resource type="Resource" id="Resource_o5t3u"]
+script = ExtResource("1_1wa6t")
+id = &"n_shop2"
+type = 1
+position = Vector2(1190, 400)
+optional = true
+
+[sub_resource type="Resource" id="Resource_tpge8"]
+script = ExtResource("1_1wa6t")
+id = &"n_b3"
+type = 3
+position = Vector2(930, 410)
+level_id = &"lawn_bonus_3"
+optional = true
+
+[sub_resource type="Resource" id="Resource_1cq1q"]
+script = ExtResource("1_1wa6t")
+id = &"n_gate2"
+type = 2
+position = Vector2(1040, 220)
+next_ids = Array[StringName]([&"n_12"])
+requires_stars = 12
+
+[sub_resource type="Resource" id="Resource_ws2lk"]
+script = ExtResource("1_1wa6t")
+id = &"n_12"
+position = Vector2(840, 270)
+level_id = &"lawn_12"
+next_ids = Array[StringName]([&"n_13"])
+
+[sub_resource type="Resource" id="Resource_gbnpp"]
+script = ExtResource("1_1wa6t")
+id = &"n_13"
+position = Vector2(620, 220)
+level_id = &"lawn_13"
+
+[resource]
+script = ExtResource("2_5bofq")
+id = &"lawn"
+name_key = "MAP_LAWN_NAME"
+available = true
+start_node = &"n_01"
+nodes = Array[ExtResource("1_1wa6t")]([SubResource("Resource_1wa6t"), SubResource("Resource_5bofq"), SubResource("Resource_ld7j5"), SubResource("Resource_ne8vg"), SubResource("Resource_vkoti"), SubResource("Resource_agfs3"), SubResource("Resource_31l1u"), SubResource("Resource_jr1wi"), SubResource("Resource_hqo10"), SubResource("Resource_vwpx2"), SubResource("Resource_xfqak"), SubResource("Resource_t2x5h"), SubResource("Resource_gygyl"), SubResource("Resource_bhjby"), SubResource("Resource_www4t"), SubResource("Resource_o5t3u"), SubResource("Resource_tpge8"), SubResource("Resource_1cq1q"), SubResource("Resource_ws2lk"), SubResource("Resource_gbnpp")])

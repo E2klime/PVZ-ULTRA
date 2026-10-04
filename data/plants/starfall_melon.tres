@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_shooter.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"starfall_melon"
+name_key = "PLANT_STARFALL_MELON_NAME"
+desc_key = "PLANT_STARFALL_MELON_DESC"
+behavior = ExtResource("1_b")
+cost = 350
+recharge = 45.0
+start_cooldown = 25.0
+max_hp = 600
+role = &"shooter"
+attack_kind = &"lob"
+rarity = &"legendary"
+max_on_board = 1
+badge = "Legendary · Lob"
+damage = 110
+attack_interval = 3.4
+aoe_radius = 1.2
+slow_factor = 0.6
+slow_duration = 2.0
+projectile_speed = 480.0
+fusion_ready_time = 99.0
+color_main = Color(0.35, 0.3, 0.75, 1)
+color_accent = Color(1, 0.85, 0.35, 1)

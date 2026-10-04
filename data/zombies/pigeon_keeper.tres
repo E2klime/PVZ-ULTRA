@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/zombies/zombie_support.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"pigeon_keeper"
+name_key = "Pigeon Keeper"
+desc_key = "The pigeons filed for remote work. Sends three interns instead."
+behavior = ExtResource("2")
+ability_kind = &"summon"
+hp = 600
+armor_hp = 0
+speed = 0.15
+damage = 100
+eat_interval = 0.5
+threat_cost = 2.0
+weight = 6.0
+ability_power = 40
+ability_interval = 10
+body_scale = 1.0
+summon_id = &"intern_imp"
+color_skin = Color(0.69, 0.6299999999999999, 0.64, 1)
+color_cloth = Color(0.6000000000000001, 0.6000000000000001, 0.38, 1)
+tier = 3

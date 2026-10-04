@@ -1,0 +1,6220 @@
+{
+ "schema_version": 1,
+ "id": "desert",
+ "name": "4 · Desert Detour",
+ "order": 3,
+ "previous": "night",
+ "color": "#c99753",
+ "rule_text": "Heat visits one announced lane every 28 seconds, damaging plants by 25.",
+ "levels": [
+  {
+   "id": "desert_01",
+   "number": 1,
+   "title": "4-01 · Sand in the Seed Packet",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Establish economy and cover all five lanes.",
+   "joke": "The welcome mat says hello, not all-you-can-eat. The cactus is the only local with appropriate work clothes. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "intro",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 5.46
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 3.62
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 3.61
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 178,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_02",
+   "number": 2,
+   "title": "4-02 · Solar Oven Economics",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Build sun production before doubling your shooters.",
+   "joke": "Sunlight remains free. The zombie subscription is harder to cancel. The oasis is rated one star for excessive zombies. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "economy",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 1.1
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 5.7
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 181,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_03",
+   "number": 3,
+   "title": "4-03 · Mummy Returns Department",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Local traffic cone promoted to middle management. The mummy has a lifetime warranty and intends to use it. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Slingshots target flying plants.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "mummy",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 2.68
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "flagbearer",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 184,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_04",
+   "number": 4,
+   "title": "4-04 · Camel Parking Only",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "The doctor recommends more brains. Seek a second opinion. The camel refuses to validate parking. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".......#.",
+    "........#",
+    "......#..",
+    ".......#.",
+    "........#"
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "camel_rider",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 187,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_05",
+   "number": 5,
+   "title": "4-05 · Mirage Management",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Your delivery is three lanes away and marked delivered. Sand is nature’s most persistent customer-support ticket. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.28
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 1.4
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 6.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.18
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 190,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_06",
+   "number": 6,
+   "title": "4-06 · Twenty Oasis Permits",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Win with at most 20 planting actions, including grafts and rafts. Bonus clause: lose no more than 6 plants.",
+   "joke": "Twenty plants. Infinite unsolicited gardening opinions. The cactus is the only local with appropriate work clothes. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Slingshots target flying plants.",
+   "scenario": "limit",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 20
+    },
+    {
+     "type": "loss_limit",
+     "target": 6
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.86
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "flagbearer",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 830,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 193,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_07",
+   "number": 7,
+   "title": "4-07 · No Mower in the Desert",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. No mowers. Any breach fails the mission.",
+   "joke": "The mowers have requested a mental-health day. Sand is nature’s most persistent customer-support ticket. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "mowerless",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "no_breach",
+     "target": 0
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.04
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 3.13
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 2.44
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 980,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": false,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 196,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "tuning": [
+    "mowerless_sun"
+   ],
+   "v07": true
+  },
+  {
+   "id": "desert_08",
+   "number": 8,
+   "title": "4-08 · Dunes Without Indicators",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Turn signals are apparently a living-person feature. The mummy has a lifetime warranty and intends to use it. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    "........#",
+    "......#..",
+    ".......#.",
+    "........#",
+    "......#.."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.12
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 5.63
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.95
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 6.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 1.92
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 199,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_09",
+   "number": 9,
+   "title": "4-09 · The Oasis Reserve",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Hold 4500 unspent sun and clear all waves. Collection continues after the last zombie.",
+   "joke": "Four thousand sun in savings. Still cannot afford a garden shed. The camel refuses to validate parking. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "bank",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "bank_sun",
+     "target": 4500
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 5.39
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 5.16
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 2.21
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.76
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 75,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 202,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_10",
+   "number": 10,
+   "title": "4-10 · Roots Have Rights",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Lose no more than 3 plants to attacks or shoveling. Single-use plants do not count.",
+   "joke": "The roots have formed a union. Please keep them alive. The oasis is rated one star for excessive zombies. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "preserve",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 3
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 2.46
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.3
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 1.14
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 780,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 205,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_11",
+   "number": 11,
+   "title": "4-11 · Internship Excavation",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Clear the fast waves within 330 seconds.",
+   "joke": "An internship with excellent exposure and no pulse. The cactus is the only local with appropriate work clothes. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "rush",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "time_limit",
+     "target": 330
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 5.6
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 5.6
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 5.32
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 5.6
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 5.24
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 5.6
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 7.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.39
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.8
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 5.6
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 780,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 35,
+   "wave_interval": 27,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 208,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_12",
+   "number": 12,
+   "title": "4-12 · Ruins Under Renovation",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Dark crossed tiles cannot be planted. Zombies still travel through them.",
+   "joke": "These tiles are reserved for a future parking lot. The oasis is rated one star for excessive zombies. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "blocked",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".....#...",
+    ".......#.",
+    ".....#...",
+    ".......#.",
+    ".....#..."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 1.72
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 4.23
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 4.26
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 5.76
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 1.63
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 830,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "sky_dragon",
+   "reward_feature": "",
+   "reward_coins": 211,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_13",
+   "number": 13,
+   "title": "4-13 · Oasis Tasting Menu",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. The supplied seed menu is fixed. Supplies are borrowed even if not yet unlocked.",
+   "joke": "The chef insists the menu is a tactical constraint. The mummy has a lifetime warranty and intends to use it.",
+   "scenario": "fixed",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "thorn_mine",
+    "ember_berry"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 780,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 214,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_14",
+   "number": 14,
+   "title": "4-14 · Five Wilted Reports",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Lose no more than 5 plants. Transformations and deliberate single-use plants are exempt.",
+   "joke": "Five losses are a tragedy. Six are a failed level. The camel refuses to validate parking. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "loss",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 8.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 4.7
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 6.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 1.99
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.92
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 755,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 217,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_15",
+   "number": 15,
+   "title": "4-15 · Graft Like an Egyptian",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Create at least 2 grafts and clear the waves. Same-plant twin hybrids count too.",
+   "joke": "Botany: now with legally questionable welding. Sand is nature’s most persistent customer-support ticket.",
+   "scenario": "graft",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "graft_count",
+     "target": 2
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "frost_mint",
+    "bark_wall"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 930,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 220,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_16",
+   "number": 16,
+   "title": "4-16 · Sandblast Artillery",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. No plants or seeds required. Click a board tile to fire a free recharging area cannon.",
+   "joke": "No plants today. The salad has authorized artillery. The cactus is the only local with appropriate work clothes.",
+   "scenario": "artillery",
+   "mode": "artillery",
+   "field_rule": "heat",
+   "layout": [
+    ".......#.",
+    "........#",
+    "......#..",
+    ".......#.",
+    "........#"
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "mummy",
+    "camel_rider",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 0,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 8,
+   "wave_interval": 24,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 223,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_17",
+   "number": 17,
+   "title": "4-17 · Cactus Dress Code",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Cover the specialist wave; avoid relying on a single front wall.",
+   "joke": "This wave has read the terms and conditions. You have not. The oasis is rated one star for excessive zombies. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "elite",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    "......#..",
+    ".......#.",
+    "........#",
+    "......#..",
+    ".......#."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 4.11
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 2.26
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 3.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.41
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 5.97
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 226,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_18",
+   "number": 18,
+   "title": "4-18 · Bucket Archaeology",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Armor soaks projectiles. Save explosives for tightly grouped helmets.",
+   "joke": "Buckets protect brains, not fragile workplace morale. The camel refuses to validate parking. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "armor",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 1.82
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 3.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 2.53
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 4.79
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 4.49
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 5.79
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "bucket_head",
+    "shield_carrier",
+    "cactus_suit",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 755,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 229,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_19",
+   "number": 19,
+   "title": "4-19 · Twice Dead, Once Paid",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Summoners and small runners require rear coverage, not just one front tank. No breaches: interns are not allowed indoors.",
+   "joke": "Fresh interns have arrived. Their onboarding is your problem. The mummy has a lifetime warranty and intends to use it. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "summons",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "no_breach",
+     "target": 0
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 4.12
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cactus_suit",
+    "camel_rider",
+    "intern_imp",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 830,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 232,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_20",
+   "number": 20,
+   "title": "4-20 · Sunset Without Sun",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. No sky sun. Start from the supplied savings and plant your own economy.",
+   "joke": "Solar power at night: accounting would like a word. The mummy has a lifetime warranty and intends to use it.",
+   "scenario": "blackout",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "hurdler",
+    "burrower",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 830,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 235,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_21",
+   "number": 21,
+   "title": "4-21 · Save the Oasis",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. No planting. A mature garden is provided. Protect it; click a damaged plant for a free 1200-HP repair every 3 seconds. Crafted tools are optional.",
+   "joke": "The garden is already planted. Your job description says keep it that way. The cactus is the only local with appropriate work clothes.",
+   "scenario": "holdout",
+   "mode": "holdout",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [
+    {
+     "id": "sunbud",
+     "row": 0,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 0,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 0,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 1,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 1,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 1,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 2,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 2,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 2,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 3,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 3,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 3,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 4,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 4,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 4,
+     "col": 5
+    }
+   ],
+   "start_sun": 680,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 10,
+   "wave_interval": 28,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 238,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_22",
+   "number": 22,
+   "title": "4-22 · Forty-Five Hundred Degrees",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Collect a total of 4500 sun in this battle. Spending does not reduce this total.",
+   "joke": "Collect 4000 sun. Do not stare directly at the counter. The oasis is rated one star for excessive zombies. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "collect",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "collect_sun",
+     "target": 4500
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 2.39
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 1.55
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.09
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "burrower",
+       "row": 1,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 1.16
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.65
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "mummy",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 2.6
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 1.53
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 680,
+   "sky_sun": true,
+   "sky_sun_value": 100,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 241,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_23",
+   "number": 23,
+   "title": "4-23 · Drought Rations",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Fixed five-seed deck (graft two Pod Shooters into a Twin Pod for double fire) and a total limit of 22 planting actions.",
+   "joke": "The seeds were packed by a minimalist. Sand is nature’s most persistent customer-support ticket.",
+   "scenario": "limited_fixed",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    "........#",
+    "......#..",
+    ".......#.",
+    "........#",
+    "......#.."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 22
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint",
+    "pepper_stinger"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 880,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 244,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "desert_24",
+   "number": 24,
+   "title": "4-24 · Desert Rush Hour",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Long mixed assault. Pace your economy: the waves never stop being polite about it.",
+   "joke": "The committee has decided to attack simultaneously. The camel refuses to validate parking. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "gauntlet",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    "......#..",
+    ".......#.",
+    "........#",
+    "......#..",
+    ".......#."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "sprinter",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "burrower",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "hurdler",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "sprinter",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 2.2
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "sprinter",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 12.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 14.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 4.75
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "mirage",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "sprinter",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 12.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 14.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 3.94
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 1,
+       "delay": 14.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "sprinter",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 14.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 16.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 2.91
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "burrower",
+       "row": 3,
+       "delay": 14.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 16.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "sprinter",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 905,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 247,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "desert_25",
+   "number": 25,
+   "title": "4-25 · Furnace Inspection Day",
+   "briefing": "Heat visits one announced lane every 28 seconds, damaging plants by 25. Two giant arrivals with a rebuilding window. Counter its special ability, then clear the field.",
+   "joke": "The giant brought a club. The homeowners association brought a fine. Sand is nature’s most persistent customer-support ticket. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "boss",
+   "mode": "defense",
+   "field_rule": "heat",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "mummy",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 5.9
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mummy",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 4.59
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.28
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cactus_suit",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "gargantuan_furnace",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 4.5
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "camel_rider",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "mummy",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "mirage",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 12.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "gargantuan_furnace",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 1.82
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "mummy",
+    "camel_rider",
+    "mirage",
+    "cactus_suit",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "sprinter",
+    "gargantuan_furnace",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 1080,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 9,
+   "mowers": true,
+   "reward_plant": "phoenix_lily",
+   "reward_feature": "",
+   "reward_coins": 250,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 850,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  }
+ ],
+ "balance_revision": "v0.6"
+}

@@ -14,6 +14,8 @@ extends Resource
 @export var fringe: Array[Texture2D] = []
 ## Small clump drawn at walking zombies' feet (same row-sort as the fringe).
 @export var tuft: Texture2D
+## Obstacle drawn on blocked cells (assets/art/props/blocked_*.png).
+@export var blocked: Texture2D
 ## Strip top relative to the lane's feet line.
 @export var fringe_offset_y: float = -20.0
 @export var contact_shadow: Texture2D

@@ -60,7 +60,7 @@ func _ready() -> void:
 	add_child(v)
 	# dock
 	var dock_bg := PanelContainer.new()
-	var sb := UITheme.box(Color(0.16, 0.11, 0.06, 0.82), Color(0.95, 0.8, 0.45), 26, 4, 10)
+	var sb := UITheme.kit("board_small", 14)
 	dock_bg.add_theme_stylebox_override("panel", sb)
 	var dock := UIKit.hbox(14)
 	var q := tr("UI_QUESTS")
@@ -114,17 +114,10 @@ static func _big_button(text: String, cb: Callable, col: Color, w: float, h: flo
 	b.add_theme_font_size_override("font_size", fs)
 	b.add_theme_constant_override("outline_size", 10)
 	b.add_theme_color_override("font_outline_color", col.darkened(0.6))
+	var fam := "button" if col.g >= col.r else "button_wood"
 	for st: String in ["normal", "hover", "pressed", "focus"]:
-		var c := col
-		if st == "hover": c = col.lightened(0.12)
-		elif st == "pressed": c = col.darkened(0.12)
-		var box := UITheme.box(c, col.darkened(0.55), 26, 6, 10)
-		box.shadow_size = 8
-		box.shadow_offset = Vector2(0, 5)
-		box.shadow_color = Color(0, 0, 0, 0.4)
-		if st == "focus":
-			box = UITheme.box(Color(0, 0, 0, 0), Color(1, 0.92, 0.4), 26, 4, 10)
-		b.add_theme_stylebox_override(st, box)
+		var kit_name := fam if st == "normal" else (fam + "_" + st if st != "focus" else "button_focus")
+		b.add_theme_stylebox_override(st, UITheme.kit(kit_name))
 	b.pressed.connect(func() -> void:
 		Sfx.play(&"click")
 		cb.call())

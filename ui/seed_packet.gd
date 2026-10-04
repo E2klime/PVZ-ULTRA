@@ -1,7 +1,7 @@
 class_name SeedPacket
 extends Control
-## PvZ2-style horizontal seed packet for the vertical battle seed bank:
-## portrait on the left, name, red cost tag, recharge shade and layer badge.
+## Horizontal seed packet for the vertical battle seed bank: painted parchment packet,
+## portrait window on the left, name, walnut cost tag, recharge shade and layer badge.
 
 signal pressed(packet: SeedPacket)
 
@@ -58,16 +58,10 @@ func _draw() -> void:
 	var legend := data.rarity == &"legendary"
 	var off := Vector2(10, 0) if selected else Vector2.ZERO
 	r.position += off
-	# packet body
-	var top := Color(0.99, 0.95, 0.78) if not legend else Color(1.0, 0.9, 0.5)
-	DrawUtil.rrect(self, r.grow(-2), Color(0.25, 0.17, 0.08), 12, 0)
-	DrawUtil.rrect(self, Rect2(r.position + Vector2(2, 2), r.size - Vector2(4, 7)), top, 11, 0)
-	# portrait window
+	draw_style_box(UITheme.kit("packet_legend" if legend else "packet"), r)
 	var ph := size.y - 8.0
 	var win := Rect2(r.position + Vector2(5, 4), Vector2(ph, ph))
-	var g1 := Color(0.55, 0.82, 0.42) if not legend else Color(1.0, 0.72, 0.25)
-	DrawUtil.rrect(self, win, g1.darkened(0.15), 9, 0)
-	DrawUtil.rrect(self, Rect2(win.position + Vector2(3, 3), win.size - Vector2(6, ph * 0.45)), g1.lightened(0.18), 7, 0)
+	draw_style_box(UITheme.kit("window_legend" if legend else "window"), win)
 	_preview.position = win.position + Vector2(0, 0)
 	var font := get_theme_default_font()
 	var tx := win.end.x + 8.0
@@ -82,10 +76,9 @@ func _draw() -> void:
 		draw_string(font, Vector2(tx, r.position.y + 50), BADGES[data.layer] + " " + tr("LAYER_" + String(data.layer).to_upper()), HORIZONTAL_ALIGNMENT_LEFT, name_w, 15, Color(0.25, 0.4, 0.6))
 	elif legend:
 		draw_string(font, Vector2(tx, r.position.y + 50), "★ " + tr("UI_LEGENDARY"), HORIZONTAL_ALIGNMENT_LEFT, name_w, 15, UITheme.LEGEND)
-	# red cost tag (PvZ2 style)
-	var tag := Rect2(Vector2(r.end.x - 74, r.end.y - 36), Vector2(66, 30))
-	DrawUtil.rrect(self, tag, Color(0.78, 0.12, 0.1) if affordable else Color(0.45, 0.2, 0.2), 9, 3)
-	draw_string(font, tag.position + Vector2(0, 23), str(data.cost), HORIZONTAL_ALIGNMENT_CENTER, tag.size.x, 23, Color.WHITE if affordable else Color(1, 0.75, 0.7))
+	var tag := Rect2(Vector2(r.end.x - 76, r.end.y - 38), Vector2(68, 32))
+	draw_style_box(UITheme.kit("tag" if affordable else "tag_poor"), tag)
+	draw_string(font, tag.position + Vector2(0, 24), str(data.cost), HORIZONTAL_ALIGNMENT_CENTER, tag.size.x, 23, Color(1, 0.95, 0.78) if affordable else Color(1, 0.72, 0.66))
 	if hotkey != "":
 		draw_string(font, Vector2(tx, r.end.y - 12), hotkey, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color(0.45, 0.35, 0.2, 0.8))
 	if legend:
@@ -108,7 +101,7 @@ class Overlay:
 			DrawUtil.rrect(self, Rect2(r.position + Vector2(3, 3), Vector2(r.size.x - 6, h)), Color(0.05, 0.05, 0.08, 0.55), 10, 0)
 		if p.selected:
 			var a := 0.65 + 0.35 * sin(Time.get_ticks_msec() * 0.008)
-			draw_rect(r.grow(-1), Color(1.0, 0.92, 0.3, a), false, 5.0)
+			draw_style_box(UITheme.kit("button_focus", -1, Color(1, 1, 1, a)), r.grow(4))
 		if p._sel_t > 0.0:
 			DrawUtil.rrect(self, r.grow(-3), Color(1, 1, 0.8, p._sel_t * 1.5), 11, 0)
 

@@ -23,6 +23,8 @@ def color(h: str, a: float = 1.0) -> str:
     r, g, b = palette.hex_rgb(h)
     return f"Color({r:.4f}, {g:.4f}, {b:.4f}, {a:.3f})"
 
+PROPS = {"tile": "tiles", "snow": "ice", "gravel": "moonrock"}  # ground type -> obstacle prop
+
 
 def write(world: str) -> Path:
     pal = palette.load()["worlds"][world]
@@ -40,6 +42,8 @@ def write(world: str) -> Path:
     shadow = ref(KIT)
     fringe = [ref(res + f"fringe_{r}.png") for r in range(board.ROWS) if (d / f"fringe_{r}.png").exists()]
     tuft = ref(res + "tuft.png") if (d / "tuft.png").exists() else "null"
+    prop = PROPS.get(pal["ground"], "boulder")
+    blocked = ref(f"res://assets/art/props/blocked_{prop}.png")
     tint = pal.get("light_tint", "#ffffff")
     lines = [f'[gd_resource type="Resource" script_class="WorldArtConfig" load_steps={len(ext) + 2} format=3]', ""]
     lines.append('[ext_resource type="Script" path="res://core/art/world_art_config.gd" id="0_cfg"]')
@@ -47,7 +51,7 @@ def write(world: str) -> Path:
         lines.append(f'[ext_resource type="Texture2D" path="{p}" id="{i}"]')
     lines += ["", "[resource]", 'script = ExtResource("0_cfg")',
               f"environment = {env}", f"ground = {ground}", f"edge = {edge}", "edge_margin = 40.0",
-              f'fringe = Array[Texture2D]([{", ".join(fringe)}])', "fringe_offset_y = -20.0", f"tuft = {tuft}",
+              f'fringe = Array[Texture2D]([{", ".join(fringe)}])', "fringe_offset_y = -20.0", f"tuft = {tuft}", f"blocked = {blocked}",
               f"contact_shadow = {shadow}", "contact_shadow_color = Color(1, 1, 1, 0.8)",
               "contact_shadow_offset = Vector2(10, 0)", f"light_tint = {color(tint)}",
               f"accent = {color(pal['accent'])}", f'ground_type = &"{pal["ground"]}"', ""]

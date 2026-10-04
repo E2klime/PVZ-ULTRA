@@ -1,6 +1,6 @@
 class_name LoadingScreen
 extends Control
-## PvZ2-style splash: key art, logo, green loading bar and a random tip.
+## Splash: key art, logo, green loading bar and a random tip.
 ## Warms up the painted rigs, backdrops and sounds so the first battle is smooth.
 
 var _bar: ProgressBar
@@ -34,8 +34,8 @@ func _ready() -> void:
 	_bar = ProgressBar.new()
 	_bar.custom_minimum_size = Vector2(800, 44)
 	_bar.show_percentage = false
-	_bar.add_theme_stylebox_override("background", UITheme.box(Color(0.12, 0.08, 0.04, 0.85), Color(0.95, 0.85, 0.5), 22, 4, 0))
-	_bar.add_theme_stylebox_override("fill", UITheme.box(Color(0.42, 0.82, 0.22), Color(0.22, 0.5, 0.1), 22, 3, 0))
+	_bar.add_theme_stylebox_override("background", UITheme.kit("bar_bg", 0))
+	_bar.add_theme_stylebox_override("fill", UITheme.kit("bar_fill", 0))
 	bottom.add_child(_bar)
 	_tip = HUDLabel.make(tr("TIP_%d" % (randi() % TIPS + 1)), 26)
 	_tip.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER

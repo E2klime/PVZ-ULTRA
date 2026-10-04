@@ -54,14 +54,19 @@ func _apply_pulse() -> void:
 		&"night":
 			battle.spawn_sun(Board.cell_center(active_row, 1), 50, false)
 
+## Blocked cells are painted props in the entity layer (core/art/blocked_prop.gd).
+## Only the announced pulse row is drawn here: a soft band that fades at its edges.
 func _draw() -> void:
-	if battle == null: return
-	for r: int in Board.ROWS:
-		for c: int in Board.COLS:
-			if battle.level.is_blocked(r, c):
-				var rect := Rect2(Board.ORIGIN + Vector2(c, r) * Board.CELL, Board.CELL)
-				draw_rect(rect.grow(-6), Color(0.2, 0.18, 0.2, 0.75))
-				draw_line(rect.position + Vector2(20, 20), rect.end - Vector2(20, 20), Color(0.9, 0.6, 0.2), 6)
-	if battle.level.field_rule != &"normal":
-		var rect := Rect2(Board.ORIGIN + Vector2(0, active_row * Board.CELL.y), Vector2(Board.COLS * Board.CELL.x, Board.CELL.y))
-		draw_rect(rect, Color(0.7, 0.75, 1.0, 0.06 if pulse > 3.0 else 0.22))
+	if battle == null or battle.level.field_rule == &"normal": return
+	var y0 := Board.ORIGIN.y + active_row * Board.CELL.y
+	var x0 := Board.ORIGIN.x
+	var x1 := x0 + Board.COLS * Board.CELL.x
+	var a := 0.07 if pulse > 3.0 else 0.2 + 0.08 * sin(clock * 9.0)
+	var col := Color(0.75, 0.82, 1.0, a)
+	var clear := Color(col.r, col.g, col.b, 0.0)
+	var h := Board.CELL.y
+	var ys := [y0, y0 + h * 0.3, y0 + h * 0.7, y0 + h]
+	var cs := [clear, col, col, clear]
+	for i: int in 3:
+		draw_polygon(PackedVector2Array([Vector2(x0, ys[i]), Vector2(x1, ys[i]), Vector2(x1, ys[i + 1]), Vector2(x0, ys[i + 1])]),
+			PackedColorArray([cs[i], cs[i], cs[i + 1], cs[i + 1]]))

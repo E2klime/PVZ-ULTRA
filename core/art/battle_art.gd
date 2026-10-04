@@ -13,6 +13,9 @@ static func build(world: Node2D, board: Board, entities: Node2D, level: LevelDat
 	world.add_child(entities)
 	for r: int in Board.ROWS:
 		entities.add_child(LawnFringe.new(cfg, board, entities, r))
+		for c: int in Board.COLS:
+			if level and level.is_blocked(r, c):
+				entities.add_child(BlockedProp.new(cfg, r, c))
 	if cfg.light_tint != Color.WHITE:
 		var cm := CanvasModulate.new()
 		cm.color = cfg.light_tint

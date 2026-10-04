@@ -2,8 +2,8 @@
 
 A painted ground swatch (art_src/generated/ground/<ground>.png) is made seamless,
 tiled, and gradient-mapped onto the world's ramp from palettes.json. The 9x5 grid
-is carried only by mow stripes (one per column, alternating) and a weaker lane band
-per row, both with irregular painted boundaries; per-cell tonal jitter and a warm
+is carried by one broad mow band per lane (5 bands, the zombies' path) and a faint
+column tone, both with irregular painted boundaries; per-cell tonal jitter and a warm
 top-left / cool bottom-right light bake finish it. No checkerboard, no borders.
 Usage:
     python3 tools/art/assemble/lawn_surface.py --world lawn --out assets/art/worlds/lawn/ground.png
@@ -25,12 +25,12 @@ log = logging.getLogger("lawn_surface")
 GROUND_DIR = palette.ROOT / "art_src" / "generated" / "ground"
 # swatch scale (source px -> screen px) and grid strength per ground type
 GROUND_STYLE: dict[str, dict[str, float]] = {
-    "grass": {"scale": 0.5, "stripe": 0.065, "row": 0.085, "seam": 0.11, "cell": 0.015, "detail": 0.7},
-    "sand": {"scale": 0.5, "seam": 0.06, "stripe": 0.05, "row": 0.035, "cell": 0.02, "detail": 0.9},
-    "tile": {"scale": 0.5, "seam": 0.06, "stripe": 0.05, "row": 0.04, "cell": 0.025, "detail": 1.0},
-    "snow": {"scale": 0.5, "seam": 0.06, "stripe": 0.045, "row": 0.03, "cell": 0.02, "detail": 0.8},
-    "soil": {"scale": 0.5, "seam": 0.06, "stripe": 0.06, "row": 0.04, "cell": 0.025, "detail": 1.0},
-    "gravel": {"scale": 0.5, "seam": 0.06, "stripe": 0.05, "row": 0.035, "cell": 0.025, "detail": 1.0},
+    "grass": {"scale": 0.5, "stripe": 0.021, "row": 0.085, "seam": 0.11, "cell": 0.015, "detail": 0.7},
+    "sand": {"scale": 0.5, "seam": 0.09, "stripe": 0.015, "row": 0.065, "cell": 0.015, "detail": 0.8},
+    "tile": {"scale": 0.6, "seam": 0.10, "stripe": 0.017, "row": 0.07, "cell": 0.015, "detail": 0.75},
+    "snow": {"scale": 0.7, "seam": 0.08, "stripe": 0.012, "row": 0.05, "cell": 0.01, "detail": 0.5},
+    "soil": {"scale": 1.0, "seam": 0.10, "stripe": 0.017, "row": 0.07, "cell": 0.015, "detail": 0.9},
+    "gravel": {"scale": 1.0, "seam": 0.10, "stripe": 0.015, "row": 0.07, "cell": 0.015, "detail": 0.9},
 }
 
 
@@ -88,7 +88,7 @@ def build(world: str, seed: int) -> np.ndarray:
     # mow sheen: light stripes warmer, dark stripes cooler
     warm = palette.hex_rgb(palette.load()["global"]["key_light"])
     cool = palette.hex_rgb(palette.load()["global"]["shadow"])
-    tint = np.where(stripe[..., None] > 0, warm, cool)
+    tint = np.where(lane[..., None] > 0, warm, cool)
     rgb = rgb * shade[..., None]
     rgb = rgb * (1 - 0.05) + rgb * tint * 0.05 * 2.0
     # large soft tonal patches so repetition never reads

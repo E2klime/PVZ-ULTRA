@@ -206,7 +206,8 @@ func _data() -> Control:
 	v.add_child(UIKit.wrap(tr("SETTINGS_SAVE_PATH").format({"p": ProjectSettings.globalize_path("user://")}), 20))
 	v.add_child(UIKit.label(tr("SETTINGS_STATS_LINE").format({"wins": SaveManager.stat(&"wins"), "plants": SaveManager.stat(&"planted"), "grafts": SaveManager.stat(&"grafts")}), 22))
 	_reset_btn = UIKit.button(tr("SETTINGS_RESET"), _on_reset, 380)
-	_reset_btn.add_theme_stylebox_override("normal", UITheme.box(UITheme.BAD, UITheme.BAD.darkened(0.35), 14, 4, 14))
+	_reset_btn.add_theme_stylebox_override("normal", UITheme.kit("button_danger"))
+	_reset_btn.add_theme_stylebox_override("hover", UITheme.kit("button_danger_hover"))
 	v.add_child(_reset_btn)
 	return v
 

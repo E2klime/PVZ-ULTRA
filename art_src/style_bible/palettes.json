@@ -53,9 +53,9 @@
     "night": {
       "ground": "grass",
       "lawn": [
-        "#3d5f4a",
-        "#466b52",
-        "#324f40"
+        "#4a7158",
+        "#557d62",
+        "#3d604c"
       ],
       "soil": "#3e3240",
       "accent": "#9c8cf0",
@@ -63,7 +63,7 @@
         "gain": "#b8c4ff",
         "lift": "#0c1028",
         "sat": 0.7,
-        "exposure": -0.55
+        "exposure": -0.4
       }
     },
     "desert": {
@@ -101,9 +101,9 @@
     "frost": {
       "ground": "snow",
       "lawn": [
-        "#c8d8e2",
-        "#d6e4ec",
-        "#b6c8d6"
+        "#b4c6d4",
+        "#c2d2de",
+        "#a4b6c6"
       ],
       "soil": "#7a8696",
       "accent": "#8fd0f0",

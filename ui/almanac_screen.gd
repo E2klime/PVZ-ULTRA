@@ -74,12 +74,13 @@ func _scroll_grid() -> Array:
 func _tile(known: bool, legendary: bool = false) -> Button:
 	var b := Button.new()
 	b.custom_minimum_size = Vector2(150, 170)
-	var st := UITheme.box(Color(0.99, 0.9, 0.6) if legendary else Color(0.93, 0.86, 0.66), UITheme.LEGEND if legendary else Color(0.55, 0.38, 0.22), 12, 6 if legendary else 4, 6)
+	var st := UITheme.kit("packet_legend" if legendary else "packet", 10)
 	b.add_theme_stylebox_override("normal", st)
-	b.add_theme_stylebox_override("hover", UITheme.box(Color(0.98, 0.93, 0.75), Color(0.55, 0.38, 0.22), 12, 4, 6))
+	b.add_theme_stylebox_override("hover", UITheme.kit("packet_legend_hover" if legendary else "packet_hover", 10))
+	b.add_theme_stylebox_override("focus", UITheme.kit("button_focus"))
 	b.add_theme_stylebox_override("pressed", st)
 	b.disabled = not known
-	b.add_theme_stylebox_override("disabled", UITheme.box(Color(0.6, 0.56, 0.48), Color(0.4, 0.3, 0.2), 12, 4, 6))
+	b.add_theme_stylebox_override("disabled", UITheme.kit("packet", 10, Color(0.55, 0.52, 0.48)))
 	return b
 
 func _plants_tab() -> Control:

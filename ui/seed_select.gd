@@ -52,7 +52,7 @@ func _build() -> void:
 	head.add_child(_slots_label)
 	v.add_child(head)
 	var chosen_panel := PanelContainer.new()
-	chosen_panel.add_theme_stylebox_override("panel", UITheme.box(Color(0.55, 0.4, 0.25), Color(0.4, 0.28, 0.16), 12, 4, 10))
+	chosen_panel.add_theme_stylebox_override("panel", UITheme.kit("board", 14))
 	chosen_panel.custom_minimum_size = Vector2(0, 162)
 	_chosen_row = UIKit.hbox(6)
 	chosen_panel.add_child(_chosen_row)
@@ -118,7 +118,7 @@ func _refresh() -> void:
 	for i: int in range(chosen.size(), SaveManager.seed_slots()):
 		var empty := Panel.new()
 		empty.custom_minimum_size = SeedCard.SIZE
-		empty.add_theme_stylebox_override("panel", UITheme.box(Color(0.42, 0.3, 0.18), Color(0.35, 0.24, 0.14), 12, 3, 0))
+		empty.add_theme_stylebox_override("panel", UITheme.kit("card", 0, Color(0.42, 0.34, 0.26, 0.55)))
 		_chosen_row.add_child(empty)
 	for id: StringName in _available:
 		var card := SeedCard.new(DB.plant(id))

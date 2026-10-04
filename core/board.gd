@@ -23,13 +23,9 @@ var mower_skin := Color(0.85, 0.2, 0.2)
 var water: PackedByteArray = PackedByteArray()
 
 const POOL_DIR := "res://assets/tiles/pool/"
-var _edge_h: Texture2D
-var _edge_v: Texture2D
-var _corner_out: Texture2D
-var _corner_in: Texture2D
-var _water_layer: WaterLayer
-var _edge_layer: EdgeLayer
-var _hover_layer: HoverLayer
+var _water_layer: PoolWaterLayer
+var _edge_layer: PoolCopingLayer
+var _hover_layer: CellCursor
 
 func _init() -> void:
 	plants.resize(ROWS * COLS)
@@ -43,18 +39,14 @@ func _init() -> void:
 	water.fill(0)
 
 func _ready() -> void:
-	_edge_h = load(POOL_DIR + "coping_edge.png")
-	_edge_v = load(POOL_DIR + "coping_edge_v.png")
-	_corner_out = load(POOL_DIR + "coping_corner_outer.png")
-	_corner_in = load(POOL_DIR + "coping_corner_inner.png")
 	texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
-	_water_layer = WaterLayer.new()
+	_water_layer = PoolWaterLayer.new()
 	_water_layer.board = self
 	add_child(_water_layer)
-	_edge_layer = EdgeLayer.new()
+	_edge_layer = PoolCopingLayer.new()
 	_edge_layer.board = self
 	add_child(_edge_layer)
-	_hover_layer = HoverLayer.new()
+	_hover_layer = CellCursor.new()
 	_hover_layer.board = self
 	add_child(_hover_layer)
 
@@ -221,104 +213,3 @@ func set_hover(cell: Vector2i, ok: bool) -> void:
 		hover_ok = ok
 		if _hover_layer:
 			_hover_layer.queue_redraw()
-
-## Animated pool water, drawn only on water cells (world-space UVs).
-class WaterLayer:
-	extends Node2D
-	var board: Board
-	func _ready() -> void:
-		var m := ShaderMaterial.new()
-		m.shader = load("res://shaders/water.gdshader")
-		m.set_shader_parameter("water_tex", load(POOL_DIR + "water.png"))
-		m.set_shader_parameter("caustics_tex", load(POOL_DIR + "caustics.png"))
-		material = m
-		texture_repeat = CanvasItem.TEXTURE_REPEAT_ENABLED
-	func _draw() -> void:
-		for r: int in ROWS:
-			for c: int in COLS:
-				if board.is_water(r, c):
-					draw_rect(Rect2(ORIGIN + CELL * Vector2(c, r), CELL), Color.WHITE)
-
-
-## Modular pool coping: straight edges wherever a water cell meets land (the
-## board border counts as land), outer corners where two edges meet and inner
-## (concave) corners where only the diagonal neighbour is land.
-class EdgeLayer:
-	extends Node2D
-	var board: Board
-	func _land(r: int, c: int) -> bool:
-		return not board.is_water(r, c)
-	func _piece(tex: Texture2D, cell_pos: Vector2, corner: Vector2, angle: float) -> void:
-		draw_set_transform(cell_pos + corner, angle, Vector2(0.5, 0.5))
-		draw_texture(tex, Vector2.ZERO)
-	func _draw() -> void:
-		var W := CELL.x
-		var H := CELL.y
-		var tl := Vector2.ZERO
-		var tr := Vector2(W, 0)
-		var brc := Vector2(W, H)
-		var bl := Vector2(0, H)
-		var cells: Array[Vector2i] = []
-		for r: int in ROWS:
-			for c: int in COLS:
-				if board.is_water(r, c):
-					cells.append(Vector2i(c, r))
-		# pass 1: straight edges (with their baked shadow on the water)
-		for cell: Vector2i in cells:
-			var p := ORIGIN + CELL * Vector2(cell)
-			var r := cell.y
-			var c := cell.x
-			if _land(r - 1, c):
-				_piece(board._edge_h, p, tl, 0.0)
-			if _land(r + 1, c):
-				_piece(board._edge_h, p, brc, PI)
-			if _land(r, c - 1):
-				_piece(board._edge_v, p, bl, -PI * 0.5)
-			if _land(r, c + 1):
-				_piece(board._edge_v, p, tr, PI * 0.5)
-		# pass 2: corners
-		for cell: Vector2i in cells:
-			var p := ORIGIN + CELL * Vector2(cell)
-			var r := cell.y
-			var c := cell.x
-			var n := _land(r - 1, c)
-			var s := _land(r + 1, c)
-			var w := _land(r, c - 1)
-			var e := _land(r, c + 1)
-			if n and w:
-				_piece(board._corner_out, p, tl, 0.0)
-			elif not n and not w and _land(r - 1, c - 1):
-				_piece(board._corner_in, p, tl, 0.0)
-			if n and e:
-				_piece(board._corner_out, p, tr, PI * 0.5)
-			elif not n and not e and _land(r - 1, c + 1):
-				_piece(board._corner_in, p, tr, PI * 0.5)
-			if s and e:
-				_piece(board._corner_out, p, brc, PI)
-			elif not s and not e and _land(r + 1, c + 1):
-				_piece(board._corner_in, p, brc, PI)
-			if s and w:
-				_piece(board._corner_out, p, bl, -PI * 0.5)
-			elif not s and not w and _land(r + 1, c - 1):
-				_piece(board._corner_in, p, bl, -PI * 0.5)
-		draw_set_transform_matrix(Transform2D.IDENTITY)
-
-
-class HoverLayer:
-	extends Node2D
-	var board: Board
-	func _draw() -> void:
-		var hc_cell := board.hover_cell
-		if hc_cell.x < 0:
-			return
-		var hr := Rect2(ORIGIN + CELL * Vector2(hc_cell), CELL)
-		var hc := Color(1, 1, 1, 0.2) if board.hover_ok else Color(1, 0.15, 0.1, 0.32)
-		draw_rect(hr.grow(-3), hc)
-		draw_rect(hr.grow(-3), Color(hc.r, hc.g, hc.b, 0.85), false, 3.0)
-		# Colour-blind hint: a cross on cells where the action is not possible.
-		if not board.hover_ok and bool(Settings.get_value(&"colorblind_hints")):
-			var c := hr.get_center()
-			var k := minf(hr.size.x, hr.size.y) * 0.22
-			for d: Vector2 in [Vector2(k, k), Vector2(k, -k)]:
-				draw_line(c - d, c + d, Color(0, 0, 0, 0.7), 10.0)
-				draw_line(c - d, c + d, Color(1, 1, 1, 0.9), 5.0)

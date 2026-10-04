@@ -45,22 +45,15 @@ func set_state(p_selected: bool, p_recharge: float, p_affordable: bool) -> void:
 func _draw() -> void:
 	var r := Rect2(Vector2.ZERO, size)
 	var legend := data.rarity == &"legendary"
-	var bg := UITheme.LEGEND_LIGHT if legend else Color(0.93, 0.86, 0.66)
-	DrawUtil.rrect(self, r.grow(-3), bg, 12, 4)
+	draw_style_box(UITheme.kit("card_legend" if legend else "card"), r)
 	if legend:
-		draw_rect(Rect2(Vector2(8, 8), Vector2(size.x - 16, 94)), Color(0.98, 0.75, 0.3, 0.55))
 		var t := Time.get_ticks_msec() * 0.001
 		var band := fmod(t * 0.5, 1.6) - 0.3
-		var x := 8.0 + band * (size.x - 16)
-		draw_colored_polygon(PackedVector2Array([Vector2(x, 8), Vector2(x + 18, 8), Vector2(x - 8, 102), Vector2(x - 26, 102)]), Color(1, 1, 1, 0.35))
-		draw_rect(r.grow(-4), UITheme.LEGEND, false, 4.0)
-	else:
-		draw_rect(Rect2(Vector2(8, 8), Vector2(size.x - 16, 94)), Color(0.55, 0.78, 0.45, 0.6))
-	# cost strip
-	DrawUtil.rrect(self, Rect2(Vector2(10, size.y - 36), Vector2(size.x - 20, 28)), Color(0.98, 0.95, 0.85), 8, 2)
+		var x := 10.0 + band * (size.x - 20)
+		draw_colored_polygon(PackedVector2Array([Vector2(x, 18), Vector2(x + 14, 18), Vector2(x - 6, 92), Vector2(x - 20, 92)]), Color(1, 1, 1, 0.28))
 	var font := get_theme_default_font()
 	var cost_col := UITheme.INK if affordable else UITheme.BAD
-	draw_string(font, Vector2(10, size.y - 14), str(data.cost), HORIZONTAL_ALIGNMENT_CENTER, size.x - 20, 22, cost_col)
+	draw_string(font, Vector2(10, size.y - 16), str(data.cost), HORIZONTAL_ALIGNMENT_CENTER, size.x - 20, 24, cost_col)
 	if hotkey != "":
 		draw_string(font, Vector2(12, 28), hotkey, HORIZONTAL_ALIGNMENT_LEFT, -1, 20, Color(0.2, 0.3, 0.15))
 
@@ -73,12 +66,12 @@ class Overlay:
 			return
 		var r := Rect2(Vector2.ZERO, card.size)
 		if card.dimmed or not card.affordable:
-			DrawUtil.rrect(self, r.grow(-3), Color(0, 0, 0, 0.38), 12, 0)
+			draw_style_box(UITheme.kit("card", -1, Color(0, 0, 0, 0.4)), r)
 		if card.recharge < 1.0:
 			var h := (r.size.y - 6) * (1.0 - card.recharge)
-			draw_rect(Rect2(Vector2(3, 3), Vector2(r.size.x - 6, h)), Color(0, 0, 0, 0.5))
+			draw_rect(Rect2(Vector2(6, 8), Vector2(r.size.x - 12, h * (r.size.y - 14) / (r.size.y - 6))), Color(0.04, 0.06, 0.03, 0.5))
 		if card.selected:
-			draw_rect(r.grow(-1), UITheme.SUN, false, 5.0)
+			draw_style_box(UITheme.kit("button_focus"), r.grow(4))
 
 var _overlay: Overlay
 

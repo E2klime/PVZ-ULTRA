@@ -1,11 +1,13 @@
 class_name WaveProgress
 extends Control
-## PvZ2-style level progress: green fill right-to-left, flags for huge waves and a
+## Level progress: green fill right-to-left, flags for huge waves and a
 ## zombie head riding the front.
 
 var director: WaveDirector
 var _head: Texture2D = preload("res://assets/ui/zombie_head.png")
 var _flag: Texture2D = preload("res://assets/ui/flag.png")
+var _bg: StyleBox = UITheme.kit("bar_bg")
+var _fill: StyleBox = UITheme.kit("bar_fill")
 
 func _init() -> void:
 	custom_minimum_size = Vector2(360, 44)
@@ -18,14 +20,14 @@ func _draw() -> void:
 	if director == null:
 		return
 	var r := Rect2(Vector2(8, 14), Vector2(size.x - 16, 20))
-	DrawUtil.rrect(self, r.grow(3), Color(0.12, 0.08, 0.04), 12, 0)
-	DrawUtil.rrect(self, r, Color(0.32, 0.26, 0.18), 10, 0)
+	draw_style_box(_bg, r.grow(4))
 	var p := clampf(director.progress(), 0.0, 1.0)
 	if p > 0.0:
 		var w := r.size.x * p
 		var fill := Rect2(Vector2(r.end.x - w, r.position.y), Vector2(w, r.size.y))
-		DrawUtil.rrect(self, fill, Color(0.42, 0.78, 0.25), 10, 0)
-		draw_rect(Rect2(fill.position + Vector2(4, 2), Vector2(maxf(0.0, fill.size.x - 8), 5)), Color(1, 1, 1, 0.25))
+		if fill.size.x < r.size.y:
+			fill = Rect2(Vector2(r.end.x - r.size.y, r.position.y), Vector2(r.size.y, r.size.y))
+		draw_style_box(_fill, fill.grow(1))
 	var total := director.total_waves()
 	for n: int in range(1, total + 1):
 		if director.is_flag_wave(n):

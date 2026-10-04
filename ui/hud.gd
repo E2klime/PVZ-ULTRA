@@ -1,6 +1,6 @@
 class_name BattleHUD
 extends CanvasLayer
-## PvZ2-style battle UI: vertical seed bank (left), sun counter (top-left), wave
+## Battle UI: vertical seed bank (left), sun counter (top-left), wave
 ## progress + level name (top-centre), coins / speed / pause (top-right),
 ## glove + shovel (bottom-right), tools & objectives (bottom), overlays.
 
@@ -52,12 +52,10 @@ func _ready() -> void:
 	update_sun()
 	EventBus.quest_ready.connect(_on_quest_ready)
 
-static func pill(bg: Color = Color(0.16, 0.11, 0.06, 0.82), border: Color = Color(0.95, 0.8, 0.45)) -> PanelContainer:
+## Walnut pill with a brass rim (HUD counters, menu profile chip).
+static func pill() -> PanelContainer:
 	var p := PanelContainer.new()
-	var sb := UITheme.box(bg, border, 30, 4, 8)
-	sb.shadow_size = 6
-	sb.shadow_color = Color(0, 0, 0, 0.35)
-	p.add_theme_stylebox_override("panel", sb)
+	p.add_theme_stylebox_override("panel", UITheme.kit("pill"))
 	return p
 
 static func outlined(text: String, size: int, col: Color = Color.WHITE, outline: Color = Color(0.1, 0.07, 0.03)) -> Label:
@@ -85,10 +83,7 @@ func _build_top_left() -> void:
 	_sun_pill.add_child(h)
 	root.add_child(_sun_pill)
 	bank_panel = PanelContainer.new()
-	var sb := UITheme.box(Color(0.33, 0.22, 0.12, 0.88), Color(0.2, 0.13, 0.06), 16, 4, 6)
-	sb.shadow_size = 8
-	sb.shadow_color = Color(0, 0, 0, 0.35)
-	bank_panel.add_theme_stylebox_override("panel", sb)
+	bank_panel.add_theme_stylebox_override("panel", UITheme.kit("board_small", 10))
 	bank_panel.position = Vector2(4, 94)
 	bank = UIKit.vbox(4)
 	bank_panel.add_child(bank)
@@ -96,7 +91,7 @@ func _build_top_left() -> void:
 	root.add_child(bank_panel)
 
 func _build_top_center() -> void:
-	var p := pill(Color(0.16, 0.11, 0.06, 0.78), Color(0.75, 0.6, 0.35))
+	var p := pill()
 	var v := UIKit.vbox(0)
 	level_label = outlined(_level_title(), 22, Color(1.0, 0.95, 0.8))
 	level_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -222,7 +217,7 @@ func _build_messages() -> void:
 	hover_label = UIKit.label("", 22, Color.WHITE)
 	hover_label.add_theme_color_override("font_outline_color", Color(0.1, 0.1, 0.05))
 	hover_label.add_theme_constant_override("outline_size", 7)
-	hover_label.add_theme_stylebox_override("normal", UITheme.box(Color(0, 0, 0, 0.5), Color(0, 0, 0, 0), 10, 0, 8))
+	hover_label.add_theme_stylebox_override("normal", UITheme.kit("pill", 14))
 	hover_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	root.add_child(hover_label)
 
@@ -499,6 +494,9 @@ class RoundTool:
 	var active: bool = false
 	var cooldown: float = 0.0
 	var label: String = ""
+	const DISC: Texture2D = preload("res://assets/ui/kit/round_disc.png")
+	const RING: Texture2D = preload("res://assets/ui/kit/round_ring.png")
+	const GLOW: Texture2D = preload("res://assets/ui/kit/round_glow.png")
 	func _init(tex: Texture2D, d: float, c: Color) -> void:
 		icon = tex
 		diameter = d
@@ -514,10 +512,10 @@ class RoundTool:
 	func _draw() -> void:
 		var c := size * 0.5
 		var r := diameter * 0.5 - 3.0
-		draw_circle(c + Vector2(0, 4), r, Color(0, 0, 0, 0.3))
-		draw_circle(c, r, Color(0.2, 0.13, 0.06))
-		draw_circle(c, r - 4.0, color.lightened(0.15) if active else color)
-		draw_circle(c - Vector2(0, r * 0.3), r * 0.62, Color(1, 1, 1, 0.12))
+		var box := Rect2(c - Vector2(r, r), Vector2(r, r) * 2.0)
+		draw_circle(c + Vector2(3, 6), r * 0.96, Color(0.05, 0.08, 0.12, 0.3))
+		draw_texture_rect(DISC, box, false, (color.lightened(0.15) if active else color).lerp(Color.WHITE, 0.25))
+		draw_texture_rect(RING, box, false)
 		if icon:
 			var s := diameter * 0.62
 			draw_texture_rect(icon, Rect2(c - Vector2(s, s) * 0.5, Vector2(s, s)), false)
@@ -525,10 +523,10 @@ class RoundTool:
 			var pts := PackedVector2Array([c])
 			for i: int in 33:
 				var a := -PI / 2.0 + TAU * cooldown * float(i) / 32.0
-				pts.append(c + Vector2(cos(a), sin(a)) * (r - 4.0))
+				pts.append(c + Vector2(cos(a), sin(a)) * (r * 0.74))
 			draw_colored_polygon(pts, Color(0, 0, 0, 0.5))
 		if active:
 			var a := 0.6 + 0.4 * sin(Time.get_ticks_msec() * 0.008)
-			draw_arc(c, r + 1.0, 0, TAU, 48, Color(1, 0.92, 0.3, a), 6.0)
+			draw_texture_rect(GLOW, box.grow(r * 0.125), false, Color(1, 1, 1, a))
 		if label != "" and not OS.has_feature("mobile"):
 			draw_string(get_theme_default_font(), Vector2(c.x + r * 0.45, c.y + r * 0.95), label, HORIZONTAL_ALIGNMENT_LEFT, -1, 18, Color(1, 1, 1, 0.8))

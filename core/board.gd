@@ -13,22 +13,16 @@ var plants: Array = []   # ROWS*COLS, Plant or null (main layer)
 ## Extra cell layers: under (beneath the main plant), shell (worn on top), air (flying).
 const LAYERS: Array[StringName] = [&"under", &"main", &"shell", &"air"]
 var layer_plants: Dictionary = {}
-## Region of the backdrop that holds its painted playfield (normalized), stretched over the grid.
-var ground_src: Rect2 = Rect2(0.2, 0.21, 0.53, 0.76)
 var surfaces: Array[StringName] = []
 var hover_cell := Vector2i(-1, -1)
 var hover_ok := true
 var mower_skin := Color(0.85, 0.2, 0.2)
-## Battle backdrop (house, hedges, street). The playfield itself is drawn
-## on top of it from modular painted tiles, so any water layout works.
-var backdrop: Texture2D
+## Ground art lives in core/art (LawnRenderer & co.); the board only adds the
+## dynamic layers: pool water, coping and the hover cursor.
 ## true where the cell is pool water (row-major ROWS*COLS).
 var water: PackedByteArray = PackedByteArray()
 
-const LAWN_DIR := "res://assets/tiles/lawn/"
 const POOL_DIR := "res://assets/tiles/pool/"
-var _lawn_light: Array[Texture2D] = []
-var _lawn_dark: Array[Texture2D] = []
 var _edge_h: Texture2D
 var _edge_v: Texture2D
 var _corner_out: Texture2D
@@ -49,9 +43,6 @@ func _init() -> void:
 	water.fill(0)
 
 func _ready() -> void:
-	for i: int in 4:
-		_lawn_light.append(load(LAWN_DIR + "cell_light_%d.png" % i) as Texture2D)
-		_lawn_dark.append(load(LAWN_DIR + "cell_dark_%d.png" % i) as Texture2D)
 	_edge_h = load(POOL_DIR + "coping_edge.png")
 	_edge_v = load(POOL_DIR + "coping_edge_v.png")
 	_corner_out = load(POOL_DIR + "coping_corner_outer.png")
@@ -79,7 +70,6 @@ func set_layout(rows: PackedStringArray) -> void:
 			if ch == "~" or ch == "w":
 				water[r * COLS + c] = 1
 				surfaces[r * COLS + c] = &"water"
-	queue_redraw()
 	if _water_layer:
 		_water_layer.queue_redraw()
 		_edge_layer.queue_redraw()
@@ -231,47 +221,6 @@ func set_hover(cell: Vector2i, ok: bool) -> void:
 		hover_ok = ok
 		if _hover_layer:
 			_hover_layer.queue_redraw()
-
-func _draw() -> void:
-	if backdrop:
-		draw_texture_rect(backdrop, Rect2(Vector2.ZERO, Vector2(1920, 1080)), false)
-	else:
-		draw_rect(Rect2(Vector2(-200, -200), Vector2(2400, 1500)), Color(0.3, 0.42, 0.24))
-	var br := board_rect()
-	# soft contact shadow so the playfield sits in the backdrop
-	for i: int in 8:
-		var g := float(8 - i) * 3.0
-		draw_rect(br.grow(g), Color(0.0, 0.0, 0.0, 0.07), true)
-	if backdrop:
-		# the backdrop's own painted ground, stretched over the grid
-		var ts := backdrop.get_size()
-		var src := Rect2(ground_src.position * ts, ground_src.size * ts)
-		draw_texture_rect_region(backdrop, br, src)
-	else:
-		for r: int in ROWS:
-			for c: int in COLS:
-				var h := (r * 7 + c * 13 + (r * c) % 5) % 4
-				var tex: Texture2D = _lawn_light[h] if (r + c) % 2 == 0 else _lawn_dark[h]
-				draw_texture_rect(tex, Rect2(ORIGIN + CELL * Vector2(c, r), CELL), false)
-	# PvZ-style checkerboard so every tile reads clearly
-	for r: int in ROWS:
-		for c: int in COLS:
-			if is_water(r, c):
-				continue
-			var cell := Rect2(ORIGIN + CELL * Vector2(c, r), CELL)
-			if (r + c) % 2 == 0:
-				draw_rect(cell, Color(1, 1, 0.85, 0.09))
-			else:
-				draw_rect(cell, Color(0.0, 0.08, 0.0, 0.1))
-	# inner vignette at the borders
-	for i: int in 8:
-		var a := 0.1 * (1.0 - i / 8.0)
-		draw_rect(Rect2(br.position + Vector2(0, i * 3.0), Vector2(br.size.x, 3.0)), Color(0.02, 0.05, 0.0, a))
-		draw_rect(Rect2(br.position + Vector2(0, br.size.y - (i + 1) * 3.0), Vector2(br.size.x, 3.0)), Color(0.02, 0.05, 0.0, a))
-		draw_rect(Rect2(br.position + Vector2(i * 3.0, 0), Vector2(3.0, br.size.y)), Color(0.02, 0.05, 0.0, a))
-		draw_rect(Rect2(br.position + Vector2(br.size.x - (i + 1) * 3.0, 0), Vector2(3.0, br.size.y)), Color(0.02, 0.05, 0.0, a))
-	draw_rect(br.grow(2), Color(0.12, 0.09, 0.05, 0.55), false, 4.0)
-
 
 ## Animated pool water, drawn only on water cells (world-space UVs).
 class WaterLayer:

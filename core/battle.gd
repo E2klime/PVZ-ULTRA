@@ -29,6 +29,7 @@ var max_base_integrity: int = 3
 
 var world: Node2D
 var board: Board
+var art: WorldArtConfig
 var entities: Node2D
 var fx_layer: Node2D
 var sun_layer: Node2D
@@ -94,13 +95,10 @@ func _build_world() -> void:
 	world = Node2D.new()
 	add_child(world)
 	board = Board.new()
-	board.backdrop = load(backdrop_path()) as Texture2D
 	board.set_layout(level.water)
-	board.ground_src = GROUND_SRC.get(_world_key(), GROUND_SRC["lawn"])
-	world.add_child(board)
 	entities = Node2D.new()
 	entities.y_sort_enabled = true
-	world.add_child(entities)
+	art = BattleArt.build(world, board, entities, level)
 	fx_layer = Node2D.new()
 	world.add_child(fx_layer)
 	sun_layer = Node2D.new()
@@ -123,24 +121,8 @@ func _build_world() -> void:
 			entities.add_child(m)
 			mowers.append(m)
 
-## Region of each backdrop (normalized) that is stretched under the 9x5 grid.
-const GROUND_SRC := {
-	"lawn": Rect2(0.2, 0.21, 0.53, 0.76), "pool": Rect2(0.24, 0.14, 0.54, 0.25),
-	"night": Rect2(0.29, 0.44, 0.49, 0.42), "desert": Rect2(0.31, 0.16, 0.445, 0.68),
-	"roof": Rect2(0.276, 0.326, 0.465, 0.455), "frost": Rect2(0.276, 0.365, 0.45, 0.365),
-	"factory": Rect2(0.305, 0.47, 0.35, 0.35), "moon": Rect2(0.24, 0.26, 0.53, 0.55),
-}
-
 func _world_key() -> String:
-	var w := String(level.world_id) if level else "lawn"
-	if w == "" and level:
-		w = String(level.id).get_slice("_", 0)
-	return w if GROUND_SRC.has(w) else "lawn"
-
-## Generated battle backdrop for the current world.
-func backdrop_path() -> String:
-	var path := "res://assets/art/bg/battle_%s.jpg" % _world_key()
-	return path if ResourceLoader.exists(path) else "res://assets/art/bg/battle_lawn.jpg"
+	return String(WorldArtLoader.world_key(level))
 
 func _spawn_preview_zombies() -> void:
 	var ids: Array[StringName] = []

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="WorldArtConfig" load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://core/art/world_art_config.gd" id="0_cfg"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/environment.jpg" id="1_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/ground.png" id="2_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/edge.png" id="3_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/garden_kit/contact_shadow.png" id="4_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/fringe_0.png" id="5_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/fringe_1.png" id="6_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/fringe_2.png" id="7_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/fringe_3.png" id="8_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/fringe_4.png" id="9_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/lawn/tuft.png" id="10_tex"]
+
+[resource]
+script = ExtResource("0_cfg")
+environment = ExtResource("1_tex")
+ground = ExtResource("2_tex")
+edge = ExtResource("3_tex")
+edge_margin = 40.0
+fringe = Array[Texture2D]([ExtResource("5_tex"), ExtResource("6_tex"), ExtResource("7_tex"), ExtResource("8_tex"), ExtResource("9_tex")])
+fringe_offset_y = -20.0
+tuft = ExtResource("10_tex")
+contact_shadow = ExtResource("4_tex")
+contact_shadow_color = Color(1, 1, 1, 0.8)
+contact_shadow_offset = Vector2(10, 0)
+light_tint = Color(1.0000, 1.0000, 1.0000, 1.000)
+accent = Color(0.4980, 0.6980, 0.2902, 1.000)
+ground_type = &"grass"

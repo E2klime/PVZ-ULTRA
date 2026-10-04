@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_producer.gd" id="1_y4yvx"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_0u5rc"]
+
+[resource]
+script = ExtResource("2_0u5rc")
+id = &"twin_sunbud"
+name_key = "PLANT_TWIN_SUNBUD_NAME"
+desc_key = "PLANT_TWIN_SUNBUD_DESC"
+cost = 150
+role = &"producer"
+is_seed = false
+is_hybrid = true
+behavior = ExtResource("1_y4yvx")
+shots = 2
+sun_amount = 25
+color_main = Color(1, 0.72, 0.18, 1)
+color_accent = Color(0.62, 0.4, 0.18, 1)

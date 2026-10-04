@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FusionRecipe" format=3]
+
+[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1_mddpv"]
+
+[resource]
+script = ExtResource("1_mddpv")
+base_id = &"twin_pod"
+catalyst_id = &"pepper_stinger"
+result_id = &"needle_volley"

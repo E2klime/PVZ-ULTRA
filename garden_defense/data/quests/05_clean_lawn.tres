@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QuestData" format=3]
+
+[ext_resource type="Script" path="res://core/data/quest_data.gd" id="1_rmiia"]
+
+[resource]
+script = ExtResource("1_rmiia")
+id = &"clean_lawn"
+title_key = "QUEST_CLEAN_LAWN_TITLE"
+desc_key = "QUEST_CLEAN_LAWN_DESC"
+stat = &"clean_wins"
+amount = 3
+reward_coins = 100
+reward_hint = true

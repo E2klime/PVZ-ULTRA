@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FusionRecipe" format=3]
+
+[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1_6nbhi"]
+
+[resource]
+script = ExtResource("1_6nbhi")
+base_id = &"thorn_mine"
+catalyst_id = &"ember_berry"
+result_id = &"volcano_mine"

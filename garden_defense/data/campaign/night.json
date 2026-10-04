@@ -1,0 +1,6181 @@
+{
+ "schema_version": 1,
+ "id": "night",
+ "name": "3 · Midnight Cemetery",
+ "order": 2,
+ "previous": "pool",
+ "color": "#655480",
+ "rule_text": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential.",
+ "levels": [
+  {
+   "id": "night_01",
+   "number": 1,
+   "title": "3-01 · Graveyard Orientation",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Establish economy and cover all five lanes.",
+   "joke": "The welcome mat says hello, not all-you-can-eat. The cemetery quiet hours have been postponed indefinitely. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "intro",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.55
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 143,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_02",
+   "number": 2,
+   "title": "3-02 · Moonlight on Credit",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Build sun production before doubling your shooters.",
+   "joke": "Sunlight remains free. The zombie subscription is harder to cancel. Necromancy is not covered by the employee handbook. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "economy",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 4.97
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.68
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 6.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 146,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_03",
+   "number": 3,
+   "title": "3-03 · Lantern Tax",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Local traffic cone promoted to middle management. The ghost requested a window seat in a building without windows. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "lantern_thief",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 1.61
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 6.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 2.83
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 149,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_04",
+   "number": 4,
+   "title": "3-04 · HR Necromancy",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "The doctor recommends more brains. Seek a second opinion. The disco has a strict bring-your-own-pulse policy. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 2.25
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 5.75
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.43
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "necromancer",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 152,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_05",
+   "number": 5,
+   "title": "3-05 · Dreamwalk This Way",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Your delivery is three lanes away and marked delivered. The grave digger has started charging by the encore. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "dreamwalker",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 155,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_06",
+   "number": 6,
+   "title": "3-06 · No Mower After Midnight",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. No mowers. Any breach fails the mission. Also lose no more than 8 plants.",
+   "joke": "The mowers have requested a mental-health day. The grave digger has started charging by the encore. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "mowerless",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "no_breach",
+     "target": 0
+    },
+    {
+     "type": "loss_limit",
+     "target": 8
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 5.87
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 3.11
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.31
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 770,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": false,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 158,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_07",
+   "number": 7,
+   "title": "3-07 · Root of All Evil",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Lose no more than 3 plants to attacks or shoveling. Single-use plants do not count.",
+   "joke": "The roots have formed a union. Please keep them alive. Necromancy is not covered by the employee handbook. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "preserve",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 3
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.81
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.21
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 3.78
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 820,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 161,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_08",
+   "number": 8,
+   "title": "3-08 · Disco in the Wrong Grave",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Turn signals are apparently a living-person feature. The ghost requested a window seat in a building without windows. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 4.97
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 5.06
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.33
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 4.41
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 164,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_09",
+   "number": 9,
+   "title": "3-09 · The Midnight Reserve",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Hold 4000 unspent sun and clear all waves. Collection continues after the last zombie.",
+   "joke": "Four thousand sun in savings. Still cannot afford a garden shed. The disco has a strict bring-your-own-pulse policy. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "bank",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "bank_sun",
+     "target": 4000
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 1.14
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 5.05
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": true,
+   "sky_sun_value": 75,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 167,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_10",
+   "number": 10,
+   "title": "3-10 · Twenty Tombstone Planters",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Win with at most 20 planting actions, including grafts and rafts.",
+   "joke": "Twenty plants. Infinite unsolicited gardening opinions. The cemetery quiet hours have been postponed indefinitely. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "limit",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 20
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.62
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.27
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 3.66
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 720,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 170,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_11",
+   "number": 11,
+   "title": "3-11 · Interns from Accounting",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Clear the fast waves within 330 seconds.",
+   "joke": "An internship with excellent exposure and no pulse. The cemetery quiet hours have been postponed indefinitely. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "rush",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "time_limit",
+     "target": 330
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 5.6
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "necromancer",
+       "row": 0,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 5.6
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 3.6
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 2.16
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 5.6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 5.6
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 7.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 3.6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 5.6
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 7.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 3.64
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 745,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 35,
+   "wave_interval": 27,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 173,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_12",
+   "number": 12,
+   "title": "3-12 · Five Eulogies Maximum",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Lose no more than 5 plants. Transformations and deliberate single-use plants are exempt.",
+   "joke": "Five losses are a tragedy. Six are a failed level. The disco has a strict bring-your-own-pulse policy. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "loss",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 2.09
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.52
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "bean_patriarch",
+   "reward_feature": "",
+   "reward_coins": 176,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_13",
+   "number": 13,
+   "title": "3-13 · Graves Need Permits",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Dark crossed tiles cannot be planted. Zombies still travel through them.",
+   "joke": "These tiles are reserved for a future parking lot. Necromancy is not covered by the employee handbook. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Slingshots target flying plants.",
+   "scenario": "blocked",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    "....#....",
+    ".....#...",
+    "......#..",
+    ".....#...",
+    "....#...."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 1.07
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 179,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_14",
+   "number": 14,
+   "title": "3-14 · Mandatory Disco",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Cover the specialist wave; avoid relying on a single front wall.",
+   "joke": "This wave has read the terms and conditions. You have not. Necromancy is not covered by the employee handbook. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "elite",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 3.66
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.12
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 5.37
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 182,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_15",
+   "number": 15,
+   "title": "3-15 · Graftyard Shift",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Create at least 2 grafts and clear the waves. Same-plant twin hybrids count too.",
+   "joke": "Botany: now with legally questionable welding. The grave digger has started charging by the encore.",
+   "scenario": "graft",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "graft_count",
+     "target": 2
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "frost_mint",
+    "bark_wall"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 820,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 185,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_16",
+   "number": 16,
+   "title": "3-16 · Ghostbuster Without Plants",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. No plants or seeds required. Click a board tile to fire a free recharging area cannon.",
+   "joke": "No plants today. The salad has authorized artillery. The cemetery quiet hours have been postponed indefinitely.",
+   "scenario": "artillery",
+   "mode": "artillery",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "lantern_thief",
+    "necromancer",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 0,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 8,
+   "wave_interval": 24,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 188,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_17",
+   "number": 17,
+   "title": "3-17 · Funeral Arrangement",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. The supplied seed menu is fixed. Supplies are borrowed even if not yet unlocked.",
+   "joke": "The chef insists the menu is a tactical constraint. The ghost requested a window seat in a building without windows.",
+   "scenario": "fixed",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "thorn_mine",
+    "ember_berry"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 670,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 191,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_18",
+   "number": 18,
+   "title": "3-18 · Resurrection Paperwork",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Summoners and small runners require rear coverage, not just one front tank.",
+   "joke": "Fresh interns have arrived. Their onboarding is your problem. The ghost requested a window seat in a building without windows. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "summons",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 2.47
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 1,
+       "delay": 4.88
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 8.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 1.67
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 3.76
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "disco_manager",
+    "necromancer",
+    "intern_imp",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 194,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_19",
+   "number": 19,
+   "title": "3-19 · Power Cut Picnic",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. No sky sun. Start from the supplied savings and plant your own economy.",
+   "joke": "Solar power at night: accounting would like a word. The ghost requested a window seat in a building without windows.",
+   "scenario": "blackout",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "burrower",
+       "row": 1,
+       "delay": 6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "burrower",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "hurdler",
+    "burrower",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 720,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 197,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_20",
+   "number": 20,
+   "title": "3-20 · Seeds for the Sleepless",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Fixed five-seed deck (graft two Pod Shooters into a Twin Pod for double fire) and a total limit of 24 planting actions.",
+   "joke": "The seeds were packed by a minimalist. The grave digger has started charging by the encore.",
+   "scenario": "limited_fixed",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 24
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "burrower",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "necromancer",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint",
+    "pepper_stinger"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 770,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 200,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_21",
+   "number": 21,
+   "title": "3-21 · Protect the Night Watch",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. No planting. A mature garden is provided. Protect it; click a damaged plant for a free 1200-HP repair every 3 seconds. Crafted tools are optional.",
+   "joke": "The garden is already planted. Your job description says keep it that way. The cemetery quiet hours have been postponed indefinitely.",
+   "scenario": "holdout",
+   "mode": "holdout",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [
+    {
+     "id": "sunbud",
+     "row": 0,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 0,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 0,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 1,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 1,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 1,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 2,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 2,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 2,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 3,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 3,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 3,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 4,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 4,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 4,
+     "col": 5
+    }
+   ],
+   "start_sun": 570,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 10,
+   "wave_interval": 28,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 203,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "night_22",
+   "number": 22,
+   "title": "3-22 · Forty-Five Hundred Moons",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Collect a total of 4500 sun in this battle. Spending does not reduce this total.",
+   "joke": "Collect 4000 sun. Do not stare directly at the counter. Necromancy is not covered by the employee handbook. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "collect",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "collect_sun",
+     "target": 4500
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.54
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 2.37
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 5.12
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 0,
+       "delay": 10.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 4.59
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 3.4
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "burrower",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 8.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 4.28
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 570,
+   "sky_sun": true,
+   "sky_sun_value": 100,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 206,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_23",
+   "number": 23,
+   "title": "3-23 · Bucket Beyond the Grave",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Armor soaks projectiles. Save explosives for tightly grouped helmets.",
+   "joke": "Buckets protect brains, not fragile workplace morale. The disco has a strict bring-your-own-pulse policy. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "armor",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.5
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 3.32
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 6.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 2.49
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 2.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 1.76
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "disco_manager",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 6.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "bucket_head",
+    "shield_carrier",
+    "disco_manager",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 720,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 209,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_24",
+   "number": 24,
+   "title": "3-24 · Last Dance at Dawn",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Long mixed assault. Pace your economy: the waves never stop being polite about it.",
+   "joke": "The committee has decided to attack simultaneously. The disco has a strict bring-your-own-pulse policy. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "gauntlet",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 12.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 12.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "sprinter",
+       "row": 3,
+       "delay": 14.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 10.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 5.68
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 12.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 14.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 12.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 14.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 1.23
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 1,
+       "delay": 14.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 16.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 4.2
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "sprinter",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 16.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "sprinter",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 870,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 212,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 0
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "night_25",
+   "number": 25,
+   "title": "3-25 · Granite Grave Mistake",
+   "briefing": "No natural sky sun. Moonlight pulses give 50 sun; producers are essential. Two giant arrivals with a rebuilding window. Counter its special ability, then clear the field.",
+   "joke": "The giant brought a club. The homeowners association brought a fine. The grave digger has started charging by the encore. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "boss",
+   "mode": "defense",
+   "field_rule": "night",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "sprinter",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "necromancer",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "burrower",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 0,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 3.42
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "dreamwalker",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "lantern_thief",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "burrower",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 12.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "disco_manager",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "lantern_thief",
+    "necromancer",
+    "dreamwalker",
+    "disco_manager",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "burrower",
+    "sprinter",
+    "gargantuan_granite",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 1045,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 8,
+   "mowers": true,
+   "reward_plant": "sun_sovereign",
+   "reward_feature": "",
+   "reward_coins": 215,
+   "materials": {
+    "compost": 4,
+    "scrap": 3,
+    "crystal": 1
+   },
+   "artillery_damage": 750,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  }
+ ],
+ "balance_revision": "v0.6"
+}

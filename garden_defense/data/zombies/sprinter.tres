@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+
+[ext_resource type="Script" path="res://entities/zombies/zombie.gd" id="1_67yjs"]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="2_3asom"]
+
+[resource]
+script = ExtResource("2_3asom")
+id = &"sprinter"
+name_key = "ZOMBIE_SPRINTER_NAME"
+desc_key = "ZOMBIE_SPRINTER_DESC"
+hp = 230
+speed = 0.36
+behavior = ExtResource("1_67yjs")
+threat_cost = 2.0
+weight = 4.0
+color_skin = Color(0.62, 0.75, 0.5, 1)
+color_cloth = Color(0.85, 0.85, 0.82, 1)
+tier = 1

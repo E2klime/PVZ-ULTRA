@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_freeze.gd" id="1_gx4d4"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_cejfa"]
+
+[resource]
+script = ExtResource("2_cejfa")
+id = &"rime_lettuce"
+name_key = "PLANT_RIME_LETTUCE_NAME"
+desc_key = "PLANT_RIME_LETTUCE_DESC"
+cost = 0
+recharge = 20.0
+role = &"freeze"
+tags = Array[StringName]([&"frost"])
+behavior = ExtResource("1_gx4d4")
+fusion_ready_time = 99.0
+freeze_time = 10.0
+color_main = Color(0.62, 0.86, 0.72, 1)
+color_accent = Color(0.8, 0.95, 0.88, 1)

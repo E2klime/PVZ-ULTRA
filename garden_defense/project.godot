@@ -1,0 +1,59 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Garden Defense"
+config/version="0.7.1"
+config/description="Eight-world, 200-level lane-defense campaign with grafting, crafting and modular mission rules."
+run/main_scene="res://ui/main.tscn"
+config/icon="res://assets/icon/icon.png"
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+EventBus="*res://autoload/event_bus.gd"
+DB="*res://autoload/data_registry.gd"
+SaveManager="*res://autoload/save_manager.gd"
+Settings="*res://autoload/settings.gd"
+GameState="*res://autoload/game_state.gd"
+Sfx="*res://autoload/audio_manager.gd"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=1
+gdscript/warnings/inferred_declaration=0
+gdscript/warnings/unsafe_property_access=0
+gdscript/warnings/unsafe_method_access=0
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/stretch/aspect.mobile="expand"
+window/handheld/orientation=4
+
+[gui]
+
+theme/custom="res://ui/theme.tres"
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=true
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://localization/translations.en.translation", "res://localization/translations.ru.translation", "res://localization/translations.zh_CN.translation", "res://localization/translations.ja.translation", "res://localization/translations.de.translation", "res://localization/content.en.translation", "res://localization/content.ru.translation", "res://localization/content.zh_CN.translation", "res://localization/content.ja.translation", "res://localization/content.de.translation")
+locale/fallback="en"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.16, 0.22, 0.14, 1)

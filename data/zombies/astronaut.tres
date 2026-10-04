@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/zombies/zombie_trickster.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"astronaut"
+name_key = "Astronaut"
+desc_key = "One small leap for an unpaid intern. A tall plant stops the jump."
+behavior = ExtResource("2")
+ability_kind = &"vault"
+hp = 520
+armor_hp = 250
+speed = 0.23
+damage = 100
+eat_interval = 0.5
+threat_cost = 2.6
+weight = 6.0
+ability_power = 40
+ability_interval = 10
+body_scale = 1.0
+armor_kind = &"bucket"
+color_skin = Color(0.45, 0.6299999999999999, 0.5900000000000001, 1)
+color_cloth = Color(0.25, 0.52, 0.62, 1)
+tier = 3

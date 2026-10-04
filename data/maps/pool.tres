@@ -1,0 +1,78 @@
+[gd_resource type="Resource" script_class="MapData" format=3]
+
+[ext_resource type="Script" path="res://core/data/map_node_data.gd" id="1_3onui"]
+[ext_resource type="Script" path="res://core/data/map_data.gd" id="2_qsfpc"]
+
+[sub_resource type="Resource" id="Resource_3onui"]
+script = ExtResource("1_3onui")
+id = &"p_01"
+position = Vector2(250, 770)
+level_id = &"pool_01"
+next_ids = Array[StringName]([&"p_02"])
+
+[sub_resource type="Resource" id="Resource_qsfpc"]
+script = ExtResource("1_3onui")
+id = &"p_02"
+position = Vector2(510, 640)
+level_id = &"pool_02"
+next_ids = Array[StringName]([&"p_03", &"p_shop"])
+
+[sub_resource type="Resource" id="Resource_yc0yb"]
+script = ExtResource("1_3onui")
+id = &"p_shop"
+type = 1
+position = Vector2(510, 900)
+optional = true
+
+[sub_resource type="Resource" id="Resource_8mlcq"]
+script = ExtResource("1_3onui")
+id = &"p_03"
+position = Vector2(800, 760)
+level_id = &"pool_03"
+next_ids = Array[StringName]([&"p_gate", &"p_b1"])
+
+[sub_resource type="Resource" id="Resource_sk56c"]
+script = ExtResource("1_3onui")
+id = &"p_b1"
+type = 3
+position = Vector2(1030, 920)
+level_id = &"pool_bonus_1"
+next_ids = Array[StringName]([&"p_04"])
+optional = true
+
+[sub_resource type="Resource" id="Resource_yqte3"]
+script = ExtResource("1_3onui")
+id = &"p_gate"
+type = 2
+position = Vector2(1050, 540)
+next_ids = Array[StringName]([&"p_04"])
+requires_stars = 10
+
+[sub_resource type="Resource" id="Resource_x1mqy"]
+script = ExtResource("1_3onui")
+id = &"p_04"
+position = Vector2(1280, 680)
+level_id = &"pool_04"
+next_ids = Array[StringName]([&"p_05"])
+
+[sub_resource type="Resource" id="Resource_s8fcu"]
+script = ExtResource("1_3onui")
+id = &"p_05"
+position = Vector2(1510, 480)
+level_id = &"pool_05"
+next_ids = Array[StringName]([&"p_06"])
+
+[sub_resource type="Resource" id="Resource_7rqov"]
+script = ExtResource("1_3onui")
+id = &"p_06"
+position = Vector2(1690, 260)
+level_id = &"pool_06"
+
+[resource]
+script = ExtResource("2_qsfpc")
+id = &"pool"
+name_key = "MAP_POOL_NAME"
+available = true
+tint = Color(0.23, 0.57, 0.78, 1)
+start_node = &"p_01"
+nodes = Array[ExtResource("1_3onui")]([SubResource("Resource_3onui"), SubResource("Resource_qsfpc"), SubResource("Resource_yc0yb"), SubResource("Resource_8mlcq"), SubResource("Resource_sk56c"), SubResource("Resource_yqte3"), SubResource("Resource_x1mqy"), SubResource("Resource_s8fcu"), SubResource("Resource_7rqov")])

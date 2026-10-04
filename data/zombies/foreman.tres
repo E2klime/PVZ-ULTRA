@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/zombies/zombie_support.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"foreman"
+name_key = "Foreman"
+desc_key = "The deadline is your doorstep. Moves nearby zombies forward."
+behavior = ExtResource("2")
+ability_kind = &"haste"
+hp = 620
+armor_hp = 300
+speed = 0.15
+damage = 100
+eat_interval = 0.5
+threat_cost = 3.1
+weight = 6.0
+ability_power = 45
+ability_interval = 10
+body_scale = 1.0
+armor_kind = &"bucket"
+color_skin = Color(0.61, 0.69, 0.49, 1)
+color_cloth = Color(0.6000000000000001, 0.36000000000000004, 0.45999999999999996, 1)
+tier = 3

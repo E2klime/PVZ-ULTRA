@@ -1,0 +1,12 @@
+.godot/
+exports/
+*.tmp
+__pycache__/
+
+# art pipeline
+art_build/
+review/shots/latest/
+review/contact_sheets/
+review/reports/
+.type/
+*.import.tmp

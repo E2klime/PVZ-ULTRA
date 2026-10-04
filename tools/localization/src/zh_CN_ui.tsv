@@ -1,0 +1,573 @@
+ALMANAC_FEE	手续费 +{n}
+ALMANAC_FOUND	已发现 {n}/{max} 种嫁接。
+ALMANAC_GRAFTS	嫁接
+ALMANAC_GRAFT_COST	{n} 阳光（种子 + {fee} 手续费）
+ALMANAC_GRAFT_HELP	嫁接需要消耗催化种子加上一笔手续费。基础植物必须已长成，且每关都会限制可保留的杂交植物数量。两株同种植物也可以有配方。
+ALMANAC_HINTED	已提示
+ALMANAC_MAX_ON_BOARD	草坪上同时最多只能有 {n} 株。
+ALMANAC_NOT_TRIED	尚未尝试
+ALMANAC_PICK	请在左侧选择一个条目。
+ALMANAC_PLANTS	植物
+ALMANAC_RECIPE	嫁接：{a} + {b}
+ALMANAC_ZOMBIES	僵尸
+ARMOR_BUCKET	铁桶
+ARMOR_CONE	路障
+ARMOR_HELMET	头盔
+ARMOR_NONE	无
+ARMOR_SHIELD	盾牌
+BANNER_GARGANTUAN_FURNACE	熔炉巨人：沙拉预热中。
+BANNER_GARGANTUAN_GRANITE	花岗岩巨人：实习生来袭！
+BANNER_GARGANTUAN_STORM	风暴巨人：你的保修已过期。
+CRAFT_INSTALLED	（已安装）
+CRAFT_NEEDS_TIER	（需先达到第 {n} 级）
+CRAFT_OWNED	（拥有 {n} 个）
+CRAFT_UNLOCKED	（已解锁）
+DIFFICULTY_HARD	困难
+DIFFICULTY_HARD_PLUS	困难+
+DIFFICULTY_STANDARD	标准
+DIFF_DESC_HARD	僵尸增加 15%，啃咬伤害 +15%，受到的伤害减少 10%。速度与波次节奏不变。金币 ×1.25。
+DIFF_DESC_HARD_PLUS	僵尸增加 25%，速度 +5%，啃咬伤害 +30%，受到的伤害减少 15%，波次间隔缩短 5%。金币 ×1.5。
+DIFF_DESC_STANDARD	预期的游戏体验。
+ENDLESS_REACHED	到达第 {n} 波  ·  最佳：{best}
+FAIL_BREACH	房子被攻破了。门口的欢迎垫可不是邀请函。
+FAIL_LOSSES	损失的植物过多：{n}/{max}
+FAIL_STALL	花园陷入沉寂：已没有阳光收入来完成目标。
+FAIL_TIME	超出时间限制。
+FEATURE_GRAFT	嫁接已解锁！只要存在配方，把种子放到已长成的植物上就能将它们融合成杂交植物。两株同种植物也能组成双子杂交植物（阳光花苞 + 阳光花苞 = 双子阳光花苞）。杂交植物不能直接种植。
+FIELD_CONVEYOR	传送带
+FIELD_FROST	霜冻
+FIELD_HEAT	酷热
+FIELD_LOW_GRAVITY	低重力
+FIELD_NIGHT	夜晚
+FIELD_NORMAL	普通
+FIELD_PULSE	第 {n} 行场地脉冲：{rule}
+FIELD_TIDE	潮汐
+FIELD_WIND	强风
+GAME_FOOTER	同人项目 · 原创美术 · v0.7：纯杂交与多语言
+GAME_SUBTITLE	种植。嫁接。守住草坪。
+GAME_TITLE	花园保卫战
+HELP_BASICS_B	收集[b]阳光[/b]，用来购买左侧的种子包。先点种子包，再点格子。僵尸从右边走来；如果有僵尸在没有割草机的行抵达你的房子，你就输了。顶部进度条显示波次进度，旗帜标记大波僵尸。\n\n用[b]速度[/b]（右上）快进，用[b]铲子[/b]（右下）移除植物。
+HELP_BASICS_T	基础
+HELP_FUSION_B	把种子种在同一层上相匹配的植物上会得到[b]杂交植物[/b]——顺序无关。不同层的植物（例如南瓜壳 + 荆棘藤）只能用手套融合。已发现的配方会出现在图鉴中。\n\n植物永远不会原地升级：每种组合，包括两株同种植物，都是杂交配方。
+HELP_FUSION_T	融合
+HELP_GLOVE_B	点击[b]手套[/b]（右下），再点一株植物将其拿起，然后点目的地。\n- 空格子：植物移动到那里（保留生命值）。\n- 另一株植物：尝试融合，即使跨层也可以。\n每次移动后手套需要充能几秒。
+HELP_GLOVE_T	手套
+HELP_LAYERS_B	每个格子有四层：\n[b]v 底层[/b]——地被植物，如豌豆苗床和荆棘地毯。低空射击，大多数僵尸会无视它。\n[b]主层[/b]——普通植物。\n[b]o 外壳层[/b]——护甲，如南瓜壳；僵尸必须先吃掉它。\n[b]^ 空中层[/b]——飞行植物，如大蒜无人机。地面僵尸够不着，只有气球僵尸和弹弓僵尸可以。
+HELP_LAYERS_T	层
+HELP_LEGENDARY_B	传说植物带有金色边框。它们是战役后期关卡的稀有奖励：神盾南瓜、雷霆根、天龙果、时光四叶草、豆族长老、星落西瓜等。它们需要大量阳光，充能时间也很长。
+HELP_LEGENDARY_T	传说植物
+HELP_MODES_B	[b]冒险[/b]——8 个世界共 200 关，包含特殊任务。\n[b]无尽模式[/b]——尽可能撑过更多波次，会保存你的最佳波次。\n[b]每日挑战[/b]——每天一个固定种子的新关卡，附带额外奖励。
+HELP_MODES_T	游戏模式
+HELP_TWINS_B	没有升级也没有星级：植物永远不会原地变强。相反，一些[b]同种[/b]植物的组合拥有自己的杂交配方：\n- 阳光花苞 + 阳光花苞 = 双子阳光花苞\n- 豆荚射手 + 豆荚射手 = 双发豆荚\n- 树皮墙 + 树皮墙 = 铁皮树墙\n一些不寻常的组合也可以，例如霜冻生菜 + 豆荚射手 = 冰川射手。双子杂交植物和其他杂交植物一样，会占用本关的杂交名额。
+HELP_TWINS_T	双子杂交
+HELP_ZOMBIES_B	僵尸有[b]等级[/b]（普通、装甲、精英、首领）和[b]类型[/b]：\n- 地面：所有攻击都能命中。\n- 低矮（纸箱）：直线子弹会从上方飞过；请使用低空射击、投石车、尖刺或爆炸。\n- 空中（气球）：飞越大多数植物。用防空（尖刺仙人掌）、飞行植物、风、蜜蜂、冰冻或爆炸来对付。\n弹弓僵尸会远距离攻击飞行植物。
+HELP_ZOMBIES_T	僵尸类型
+HUB_CAMPAIGN	战役：已通关 {n}/{max} · 世界按顺序解锁
+HUB_CLEARED	已通关 {n}/{max}
+HUB_HEADER	花园保卫战 · 八个世界
+HUB_LAWN_TAG	经典战役 · 16 关
+HUB_LOCKED	将在后续更新中推出
+HUB_NEEDS_WORLD	通关{name}的全部 {n} 关
+HUB_POOL_TAG	泳池路线 · 7 关
+HUB_READY	准备种植
+HUB_TITLE	选择花园
+HUD_BASE_INTEGRITY	大门 {n}/{max}
+HUD_BREACH	被突破！大门完整度：{n}
+HUD_FINAL_WAVE	最后一波！
+HUD_GLOVE_MOVE	手套：点空格子移动，点植物融合
+HUD_GLOVE_PICK	手套：点一株植物将其拿起
+HUD_GRAFT_INTO	嫁接 → {name}（{cost}）
+HUD_HUGE_WAVE	一大波僵尸即将来袭！
+HUD_HYBRIDS	杂交 {n}/{max}
+HUD_MENU	菜单
+HUD_MOWER_KIT	修理割草机（{n}）
+HUD_PAUSE	暂停
+HUD_PAUSED	已暂停
+HUD_READY_SET_PLANT	预备……开始……种植！
+HUD_SHOVEL	铲子
+HUD_SPEED	游戏速度
+HUD_WAVE_WARNING	大波僵尸 {n} 秒后到来…
+IMMUNE_DEVOUR	吞噬
+IMMUNE_FREEZE	冰冻
+IMMUNE_PULL	牵引
+IMMUNE_PUSH	击退
+LANG_DE	Deutsch
+LANG_EN	English
+LANG_JA	日本語
+LANG_RU	Русский
+LANG_ZH_CN	简体中文
+LAYER_AIR	空中层
+LAYER_MAIN	主层
+LAYER_SHELL	外壳层
+LAYER_UNDER	底层
+MAP_BEACH_NAME	海滩
+MAP_BEST	最佳：{name}
+MAP_BONUS	奖励关
+MAP_CLEARED	已通关 ★
+MAP_DIFFICULTY_READONLY	难度：{name}（可在设置中更改）
+MAP_GATE	星之门
+MAP_GATE_DESC	需要 {n} 颗星才能打开。你有 {have} 颗。
+MAP_GRAVEYARD_NAME	夜间墓地
+MAP_JUNGLE_NAME	夜间丛林
+MAP_LAWN_NAME	草坪
+MAP_LOCKED	未解锁。请先通关相邻节点。
+MAP_NEEDS_STARS	需要 {n} 颗星。
+MAP_OASIS_NAME	绿洲
+MAP_OBJECTIVES	目标：{list}
+MAP_POOL_NAME	泳池
+MAP_REWARD_COINS	奖励：{n} 金币
+MAP_REWARD_PLANT	奖励：{name}
+MAP_ROOF_NAME	屋顶
+MAP_SHOP_DESC	花金币购买种子槽、初始阳光、备用割草机和配方提示。
+MAP_TUNDRA_NAME	冻原
+MAT_COMPOST	堆肥
+MAT_CRYSTAL	水晶
+MAT_SCRAP	废料
+MENU_ENDLESS_BEST	无尽最佳：第 {n} 波
+MENU_PROGRESS	已通关：{n}/{max}
+MISSION_CANNON	点击格子：火炮 {s} 秒
+MISSION_REPAIR	点击植物：免费修复 {s} 秒
+MODE_DAILY	每日挑战
+MODE_ENDLESS	无尽模式
+MSG_BAD_SURFACE	这株植物不能长在这里
+MSG_CAMPAIGN_VICTORY_RULE	战役胜利需要完成所有波次和目标。
+MSG_CELL_OCCUPIED	这里已经种了东西
+MSG_COINS_GAINED	+{n} 金币
+MSG_GLOVE_COOLDOWN	手套正在充能（{s} 秒）
+MSG_GLOVE_PICK	请先拿起一株植物
+MSG_GRAFT_DISABLED	这里无法嫁接
+MSG_HINT_GAINED	提示：试试 {a} + {b}
+MSG_HYBRID_CAP	已达到杂交植物上限
+MSG_LAYER_OCCUPIED	该格子的这一层已被占用
+MSG_LEGENDARY_LIMIT	每种传说植物同时只能有一株
+MSG_NEEDS_RAFT	水面：请先在这里种睡莲筏
+MSG_NOT_ENOUGH_SUN	阳光不足
+MSG_NOT_READY	先让它长一会儿
+MSG_NO_RECIPE	这两株无法嫁接
+MSG_QUEST_DONE	任务完成：{name}！请到任务日志领取。
+MSG_RECHARGING	种子正在充能
+MSG_RECIPE_DISCOVERED	新嫁接：{name}！
+OBJTYPE_BANK_SUN	存下 {n} 阳光
+OBJTYPE_COLLECT_SUN	收集 {n} 阳光
+OBJTYPE_GRAFT_COUNT	完成 {n} 次嫁接
+OBJTYPE_LOSS_LIMIT	最多损失 {n} 株植物
+OBJTYPE_NO_BREACH	最多被突破 {n} 次
+OBJTYPE_PLANT_LIMIT	最多种植 {n} 次
+OBJTYPE_TIME_LIMIT	在 {n} 秒内完成
+OBJ_BANK_SUN	存下阳光 {n}/{max}
+OBJ_BREACHES	突破 {n}/{max}
+OBJ_CLEAR_ALL_WAVES	击退所有波次
+OBJ_COLLECT_SUN	收集阳光 {n}/{max}
+OBJ_DEFAULT	击退所有波次并保护房子。
+OBJ_GRAFTS	嫁接 {n}/{max}
+OBJ_LOSSES	损失 {n}/{max}
+OBJ_NO_PLANTING	本任务不能种植。请使用现有的防御。
+OBJ_PLANT_ACTIONS	种植次数 {n}/{max}
+OBJ_PLANT_LIMIT_REACHED	已达种植上限（{n}/{max}）。嫁接也算一次种植。
+OBJ_TILE_BLOCKED	这个格子被封锁了。连杂草都尊重审批办公室。
+OBJ_TIME	时间 {n}/{max} 秒
+OBJ_WAVES_CLEARED	波次已清除！请完成目标：{s}
+PLANT_AEGIS_PUMPKIN_DESC	传说金色外壳。无人打扰时会再生，并把啃咬反弹给僵尸。
+PLANT_AEGIS_PUMPKIN_NAME	神盾南瓜
+PLANT_BARK_WALL_DESC	一截粗壮的树桩，僵尸只能一口口啃穿。受损时会出现裂纹。
+PLANT_BARK_WALL_NAME	树皮墙
+PLANT_BEAN_PATRIARCH_DESC	传说长老豆。使同行同列的所有植物速度提升 35%，并会掉落阳光。
+PLANT_BEAN_PATRIARCH_NAME	豆族长老
+PLANT_BEE_CANNON_DESC	豆荚射手与蜂巢荚的杂交。发射最多 4 只蜜蜂组成的蜂群，沿着这一行追击僵尸。
+PLANT_BRAMBLE_VINE_DESC	一团带刺的藤蔓。僵尸每咬一口都会损失一些生命。
+PLANT_BRAMBLE_VINE_NAME	荆棘藤
+PLANT_CHILI_DRONE_DESC	杂交飞行无人机。火焰蒜瓣会灼烧僵尸，让它们作呕并换行。
+PLANT_CHILI_DRONE_NAME	辣椒无人机
+PLANT_CHRONO_CLOVER_DESC	传说四叶时钟。每 14 秒减速草坪上的所有僵尸，并使所有种子充能时间缩短 2 秒。
+PLANT_CHRONO_CLOVER_NAME	时光四叶草
+PLANT_CLOD_CATAPULT_DESC	越过盾牌和屏障投掷土块。能命中纸箱僵尸，并溅射附近的僵尸。
+PLANT_CLOD_CATAPULT_NAME	土块投石车
+PLANT_CLOUD_BLOOM_DESC	乘着小云朵的花。在高处产出阳光，不怕地面僵尸，可以叠在任何植物上方。
+PLANT_CLOUD_BLOOM_NAME	云朵花
+PLANT_DANDELION_PUFF_DESC	便宜。向附近所有僵尸喷射种子，包括相邻行。
+PLANT_DANDELION_PUFF_NAME	蒲公英
+PLANT_DAWN_BLOOM_DESC	阳光花苞 + 灯笼花。产出 40 阳光，并略微增强相邻植物。和花一样脆弱。
+PLANT_DAWN_BLOOM_NAME	黎明花
+PLANT_ELDER_OAK_DESC	传说。拥有 9000 生命的古老城墙。带刺树皮会伤害啃咬者，无人打扰时会再生，且高到足以挡住撑杆僵尸。
+PLANT_ELDER_OAK_NAME	古橡树
+PLANT_EMBER_BERRY_DESC	种下后片刻爆炸，焚烧 3×3 范围内的一切。
+PLANT_EMBER_BERRY_NAME	烬火莓
+PLANT_EMBER_POD_DESC	豆荚射手与烬火莓的杂交。发射燃烧豆荚，让僵尸持续灼烧几秒。
+PLANT_EMBER_SNAPPER_DESC	咬咬夹与烬火莓的杂交。用炽热的一口整个吞下僵尸，然后咀嚼一段时间。
+PLANT_EMBER_VINE_DESC	荆棘藤与烬火莓的杂交。用燃烧的藤条鞭打附近僵尸，造成溅射并点燃它们。
+PLANT_FROST_BARRIER_DESC	树皮墙与霜薄荷的杂交。极其坚固的冰墙，会伤害每个啃咬它的僵尸。
+PLANT_FROST_BEDDING_DESC	杂交底层植物。低空冰弹会减速纸箱僵尸和地面僵尸。
+PLANT_FROST_BEDDING_NAME	冰霜苗床
+PLANT_FROST_MINT_DESC	冰冷的豆荚让僵尸的行走和啃咬速度减半。
+PLANT_FROST_MINT_NAME	霜薄荷
+PLANT_GALE_FERN_DESC	每隔几秒把前方的僵尸吹退将近一格。
+PLANT_GALE_FERN_NAME	疾风蕨
+PLANT_GALE_POD_DESC	疾风蕨与豆荚射手的杂交。带风的豆荚会把僵尸沿着这一行推回去。
+PLANT_GARLIC_DRONE_DESC	会飞的蒜头。蒜瓣能命中任何僵尸，让它作呕并换行。地面僵尸够不着它——只有气球和弹弓可以。
+PLANT_GARLIC_DRONE_NAME	大蒜无人机
+PLANT_GLACIAL_HIVE_DESC	蜂巢荚与霜薄荷的杂交。放出最多 4 只冰霜蜜蜂，攻击又狠又快。
+PLANT_GLACIER_SHOOTER_DESC	豆荚射手 + 霜薄荷。减速更强，子弹还能多穿透一个僵尸。射速稍慢。
+PLANT_GLACIER_SHOOTER_NAME	冰川射手
+PLANT_HAIL_VOLLEY_DESC	双发豆荚与霜薄荷的杂交。每轮发射三颗冰豆荚，并减速僵尸。
+PLANT_HEALING_LANTERN_DESC	灯笼花与阳光花苞的杂交。大幅增强相邻植物，并缓慢治疗自己。
+PLANT_HIVE_POD_DESC	放出最多三只蜜蜂，追击任意行中最近的僵尸。蜜蜂会飞过盾牌。
+PLANT_HIVE_POD_NAME	蜂巢荚
+PLANT_ICE_MINE_DESC	荆棘地雷与霜薄荷的杂交。几秒后完成布置，随后以冰冻爆炸引爆，并减速幸存者。
+PLANT_IRONBARK_WALL_DESC	两面树皮墙的杂交。坚固程度翻倍，且高到足以挡住撑杆僵尸。
+PLANT_IRONBARK_WALL_NAME	铁皮树墙
+PLANT_LANTERN_BLOOM_DESC	它的光芒让周围 8 株植物工作效率提高 25%。
+PLANT_LANTERN_BLOOM_NAME	灯笼花
+PLANT_LAVA_CATAPULT_DESC	投掷熔岩土块的杂交投石车：溅射加燃烧。
+PLANT_LAVA_CATAPULT_NAME	熔岩投石车
+PLANT_LILY_RAFT_DESC	漂浮在泳池水面上。任何草坪植物都能种在它上面。如果那株植物被吃掉，筏子仍会留下。
+PLANT_LILY_RAFT_NAME	睡莲筏
+PLANT_NEEDLE_STORM_DESC	辣椒刺与灯笼花的杂交。发射闪电针，可在最多 3 个额外僵尸之间跳跃。
+PLANT_NEEDLE_VOLLEY_DESC	双发豆荚 + 辣椒刺。连发三根穿透尖针。装填时间长。
+PLANT_NEEDLE_VOLLEY_NAME	连发针
+PLANT_PEA_BEDDING_DESC	种在其他植物下方的小豆荚地毯。低空射击，能命中纸箱僵尸。只有上面没有植物时才会被吃掉。
+PLANT_PEA_BEDDING_NAME	豌豆苗床
+PLANT_PEPPER_HIVE_DESC	蜂巢荚与辣椒刺的杂交。放出最多 5 只辣味蜜蜂，蜇得很痛。
+PLANT_PEPPER_STINGER_DESC	发射一根能穿透整行所有僵尸的尖刺。装填较慢。
+PLANT_PEPPER_STINGER_NAME	辣椒刺
+PLANT_PEPPER_WALL_DESC	树皮墙与辣椒刺的杂交。布满火辣尖刺的坚固墙壁，会重创啃咬它的僵尸。
+PLANT_PHOENIX_LILY_DESC	传说。发射烈焰种子，穿透两个僵尸并将其点燃。被摧毁时会浴火重生一次。
+PLANT_PHOENIX_LILY_NAME	凤凰百合
+PLANT_POD_SHOOTER_DESC	向本行的僵尸发射豆荚。
+PLANT_POD_SHOOTER_NAME	豆荚射手
+PLANT_PUMPKIN_SHELL_DESC	套在其他植物外面。僵尸必须先啃穿外壳。可种在空地上或任何植物上。
+PLANT_PUMPKIN_SHELL_NAME	南瓜壳
+PLANT_RIME_LETTUCE_DESC	不消耗阳光。第一个踩上它的僵尸会被冻住 10 秒（巨汉僵尸 5 秒），之后还会持续寒冷一段时间。一次性。
+PLANT_RIME_LETTUCE_NAME	霜冻生菜
+PLANT_SKY_DRAGON_DESC	传说飞行火龙果。沿本行向前喷火 4 格，烧毁一切——包括气球。
+PLANT_SKY_DRAGON_NAME	天龙果
+PLANT_SNAPPER_TRAP_DESC	把前方的僵尸整个吞下，然后咀嚼 40 秒。巨汉僵尸太大了：只能咬它们。
+PLANT_SNAPPER_TRAP_NAME	咬咬夹
+PLANT_SOLAR_BARRICADE_DESC	树皮墙与阳光花苞的杂交。坚固的墙壁，还能产出阳光。
+PLANT_SOLAR_TURRET_DESC	阳光花苞与豆荚射手的杂交。一边发射豆荚，一边产出阳光。
+PLANT_SPINE_CACTUS_DESC	发射穿透尖刺，还能扎破气球、命中高空飞行的僵尸。
+PLANT_SPINE_CACTUS_NAME	尖刺仙人掌
+PLANT_STARFALL_MELON_DESC	投掷星光西瓜的传说投石车。巨大溅射，减速幸存者，并能压碎纸箱。
+PLANT_STARFALL_MELON_NAME	星落西瓜
+PLANT_STORM_POD_DESC	豆荚射手与灯笼花的杂交。发射带电豆荚，电火花会跳到另外 2 个僵尸身上。
+PLANT_STORM_THISTLE_DESC	传说。向本行第一个僵尸召唤闪电；闪电会跳到任意行附近的另外四个僵尸并短暂眩晕它们。无视盾牌。
+PLANT_STORM_THISTLE_NAME	风暴蓟
+PLANT_SUNBUD_DESC	每 24 秒产出 25 阳光。尽早多种几株。
+PLANT_SUNBUD_NAME	阳光花苞
+PLANT_SUN_MINE_DESC	荆棘地雷与阳光花苞的杂交。布置迅速，接触即爆，并留下一大堆阳光。
+PLANT_SUN_SOVEREIGN_DESC	传说。每 20 秒产出 50 阳光，日冕让周围 8 株植物工作效率提高 20%。
+PLANT_SUN_SOVEREIGN_NAME	太阳君主
+PLANT_THORNWALL_DESC	树皮墙 + 荆棘藤。伤害每个啃咬者，但不够高：撑杆僵尸仍能跳过。
+PLANT_THORNWALL_NAME	荆棘墙
+PLANT_THORN_CARPET_DESC	种在其他植物下方的尖刺垫。刺伤每个走过的地面僵尸，纸箱里的也不例外。不会被吃掉。
+PLANT_THORN_CARPET_NAME	荆棘地毯
+PLANT_THORN_LANTERN_DESC	灯笼花与树皮墙的杂交。带刺又结实的灯笼，能增强相邻植物。
+PLANT_THORN_MINE_DESC	便宜。需要 14 秒布置，之后在第一个踩上它的僵尸脚下炸开。也能命中掘地僵尸。
+PLANT_THORN_MINE_NAME	荆棘地雷
+PLANT_THORN_PUMPKIN_DESC	布满尖刺的杂交外壳：每一口都会伤到啃咬者。
+PLANT_THORN_PUMPKIN_NAME	荆棘南瓜
+PLANT_THUNDER_ROOT_DESC	种在其他植物下方的传说之根。闪电沿行疾驰，打击并眩晕最多 6 个地面僵尸。
+PLANT_THUNDER_ROOT_NAME	雷霆根
+PLANT_TURBO_BEAN_DESC	长着喷气芽的飞行豆。周围 3×3 范围内的植物攻击和生产速度提高 50%。
+PLANT_TURBO_BEAN_NAME	涡轮豆
+PLANT_TWIN_POD_DESC	两株豆荚射手的杂交。每轮发射两颗豆荚。
+PLANT_TWIN_POD_NAME	双发豆荚
+PLANT_TWIN_SUNBUD_DESC	两株阳光花苞的杂交。两朵花，双倍阳光。
+PLANT_TWIN_SUNBUD_NAME	双子阳光花苞
+PLANT_VOLCANO_MINE_DESC	荆棘地雷 + 烬火莓。布置较慢，随后在 3×3 范围内喷发，并留下燃烧的地面。
+PLANT_VOLCANO_MINE_NAME	火山地雷
+PLANT_VORTEX_TRAP_DESC	咬咬夹 + 疾风蕨。每一口都会把相邻行的僵尸拖进自己这一行。
+PLANT_VORTEX_TRAP_NAME	漩涡夹
+QUEST_BUCKET_LIST_DESC	击败 {n} 个铁桶僵尸。
+QUEST_BUCKET_LIST_TITLE	铁桶清单
+QUEST_CLAIM	领取
+QUEST_CLAIMED	已领取
+QUEST_CLEAN_LAWN_DESC	不使用割草机赢得 {n} 关。
+QUEST_CLEAN_LAWN_TITLE	毫发无伤
+QUEST_CONE_CRACKER_DESC	击败 {n} 个路障僵尸。
+QUEST_CONE_CRACKER_TITLE	路障粉碎者
+QUEST_FIRST_GRAFT_DESC	嫁接 {n} 株杂交植物。
+QUEST_FIRST_GRAFT_TITLE	园艺好手
+QUEST_FIRST_STEPS_DESC	赢得 {n} 关。
+QUEST_FIRST_STEPS_TITLE	第一步
+QUEST_GARDENER_DESC	种下 {n} 株植物。
+QUEST_GARDENER_TITLE	园丁
+QUEST_GIANT_SLAYER_DESC	击败 {n} 个巨汉僵尸。
+QUEST_GIANT_SLAYER_TITLE	巨人杀手
+QUEST_HARD_SOIL_DESC	在困难或困难+难度下赢得 {n} 关。
+QUEST_HARD_SOIL_TITLE	硬土
+QUEST_RECIPE_BOOK_DESC	发现 {n} 种不同的嫁接。
+QUEST_RECIPE_BOOK_TITLE	配方书
+QUEST_REWARD	{n} 金币
+QUEST_REWARD_HINT	配方提示
+QUEST_SHAMBLER_HUNTER_DESC	击败 {n} 个蹒跚僵尸。
+QUEST_SHAMBLER_HUNTER_TITLE	蹒跚猎手
+QUEST_SUN_HOARDER_DESC	累计收集 {n} 阳光。
+QUEST_SUN_HOARDER_TITLE	阳光囤积者
+QUEST_TWINS_DESC	将两株同种植物嫁接 {n} 次。
+QUEST_TWINS_TITLE	成双成对
+RARITY_LEGENDARY	传说
+RESULT_CAMPAIGN_DONE	你已通关整个战役！去试试无尽模式和每日挑战吧。
+RESULT_COINS	+{n} 金币
+RESULT_LOSE	它们闯进来了……
+RESULT_LOSE_DESC	一只僵尸到达了房子。重新考虑薄弱的那一行，再试一次。
+RESULT_NEW_PLANT	新植物：{name}
+RESULT_STAR	★ 获得星星
+RESULT_WIN	草坪守住了！
+ROLE_AOE	范围
+ROLE_BLOCKER	阻挡
+ROLE_CHAIN	连锁闪电
+ROLE_CONTROL	控制
+ROLE_FREEZE	冰冻
+ROLE_INSTANT	即时
+ROLE_MINE	地雷
+ROLE_PIERCE	穿透
+ROLE_PLATFORM	水上平台
+ROLE_PRODUCER	生产
+ROLE_SHOOTER	射手
+ROLE_SLOWER	减速
+ROLE_SUMMONER	召唤
+ROLE_SUPPORT	辅助
+ROLE_TRAP	陷阱
+ROLE_WALL	墙
+SEEDS_FIXED	本关提供固定的种子。
+SEEDS_HOVER_HINT	指向种子即可查看说明。
+SEEDS_HYBRIDS_ALLOWED	允许嫁接：最多 {n} 株杂交植物。两种原料都必须在你的种子组中。
+SEEDS_HYBRIDS_BANNED	本关不能嫁接。
+SEEDS_SLOTS	槽位 {n}/{max}
+SEEDS_START	开始种植！
+SEEDS_TITLE	选择种子
+SEEDS_WAVES	{n} 波
+SEEDS_ZOMBIES	预计出现：
+SETTINGS_ALWAYS	始终
+SETTINGS_AUTO_SUN	自动收集阳光
+SETTINGS_CB_HINTS	色盲提示
+SETTINGS_CB_HINTS_HINT	为仅靠颜色区分的效果添加符号。
+SETTINGS_DAMAGED	受伤时
+SETTINGS_DEFAULTS	恢复默认
+SETTINGS_DEFAULT_SPEED	默认战斗速度
+SETTINGS_DIFFICULTY	默认难度
+SETTINGS_DIFFICULTY_HINT	更高难度会增加僵尸，也会给更多金币。
+SETTINGS_DRAG	拖动种植
+SETTINGS_DRAG_HINT	把种子包拖到草坪上，而不是点两下。
+SETTINGS_FPS	帧率上限
+SETTINGS_FPS_HINT	较低的上限可以节省手机电量。
+SETTINGS_FULLSCREEN	全屏
+SETTINGS_HAPTICS	振动
+SETTINGS_HC_HP	高对比度血条
+SETTINGS_HEALTH_BARS	血条
+SETTINGS_HIGH	高
+SETTINGS_HINTS	显示提示
+SETTINGS_KEYS	按键：1-9、0 种子 · Q/S 铲子 · G/W 手套 · P/Esc 暂停 · 右键取消
+SETTINGS_LANGUAGE	语言
+SETTINGS_LANGUAGE_HINT	更改整个游戏的语言，包括任务和图鉴。
+SETTINGS_LONG_PRESS	长按显示植物信息
+SETTINGS_LOW	低
+SETTINGS_MUTE_UNFOCUSED	后台时静音
+SETTINGS_OFF	关
+SETTINGS_PARTICLES	粒子效果
+SETTINGS_REDUCE_MOTION	减少动态效果
+SETTINGS_REDUCE_MOTION_HINT	减少晃动、闪光和镜头移动。
+SETTINGS_RESET	重置进度
+SETTINGS_RESET_CONFIRM	再按一次以清除所有数据
+SETTINGS_RESET_DONE	进度已重置。
+SETTINGS_SAVE_PATH	存档文件夹：{p}
+SETTINGS_SHAKE	屏幕震动
+SETTINGS_SHOW_FPS	显示帧率
+SETTINGS_STATS_LINE	胜利：{wins} · 种植：{plants} · 嫁接：{grafts}
+SETTINGS_STICKY_TOOLS	铲子/手套保持选中
+SETTINGS_STICKY_TOOLS_HINT	工具使用后仍保持选中。
+SETTINGS_TAB_ACCESS	辅助功能
+SETTINGS_TAB_AUDIO	音频
+SETTINGS_TAB_CONTROLS	操作
+SETTINGS_TAB_DATA	数据
+SETTINGS_TAB_GAMEPLAY	游戏
+SETTINGS_TAB_LANGUAGE	语言
+SETTINGS_TAB_VIDEO	画面
+SETTINGS_TEST_SOUND	测试声音
+SETTINGS_VOL_MASTER	主音量
+SETTINGS_VOL_MUSIC	音乐
+SETTINGS_VOL_SFX	音效
+SETTINGS_VSYNC	垂直同步
+SHOP_BUY	购买 · {n}
+SHOP_EQUIP	装备
+SHOP_EQUIPPED	已装备
+SHOP_EXTRA_SLOT_DESC	每关多带一颗种子（最多 10 个）。
+SHOP_EXTRA_SLOT_NAME	种子槽
+SHOP_LEGEND_ELDER_OAK_DESC	传说种子。会自我修复的古老城墙。也是通关草坪第 13 关的奖励。
+SHOP_LEGEND_ELDER_OAK_NAME	古橡树
+SHOP_LEGEND_PHOENIX_LILY_DESC	传说种子。燃烧穿透射击，还能复活一次。
+SHOP_LEGEND_PHOENIX_LILY_NAME	凤凰百合
+SHOP_LEGEND_STORM_THISTLE_DESC	传说种子。跨行连锁闪电。也是通关泳池第 6 关的奖励。
+SHOP_LEGEND_STORM_THISTLE_NAME	风暴蓟
+SHOP_LEGEND_SUN_SOVEREIGN_DESC	传说种子。戴着王冠的向日葵，为相邻植物供能并增强它们。
+SHOP_LEGEND_SUN_SOVEREIGN_NAME	太阳君主
+SHOP_LEGEND_THANKS	{name}加入了你的花园！
+SHOP_MOWER_KIT_DESC	一次性。在关卡中重建一台用掉的割草机。
+SHOP_MOWER_KIT_NAME	割草机修理包
+SHOP_OWNED	拥有：{n}
+SHOP_RECIPE_HINT_DESC	揭示一种未知嫁接的两种原料。
+SHOP_RECIPE_HINT_NAME	配方提示
+SHOP_SKIN_AZURE_DESC	外观。为你的割草机涂上蓝色涂装。
+SHOP_SKIN_AZURE_NAME	蔚蓝割草机
+SHOP_SKIN_GOLD_DESC	外观。纯粹用来炫耀。
+SHOP_SKIN_GOLD_NAME	黄金割草机
+SHOP_SKIN_MOSS_DESC	外观。绿色的，与草坪融为一体。
+SHOP_SKIN_MOSS_NAME	苔藓割草机
+SHOP_SOLD_OUT	已售罄
+SHOP_START_SUN_DESC	每关开始时 +25 阳光。
+SHOP_START_SUN_NAME	晨露
+SHOP_THANKS	谢谢！欢迎随时再来。
+SPEED_FAST	快
+SPEED_NORMAL	正常
+SPEED_SLOW	慢
+STATS_CAMPAIGN	战役关卡
+STATS_COINS	金币
+STATS_DAILIES	每日挑战胜利
+STATS_ENDLESS	无尽最佳波次
+STATS_GLOVE	手套移动
+STATS_GRAFTS	嫁接
+STATS_PLANTED	已种植物
+STATS_PLANTS	已解锁种子
+STATS_RECIPES	已发现配方
+STATS_STARS	星星
+STATS_SUN	已收集阳光
+STATS_TWIN_GRAFTS	双子杂交
+STATS_WINS	胜利
+STATS_ZOMBIES	已见僵尸
+STAT_ALL	整行所有目标
+STAT_AREA	爆炸半径
+STAT_ARM	布置时间
+STAT_ARMOR	护甲
+STAT_BITE	啃咬
+STAT_BITE_V	每 {s} 秒 {d}
+STAT_BUFF	相邻增益
+STAT_BURN	燃烧
+STAT_BURN_V	{d} 伤害/秒，持续 {s} 秒
+STAT_CELLS	{n} 格
+STAT_CHAIN	连锁
+STAT_CHAIN_V	跳跃 {n} 次，间隔 {r} 格
+STAT_CHEW	咀嚼时间
+STAT_CROSS	穿过草坪所需时间
+STAT_DAMAGE	单次伤害
+STAT_DPS	每秒伤害
+STAT_EAT_DPS	啃食伤害/秒
+STAT_EVERY	每 {n} 秒
+STAT_FREEZE	冰冻
+STAT_GRAFT	仅限嫁接
+STAT_GRAFTS_INTO	可嫁接为
+STAT_GROW_TIME	可嫁接时间
+STAT_IMMUNE	免疫
+STAT_LAWN	草坪（或水上的睡莲筏）
+STAT_LIMIT	场上上限
+STAT_LIMIT_V	同时 {n} 株
+STAT_MADE_BY	获得方式
+STAT_PER_BITE	每口 {n}
+STAT_PIERCE	穿透
+STAT_POD_HITS	豆荚射手击杀所需命中
+STAT_PROJECTILE	弹速
+STAT_PULL	牵引范围
+STAT_PUSH	击退
+STAT_RANGE	射程
+STAT_RATE	攻击频率
+STAT_REBIRTHS	重生次数
+STAT_RECIPE	配方
+STAT_REGEN	再生
+STAT_SIZE	体型
+STAT_SLOW	减速
+STAT_SLOW_V	速度 -{p}%，持续 {s} 秒
+STAT_SPEED_V	{c} 格/秒（{p} 像素/秒）
+STAT_START_COOLDOWN	首次可用
+STAT_STUN	眩晕
+STAT_SUMMONS	最大召唤数
+STAT_SUN	{n} 阳光
+STAT_SUN_MADE	阳光产量
+STAT_SUN_V	每 {s} 秒 {n}（约 {m}/分钟）
+STAT_SURFACE	生长于
+STAT_THORNS	尖刺
+STAT_THREAT	波次成本
+STAT_WATER	仅限水面
+STAT_WHOLE_LANE	前方整行
+TIP_1	把豆荚射手种子放到已长成的豆荚射手上，就能嫁接出双发豆荚。
+TIP_10	暂停战斗即可更改设置，无需离开关卡。
+TIP_11	无尽模式每一波都会更难。你能走多远？
+TIP_12	每天都会出现一个固定种子的新每日挑战。
+TIP_2	南瓜套在植物外面，豌豆苗床种在植物下面——一个格子能容纳三株植物。
+TIP_3	大蒜无人机等飞行植物只会被气球僵尸和弹弓僵尸伤害。
+TIP_4	纸箱僵尸会躲在其他僵尸身后。请使用低空射击、投石车或炸弹。
+TIP_5	手套能把植物移到另一个格子。把它放到另一株植物上，可以尝试跨层嫁接。
+TIP_6	融合不分顺序：A 种在 B 上或 B 种在 A 上，得到的杂交植物相同。
+TIP_7	传说植物很贵，但一株就能守住一整行。
+TIP_8	涡轮豆能加快同行同列所有植物的速度。
+TIP_9	荆棘地毯会伤害每个从上面走过的僵尸，包括纸箱僵尸。
+TOAST_BOMB_FUSE	炸弹引信：3 秒。这绝对不是香薰蜡烛。
+TOAST_SUN_STOLEN	阳光被偷了！发票上写着“咨询费”。
+TOAST_TOOL_USED	已使用：{name}
+TOAST_TOOL_NO_EFFECT	现在没有可用的目标，道具已保留。
+TOOL_COMPOST_TEA	堆肥茶
+TOOL_FROST_BOTTLE	冰霜瓶
+TOOL_GLUE_TRAP	粘胶陷阱
+TOOL_PEPPER_BOMB	辣椒炸弹
+TOOL_REPAIR_KIT	修理包
+TOOL_SEED_CLOCK	种子时钟
+TOOL_SUN_FLASK	瓶装阳光
+TOOL_SUN_MAGNET	阳光磁铁
+UI_ADVENTURE	冒险
+UI_ALMANAC	图鉴
+UI_BACK	返回
+UI_COINS	{n} 金币
+UI_CONTINUE	继续
+UI_COST	花费
+UI_DIFFICULTY	难度
+UI_HEALTH	生命
+UI_HELP	帮助
+UI_HP	生命
+UI_LEGENDARY	传说
+UI_OFF	关
+UI_ON	开
+UI_OPEN_SHOP	打开商店
+UI_PLAY	开始
+UI_QUESTS	任务日志
+UI_QUIT	退出
+UI_RECHARGE	充能
+UI_RESTART	重新开始
+UI_RESUME	继续
+UI_RETRY	再试一次
+UI_ROLE	定位
+UI_SETTINGS	设置
+UI_SHOP	商店
+UI_SPEED	速度
+UI_STATS	统计
+UI_TOUGHNESS	耐久
+UI_TO_MAP	返回地图
+UI_WORKSHOP	制作工坊
+UNIT_HP_PER_SEC	{n} 生命/秒
+UNIT_PX_PER_SEC	{n} 像素/秒
+UNIT_SEC	{n} 秒
+WORKSHOP_BACK	返回世界
+WORKSHOP_COST	花费：{cost} · 世界：{world}
+WORKSHOP_CRAFT	制作
+WORKSHOP_INTRO	材料来自胜利。首次通关给予全额奖励；重玩给予堆肥和废料；里程碑重玩（每第 5 关）额外给予 1 个水晶。工具最多叠加 9 个，在每个任务中都是可选的。升级是永久的、分级的，效果较小。
+ZOMBIE_BALLOON_ZOMBIE_DESC	飘过所有地面植物，啃咬飞行植物。用防空尖刺、飞行植物、风或爆炸戳破气球。
+ZOMBIE_BALLOON_ZOMBIE_NAME	气球僵尸
+ZOMBIE_BOX_ZOMBIE_DESC	躲在纸箱里，紧跟在另一个僵尸身后。直线子弹会从纸箱上方飞过——在纸箱被撕破前，只有低空射击（豌豆苗床、荆棘地毯）、抛射（投石车）和爆炸能命中它。
+ZOMBIE_BOX_ZOMBIE_NAME	纸箱僵尸
+ZOMBIE_BRUTE_DESC	巨大、缓慢，挥舞原木砸烂植物。体型太大，无法被吞下或击退。
+ZOMBIE_BRUTE_NAME	巨汉僵尸
+ZOMBIE_BUCKET_HEAD_DESC	金属桶让它坚固了约五倍。
+ZOMBIE_BUCKET_HEAD_NAME	铁桶僵尸
+ZOMBIE_BURROWER_DESC	从草坪下挖洞，在房子旁边钻出，然后一路吃回去。在地下时只有地雷能打到它。
+ZOMBIE_BURROWER_NAME	掘地僵尸
+ZOMBIE_CONE_HEAD_DESC	路障能吸收最初的几次攻击。
+ZOMBIE_CONE_HEAD_NAME	路障僵尸
+ZOMBIE_FLAGBEARER_DESC	带领每一大波僵尸。比其他僵尸稍快。
+ZOMBIE_FLAGBEARER_NAME	旗手僵尸
+ZOMBIE_HURDLER_DESC	用撑杆跳过第一株植物，然后慢慢走。高大的植物会折断撑杆。
+ZOMBIE_HURDLER_NAME	撑杆僵尸
+ZOMBIE_SHAMBLER_DESC	走。咬。不停。
+ZOMBIE_SHAMBLER_NAME	蹒跚僵尸
+ZOMBIE_SHIELD_CARRIER_DESC	举着一扇门挡在前面。子弹和尖刺会打在门上；爆炸、范围攻击和蜜蜂则不会。
+ZOMBIE_SHIELD_CARRIER_NAME	持盾僵尸
+ZOMBIE_SLINGSHOT_ZOMBIE_DESC	停下来用石头攻击 4 格内的飞行植物。在走到地面植物跟前之前会无视它们。
+ZOMBIE_SLINGSHOT_ZOMBIE_NAME	弹弓僵尸
+ZOMBIE_SPRINTER_DESC	跑得快一倍。散架也一样快。
+ZOMBIE_SPRINTER_NAME	疾跑僵尸

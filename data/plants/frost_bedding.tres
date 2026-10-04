@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_shooter.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"frost_bedding"
+name_key = "PLANT_FROST_BEDDING_NAME"
+desc_key = "PLANT_FROST_BEDDING_DESC"
+behavior = ExtResource("1_b")
+cost = 150
+max_hp = 300
+role = &"shooter"
+layer = &"under"
+attack_kind = &"low"
+is_seed = false
+is_hybrid = true
+badge = "Hybrid · Under · Slow"
+tags = Array[StringName]([&"ice"])
+damage = 18
+attack_interval = 1.5
+slow_factor = 0.55
+slow_duration = 2.5
+projectile_speed = 520.0
+color_main = Color(0.5, 0.8, 0.95, 1)
+color_accent = Color(0.3, 0.5, 0.7, 1)

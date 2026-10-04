@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_producer.gd" id="1_3q8q5"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_1eep5"]
+
+[resource]
+script = ExtResource("2_1eep5")
+id = &"dawn_bloom"
+name_key = "PLANT_DAWN_BLOOM_NAME"
+desc_key = "PLANT_DAWN_BLOOM_DESC"
+cost = 200
+role = &"producer"
+tags = Array[StringName]([&"light"])
+behavior = ExtResource("1_3q8q5")
+is_seed = false
+is_hybrid = true
+sun_amount = 40
+sun_interval = 26.0
+buff_mult = 1.15
+color_main = Color(1, 0.6, 0.45, 1)
+color_accent = Color(0.7, 0.35, 0.2, 1)

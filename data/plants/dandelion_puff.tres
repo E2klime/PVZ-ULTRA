@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_aoe.gd" id="1_qq3on"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_g4pco"]
+
+[resource]
+script = ExtResource("2_g4pco")
+id = &"dandelion_puff"
+name_key = "PLANT_DANDELION_PUFF_NAME"
+desc_key = "PLANT_DANDELION_PUFF_DESC"
+cost = 75
+role = &"aoe"
+behavior = ExtResource("1_qq3on")
+damage = 14
+attack_interval = 2.5
+aoe_radius = 1.4
+color_main = Color(0.98, 0.98, 0.95, 1)
+color_accent = Color(0.95, 0.8, 0.3, 1)

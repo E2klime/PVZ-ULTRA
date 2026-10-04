@@ -1,0 +1,4997 @@
+{
+ "schema_version": 1,
+ "id": "lawn",
+ "name": "1 · Suburban Lawn",
+ "order": 0,
+ "previous": "",
+ "color": "#74ac4f",
+ "rule_text": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch.",
+ "levels": [
+  {
+   "id": "lawn_01",
+   "number": 1,
+   "title": "1-01 · Welcome Mat",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Establish economy and cover all five lanes.",
+   "joke": "The welcome mat says hello, not all-you-can-eat. The HOA has banned brains after 9 PM.",
+   "scenario": "intro",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 250,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 0,
+   "mowers": true,
+   "reward_plant": "bark_wall",
+   "reward_feature": "",
+   "reward_coins": 73,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_02",
+   "number": 2,
+   "title": "1-02 · Sun Is Not a Subscription",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Build sun production before doubling your shooters.",
+   "joke": "Sunlight remains free. The zombie subscription is harder to cancel. Your neighbor insists this is normal lawn aeration.",
+   "scenario": "economy",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 250,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 0,
+   "mowers": true,
+   "reward_plant": "thorn_mine",
+   "reward_feature": "",
+   "reward_coins": 76,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_03",
+   "number": 3,
+   "title": "1-03 · Cone of Shame",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Local traffic cone promoted to middle management. The fence contractor accepts payment in screams.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "newspaper",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 0,
+   "mowers": true,
+   "reward_plant": "ember_berry",
+   "reward_feature": "",
+   "reward_coins": 79,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_04",
+   "number": 4,
+   "title": "1-04 · The Lawn Doctor",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "The doctor recommends more brains. Seek a second opinion. A tasteful garden gnome has declined to intervene.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "garden_doctor",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 0,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "graft",
+   "reward_coins": 82,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_05",
+   "number": 5,
+   "title": "1-05 · Express Delivery",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Your delivery is three lanes away and marked delivered. Neighborhood watch is currently watching from indoors.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "parcel_runner",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "frost_mint",
+   "reward_feature": "",
+   "reward_coins": 85,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_06",
+   "number": 6,
+   "title": "1-06 · Twenty Is Plenty",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Win with at most 20 planting actions, including grafts and rafts.",
+   "joke": "Twenty plants. Infinite unsolicited gardening opinions. The HOA has banned brains after 9 PM.",
+   "scenario": "limit",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 20
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 500,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 128,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_07",
+   "number": 7,
+   "title": "1-07 · No Refunds on Roots",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Lose no more than 3 plants to attacks or shoveling. Single-use plants do not count.",
+   "joke": "The roots have formed a union. Please keep them alive. Your neighbor insists this is normal lawn aeration.",
+   "scenario": "preserve",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 3
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 450,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "snapper_trap",
+   "reward_feature": "",
+   "reward_coins": 91,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_08",
+   "number": 8,
+   "title": "1-08 · Wrong Lane, Mate",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Turn signals are apparently a living-person feature. The fence contractor accepts payment in screams.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "garden_doctor",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "pumpkin_shell",
+   "reward_feature": "",
+   "reward_coins": 94,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_09",
+   "number": 9,
+   "title": "1-09 · The Solar Savings Account",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Hold 4000 unspent sun and clear all waves. Collection continues after the last zombie.",
+   "joke": "Four thousand sun in savings. Still cannot afford a garden shed. A tasteful garden gnome has declined to intervene.",
+   "scenario": "bank",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "bank_sun",
+     "target": 4000
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 75,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "bramble_vine",
+   "reward_feature": "",
+   "reward_coins": 97,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_10",
+   "number": 10,
+   "title": "1-10 · Overtime for the Mowers",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. No mowers. Any breach fails the mission.",
+   "joke": "The mowers have requested a mental-health day. Neighborhood watch is currently watching from indoors.",
+   "scenario": "mowerless",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "no_breach",
+     "target": 0
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 550,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": false,
+   "reward_plant": "clod_catapult",
+   "reward_feature": "",
+   "reward_coins": 100,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_11",
+   "number": 11,
+   "title": "1-11 · Interns at the Gate",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Clear the fast waves within 340 seconds.",
+   "joke": "An internship with excellent exposure and no pulse. The HOA has banned brains after 9 PM.",
+   "scenario": "rush",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "time_limit",
+     "target": 340
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 4.2
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.8
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 4.2
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "prankster",
+       "row": 0,
+       "delay": 4.2
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 5.6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 5.6
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 525,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 35,
+   "wave_interval": 30,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "lantern_bloom",
+   "reward_feature": "",
+   "reward_coins": 103,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_12",
+   "number": 12,
+   "title": "1-12 · Crossword Violence",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Cover the specialist wave; avoid relying on a single front wall.",
+   "joke": "This wave has read the terms and conditions. You have not. Your neighbor insists this is normal lawn aeration.",
+   "scenario": "elite",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "thorn_carpet",
+   "reward_feature": "",
+   "reward_coins": 106,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_13",
+   "number": 13,
+   "title": "1-13 · Bring Your Own Salad",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. The supplied seed menu is fixed. Supplies are borrowed even if not yet unlocked.",
+   "joke": "The chef insists the menu is a tactical constraint. The fence contractor accepts payment in screams.",
+   "scenario": "fixed",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "thorn_mine",
+    "ember_berry"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 450,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "gale_fern",
+   "reward_feature": "",
+   "reward_coins": 109,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_14",
+   "number": 14,
+   "title": "1-14 · Five Casualties Maximum",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Lose no more than 5 plants. Transformations and deliberate single-use plants are exempt.",
+   "joke": "Five losses are a tragedy. Six are a failed level. A tasteful garden gnome has declined to intervene.",
+   "scenario": "loss",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 112,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_15",
+   "number": 15,
+   "title": "1-15 · The Graft Draft",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Create at least 2 grafts and clear the waves. Same-plant twin hybrids count too.",
+   "joke": "Botany: now with legally questionable welding. Neighborhood watch is currently watching from indoors.",
+   "scenario": "graft",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "graft_count",
+     "target": 2
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "frost_mint",
+    "bark_wall"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 600,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "pea_bedding",
+   "reward_feature": "",
+   "reward_coins": 115,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_16",
+   "number": 16,
+   "title": "1-16 · Garden Artillery Club",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. No plants or seeds required. Click a board tile to fire a free recharging area cannon.",
+   "joke": "No plants today. The salad has authorized artillery. The HOA has banned brains after 9 PM.",
+   "scenario": "artillery",
+   "mode": "artillery",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "newspaper",
+    "garden_doctor",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 0,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 8,
+   "wave_interval": 24,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 118,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_17",
+   "number": 17,
+   "title": "1-17 · Fence Permit Pending",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Dark crossed tiles cannot be planted. Zombies still travel through them.",
+   "joke": "These tiles are reserved for a future parking lot. Your neighbor insists this is normal lawn aeration. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "blocked",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    "........#",
+    "......#..",
+    ".......#.",
+    "........#",
+    "......#.."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "pepper_stinger",
+   "reward_feature": "",
+   "reward_coins": 121,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_18",
+   "number": 18,
+   "title": "1-18 · The Night Shift Preview",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. No sky sun. Start from the supplied savings and plant your own economy.",
+   "joke": "Solar power at night: accounting would like a word. The fence contractor accepts payment in screams.",
+   "scenario": "blackout",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 500,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 124,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_19",
+   "number": 19,
+   "title": "1-19 · Bucket List",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Armor soaks projectiles. Save explosives for tightly grouped helmets.",
+   "joke": "Buckets protect brains, not fragile workplace morale. A tasteful garden gnome has declined to intervene. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "armor",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shield_carrier",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 6.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "prankster",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "bucket_head",
+    "shield_carrier",
+    "prankster",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "hive_pod",
+   "reward_feature": "",
+   "reward_coins": 127,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_20",
+   "number": 20,
+   "title": "1-20 · Seed Packet Diet",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Fixed four-seed deck and a total limit of 20 planting actions.",
+   "joke": "The seeds were packed by a minimalist. Neighborhood watch is currently watching from indoors.",
+   "scenario": "limited_fixed",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 20
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "shield_carrier",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 550,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 130,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_21",
+   "number": 21,
+   "title": "1-21 · Save the Picnic",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. No planting; lose no more than 5 plants. A mature garden is provided. Protect it; click a damaged plant for a free 1200-HP repair every 3 seconds. Crafted tools are optional.",
+   "joke": "The garden is already planted. Your job description says keep it that way. The HOA has banned brains after 9 PM.",
+   "scenario": "holdout",
+   "mode": "holdout",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [
+    {
+     "id": "sunbud",
+     "row": 0,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 0,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 0,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 1,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 1,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 1,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 2,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 2,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 2,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 3,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 3,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 3,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 4,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 4,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 4,
+     "col": 5
+    }
+   ],
+   "start_sun": 350,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 10,
+   "wave_interval": 28,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "dandelion_puff",
+   "reward_feature": "",
+   "reward_coins": 133,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "lawn_22",
+   "number": 22,
+   "title": "1-22 · Four Thousand Reasons",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Collect a total of 4000 sun in this battle. Spending does not reduce this total.",
+   "joke": "Collect 4000 sun. Do not stare directly at the counter. Your neighbor insists this is normal lawn aeration. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "collect",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "collect_sun",
+     "target": 4000
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "shield_carrier",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 100,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 136,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_23",
+   "number": 23,
+   "title": "1-23 · The Unpaid Internship",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Summoners and small runners require rear coverage, not just one front tank.",
+   "joke": "Fresh interns have arrived. Their onboarding is your problem. The fence contractor accepts payment in screams. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "summons",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "prankster",
+    "garden_doctor",
+    "intern_imp",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 350,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "turbo_bean",
+   "reward_feature": "",
+   "reward_coins": 139,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_24",
+   "number": 24,
+   "title": "1-24 · Neighborhood Meeting",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Long mixed assault. Pace your economy: the waves never stop being polite about it.",
+   "joke": "The committee has decided to attack simultaneously. A tasteful garden gnome has declined to intervene. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "gauntlet",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 0,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "prankster",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "prankster",
+       "row": 1,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 12.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "garden_doctor",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 12.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 14.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 12.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "shield_carrier",
+    "sprinter",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 500,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 142,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "lawn_25",
+   "number": 25,
+   "title": "1-25 · Granite Eviction Notice",
+   "briefing": "Five lanes, blocked flowerbeds, and the least professional neighborhood watch. Two giant arrivals with a rebuilding window. Counter its special ability, then clear the field.",
+   "joke": "The giant brought a club. The homeowners association brought a fine. Neighborhood watch is currently watching from indoors. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "boss",
+   "mode": "defense",
+   "field_rule": "normal",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "newspaper",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "newspaper",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "prankster",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "sprinter",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "parcel_runner",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 2,
+       "delay": 8.0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "newspaper",
+    "garden_doctor",
+    "parcel_runner",
+    "prankster",
+    "intern_imp",
+    "shield_carrier",
+    "sprinter",
+    "gargantuan_granite",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 750,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 6,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 145,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 550,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  }
+ ],
+ "balance_revision": "v0.6"
+}

@@ -1,0 +1,1202 @@
+[
+{
+"level": "desert_01",
+"standard": true,
+"result": "BOT: desert_01 WIN t=176.4 waves=4/4 plants=27 losses=2 sun=5 collected=1650 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_02",
+"standard": true,
+"result": "BOT: desert_02 WIN t=165.1 waves=4/4 plants=26 losses=2 sun=5 collected=1600 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_03",
+"standard": true,
+"result": "BOT: desert_03 WIN t=192.1 waves=4/4 plants=29 losses=4 sun=30 collected=1800 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_04",
+"standard": true,
+"result": "BOT: desert_04 WIN t=188.5 waves=4/4 plants=31 losses=10 sun=30 collected=1775 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_05",
+"standard": true,
+"result": "BOT: desert_05 WIN t=195.1 waves=4/4 plants=28 losses=5 sun=5 collected=1875 grafts=5 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_06",
+"standard": true,
+"result": "BOT: desert_06 WIN t=203.7 waves=5/5 plants=20 losses=5 sun=355 collected=1450 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_07",
+"standard": false,
+"result": "BOT: desert_07 LOSE t=168.5 waves=5/5 plants=30 losses=7 sun=105 collected=1600 grafts=1 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "desert_08",
+"standard": true,
+"result": "BOT: desert_08 WIN t=236.6 waves=5/5 plants=35 losses=11 sun=55 collected=2275 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_09",
+"standard": true,
+"result": "BOT: desert_09 WIN t=441.6 waves=7/7 plants=54 losses=0 sun=4530 collected=9475 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_10",
+"standard": false,
+"result": "BOT: desert_10 LOSE t=157.5 waves=4/5 plants=28 losses=4 sun=80 collected=1525 grafts=2 reason=Too many plants lost: 4 / 3",
+"strong_rerun": true
+},
+{
+"level": "desert_11",
+"standard": true,
+"result": "BOT: desert_11 WIN t=167.7 waves=5/5 plants=29 losses=4 sun=55 collected=1625 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_12",
+"standard": true,
+"result": "BOT: desert_12 WIN t=248.4 waves=6/6 plants=38 losses=11 sun=5 collected=2400 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_13",
+"standard": true,
+"result": "BOT: desert_13 WIN t=238.0 waves=6/6 plants=33 losses=1 sun=155 collected=2350 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_14",
+"standard": true,
+"result": "BOT: desert_14 WIN t=258.3 waves=6/6 plants=36 losses=3 sun=30 collected=2550 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_15",
+"standard": true,
+"result": "BOT: desert_15 WIN t=239.8 waves=6/6 plants=34 losses=6 sun=130 collected=2375 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_16",
+"standard": true,
+"result": "BOT: desert_16 WIN t=132.6 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_17",
+"standard": false,
+"result": "BOT: desert_17 LOSE t=229.7 waves=6/6 plants=44 losses=30 sun=5 collected=2125 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "desert_18",
+"standard": true,
+"result": "BOT: desert_18 WIN t=297.3 waves=7/7 plants=42 losses=13 sun=80 collected=2825 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_19",
+"standard": false,
+"result": "BOT: desert_19 WIN t=250.5 waves=7/7 plants=35 losses=6 sun=55 collected=2450 grafts=7 reason=",
+"strong_rerun": true
+},
+{
+"level": "desert_20",
+"standard": true,
+"result": "BOT: desert_20 WIN t=273.9 waves=7/7 plants=33 losses=8 sun=5 collected=1850 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_21",
+"standard": true,
+"result": "BOT: desert_21 WIN t=199.4 waves=7/7 plants=0 losses=0 sun=1805 collected=1125 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_22",
+"standard": true,
+"result": "BOT: desert_22 WIN t=329.5 waves=9/9 plants=65 losses=17 sun=1930 collected=8350 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_23",
+"standard": true,
+"result": "BOT: desert_23 WIN t=331.6 waves=7/7 plants=22 losses=12 sun=1130 collected=2300 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "desert_24",
+"standard": false,
+"result": "BOT: desert_24 LOSE t=336.2 waves=8/8 plants=59 losses=42 sun=55 collected=3350 grafts=2 reason=",
+"strong_rerun": true
+},
+{
+"level": "desert_25",
+"standard": false,
+"result": "BOT: desert_25 LOSE t=338.5 waves=8/8 plants=59 losses=31 sun=55 collected=3350 grafts=3 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_01",
+"standard": true,
+"result": "BOT: factory_01 WIN t=207.8 waves=5/5 plants=32 losses=0 sun=10 collected=2050 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_02",
+"standard": true,
+"result": "BOT: factory_02 WIN t=221.0 waves=5/5 plants=35 losses=7 sun=85 collected=2175 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_03",
+"standard": true,
+"result": "BOT: factory_03 WIN t=270.6 waves=5/5 plants=39 losses=11 sun=35 collected=2650 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_04",
+"standard": true,
+"result": "BOT: factory_04 WIN t=284.0 waves=5/5 plants=43 losses=21 sun=50 collected=2775 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_05",
+"standard": true,
+"result": "BOT: factory_05 WIN t=229.3 waves=5/5 plants=36 losses=6 sun=0 collected=2250 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_06",
+"standard": true,
+"result": "BOT: factory_06 WIN t=292.7 waves=6/6 plants=22 losses=13 sun=835 collected=1925 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_07",
+"standard": false,
+"result": "BOT: factory_07 LOSE t=145.9 waves=4/6 plants=24 losses=4 sun=35 collected=1025 grafts=0 reason=Too many plants lost: 4 / 3",
+"strong_rerun": true
+},
+{
+"level": "factory_08",
+"standard": true,
+"result": "BOT: factory_08 WIN t=280.7 waves=6/6 plants=42 losses=19 sun=25 collected=2775 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_09",
+"standard": true,
+"result": "BOT: factory_09 WIN t=425.3 waves=8/8 plants=53 losses=3 sun=4570 collected=9050 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_10",
+"standard": false,
+"result": "BOT: factory_10 LOSE t=182.2 waves=5/6 plants=38 losses=18 sun=35 collected=1775 grafts=3 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "factory_11",
+"standard": false,
+"result": "BOT: factory_11 LOSE t=141.1 waves=4/6 plants=31 losses=11 sun=0 collected=1275 grafts=0 reason=Too many plants lost: 11 / 10",
+"strong_rerun": true
+},
+{
+"level": "factory_12",
+"standard": false,
+"result": "BOT: factory_12 LOSE t=256.7 waves=7/7 plants=47 losses=27 sun=0 collected=2475 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_13",
+"standard": false,
+"result": "BOT: factory_13 LOSE t=271.8 waves=7/7 plants=30 losses=24 sun=90 collected=1750 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_14",
+"standard": true,
+"result": "BOT: factory_14 WIN t=297.1 waves=7/7 plants=42 losses=8 sun=85 collected=2975 grafts=13 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_15",
+"standard": true,
+"result": "BOT: factory_15 WIN t=257.8 waves=7/7 plants=38 losses=2 sun=120 collected=2575 grafts=12 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_16",
+"standard": true,
+"result": "BOT: factory_16 WIN t=138.7 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_17",
+"standard": false,
+"result": "BOT: factory_17 LOSE t=205.7 waves=5/7 plants=34 losses=6 sun=20 collected=2000 grafts=6 reason=Too many plants lost: 6 / 5",
+"strong_rerun": true
+},
+{
+"level": "factory_18",
+"standard": true,
+"result": "BOT: factory_18 WIN t=317.3 waves=8/8 plants=43 losses=3 sun=0 collected=3175 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_19",
+"standard": false,
+"result": "BOT: factory_19 LOSE t=255.0 waves=7/8 plants=24 losses=18 sun=295 collected=1600 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_20",
+"standard": true,
+"result": "BOT: factory_20 WIN t=324.7 waves=8/8 plants=41 losses=19 sun=40 collected=2200 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_21",
+"standard": true,
+"result": "BOT: factory_21 WIN t=228.6 waves=8/8 plants=0 losses=0 sun=2260 collected=1250 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_22",
+"standard": true,
+"result": "BOT: factory_22 WIN t=367.4 waves=10/10 plants=84 losses=29 sun=1490 collected=9325 grafts=13 reason=",
+"strong_rerun": false
+},
+{
+"level": "factory_23",
+"standard": false,
+"result": "BOT: factory_23 LOSE t=303.0 waves=8/8 plants=58 losses=39 sun=60 collected=2900 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_24",
+"standard": false,
+"result": "BOT: factory_24 LOSE t=264.9 waves=6/9 plants=49 losses=34 sun=20 collected=2600 grafts=4 reason=",
+"strong_rerun": true
+},
+{
+"level": "factory_25",
+"standard": false,
+"result": "BOT: factory_25 LOSE t=271.6 waves=7/8 plants=51 losses=27 sun=80 collected=2700 grafts=3 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_01",
+"standard": true,
+"result": "BOT: frost_01 WIN t=191.5 waves=5/5 plants=28 losses=1 sun=50 collected=1850 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_02",
+"standard": true,
+"result": "BOT: frost_02 WIN t=190.1 waves=5/5 plants=27 losses=1 sun=75 collected=1850 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_03",
+"standard": false,
+"result": "BOT: frost_03 WIN t=224.6 waves=5/5 plants=33 losses=5 sun=50 collected=2175 grafts=5 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_04",
+"standard": false,
+"result": "BOT: frost_04 WIN t=256.9 waves=5/5 plants=46 losses=18 sun=0 collected=2475 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_05",
+"standard": true,
+"result": "BOT: frost_05 WIN t=230.4 waves=5/5 plants=38 losses=10 sun=25 collected=2275 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_06",
+"standard": false,
+"result": "BOT: frost_06 LOSE t=140.3 waves=3/6 plants=27 losses=1 sun=0 collected=1300 grafts=2 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "frost_07",
+"standard": true,
+"result": "BOT: frost_07 WIN t=291.2 waves=6/6 plants=20 losses=13 sun=975 collected=2025 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_08",
+"standard": true,
+"result": "BOT: frost_08 WIN t=243.9 waves=6/6 plants=36 losses=5 sun=0 collected=2350 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_09",
+"standard": true,
+"result": "BOT: frost_09 WIN t=419.2 waves=8/8 plants=48 losses=0 sun=4550 collected=8850 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_10",
+"standard": true,
+"result": "BOT: frost_10 WIN t=224.3 waves=6/6 plants=33 losses=1 sun=100 collected=2225 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_11",
+"standard": true,
+"result": "BOT: frost_11 WIN t=224.3 waves=6/6 plants=35 losses=7 sun=75 collected=2225 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_12",
+"standard": true,
+"result": "BOT: frost_12 WIN t=256.7 waves=7/7 plants=37 losses=0 sun=100 collected=2525 grafts=11 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_13",
+"standard": true,
+"result": "BOT: frost_13 WIN t=287.7 waves=7/7 plants=40 losses=7 sun=75 collected=2850 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_14",
+"standard": false,
+"result": "BOT: frost_14 WIN t=307.4 waves=7/7 plants=49 losses=15 sun=50 collected=3050 grafts=4 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_15",
+"standard": true,
+"result": "BOT: frost_15 WIN t=276.0 waves=7/7 plants=39 losses=1 sun=175 collected=2750 grafts=11 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_16",
+"standard": true,
+"result": "BOT: frost_16 WIN t=135.8 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_17",
+"standard": false,
+"result": "BOT: frost_17 LOSE t=171.8 waves=4/7 plants=29 losses=6 sun=25 collected=1600 grafts=1 reason=Too many plants lost: 6 / 5",
+"strong_rerun": true
+},
+{
+"level": "frost_18",
+"standard": true,
+"result": "BOT: frost_18 WIN t=361.1 waves=8/8 plants=39 losses=7 sun=0 collected=2500 grafts=12 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_19",
+"standard": true,
+"result": "BOT: frost_19 WIN t=314.0 waves=8/8 plants=41 losses=3 sun=25 collected=3100 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_20",
+"standard": true,
+"result": "BOT: frost_20 WIN t=310.4 waves=8/8 plants=43 losses=7 sun=100 collected=3100 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_21",
+"standard": true,
+"result": "BOT: frost_21 WIN t=218.1 waves=8/8 plants=0 losses=0 sun=2025 collected=1125 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_22",
+"standard": true,
+"result": "BOT: frost_22 WIN t=367.1 waves=10/10 plants=55 losses=3 sun=4750 collected=9575 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "frost_23",
+"standard": false,
+"result": "BOT: frost_23 LOSE t=326.6 waves=8/8 plants=26 losses=16 sun=700 collected=2200 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_24",
+"standard": false,
+"result": "BOT: frost_24 LOSE t=330.0 waves=9/9 plants=57 losses=35 sun=0 collected=3200 grafts=5 reason=",
+"strong_rerun": true
+},
+{
+"level": "frost_25",
+"standard": true,
+"result": "BOT: frost_25 WIN t=358.0 waves=8/8 plants=50 losses=20 sun=75 collected=3600 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_01",
+"standard": true,
+"result": "BOT: lawn_01 WIN t=162.4 waves=4/4 plants=18 losses=0 sun=25 collected=1550 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_02",
+"standard": true,
+"result": "BOT: lawn_02 WIN t=161.9 waves=4/4 plants=17 losses=0 sun=50 collected=1525 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_03",
+"standard": true,
+"result": "BOT: lawn_03 WIN t=167.7 waves=4/4 plants=19 losses=1 sun=150 collected=1600 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_04",
+"standard": true,
+"result": "BOT: lawn_04 WIN t=159.5 waves=4/4 plants=19 losses=0 sun=75 collected=1525 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_05",
+"standard": true,
+"result": "BOT: lawn_05 WIN t=157.7 waves=4/4 plants=18 losses=0 sun=100 collected=1525 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_06",
+"standard": true,
+"result": "BOT: lawn_06 WIN t=186.3 waves=5/5 plants=16 losses=0 sun=100 collected=1325 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_07",
+"standard": true,
+"result": "BOT: lawn_07 WIN t=187.3 waves=5/5 plants=19 losses=0 sun=150 collected=1775 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_08",
+"standard": true,
+"result": "BOT: lawn_08 WIN t=187.9 waves=5/5 plants=19 losses=0 sun=75 collected=1800 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_09",
+"standard": true,
+"result": "BOT: lawn_09 WIN t=345.3 waves=7/7 plants=31 losses=2 sun=4050 collected=7175 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_10",
+"standard": true,
+"result": "BOT: lawn_10 WIN t=187.3 waves=5/5 plants=20 losses=0 sun=75 collected=1775 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_11",
+"standard": true,
+"result": "BOT: lawn_11 WIN t=170.9 waves=5/5 plants=20 losses=1 sun=25 collected=1600 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_12",
+"standard": true,
+"result": "BOT: lawn_12 WIN t=227.5 waves=6/6 plants=24 losses=3 sun=150 collected=2225 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_13",
+"standard": true,
+"result": "BOT: lawn_13 WIN t=238.7 waves=6/6 plants=30 losses=0 sun=300 collected=2350 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_14",
+"standard": true,
+"result": "BOT: lawn_14 WIN t=224.6 waves=6/6 plants=23 losses=1 sun=50 collected=2200 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_15",
+"standard": true,
+"result": "BOT: lawn_15 WIN t=220.1 waves=6/6 plants=28 losses=0 sun=125 collected=2125 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_16",
+"standard": true,
+"result": "BOT: lawn_16 WIN t=123.0 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_17",
+"standard": true,
+"result": "BOT: lawn_17 WIN t=224.1 waves=6/6 plants=32 losses=7 sun=50 collected=2175 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_18",
+"standard": true,
+"result": "BOT: lawn_18 WIN t=256.7 waves=7/7 plants=26 losses=1 sun=175 collected=1725 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_19",
+"standard": true,
+"result": "BOT: lawn_19 WIN t=271.9 waves=7/7 plants=35 losses=5 sun=75 collected=2675 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_20",
+"standard": true,
+"result": "BOT: lawn_20 WIN t=289.2 waves=7/7 plants=20 losses=1 sun=900 collected=2100 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_21",
+"standard": true,
+"result": "BOT: lawn_21 WIN t=190.6 waves=7/7 plants=0 losses=0 sun=1350 collected=1000 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_22",
+"standard": true,
+"result": "BOT: lawn_22 WIN t=324.1 waves=9/9 plants=44 losses=1 sun=4200 collected=8225 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_23",
+"standard": true,
+"result": "BOT: lawn_23 WIN t=265.8 waves=7/7 plants=33 losses=8 sun=50 collected=2575 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_24",
+"standard": true,
+"result": "BOT: lawn_24 WIN t=297.6 waves=8/8 plants=34 losses=2 sun=50 collected=2925 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "lawn_25",
+"standard": true,
+"result": "BOT: lawn_25 WIN t=342.1 waves=8/8 plants=39 losses=6 sun=125 collected=3450 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_01",
+"standard": true,
+"result": "BOT: moon_01 WIN t=218.3 waves=5/5 plants=36 losses=11 sun=120 collected=2075 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_02",
+"standard": true,
+"result": "BOT: moon_02 WIN t=251.0 waves=5/5 plants=39 losses=5 sun=45 collected=2500 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_03",
+"standard": true,
+"result": "BOT: moon_03 WIN t=188.1 waves=5/5 plants=33 losses=9 sun=45 collected=1750 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_04",
+"standard": false,
+"result": "BOT: moon_04 WIN t=221.4 waves=5/5 plants=42 losses=12 sun=20 collected=2150 grafts=2 reason=",
+"strong_rerun": true
+},
+{
+"level": "moon_05",
+"standard": true,
+"result": "BOT: moon_05 WIN t=247.1 waves=5/5 plants=43 losses=16 sun=20 collected=2400 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_06",
+"standard": false,
+"result": "BOT: moon_06 LOSE t=134.0 waves=3/6 plants=27 losses=4 sun=70 collected=1275 grafts=3 reason=Too many plants lost: 4 / 3",
+"strong_rerun": true
+},
+{
+"level": "moon_07",
+"standard": false,
+"result": "BOT: moon_07 LOSE t=163.9 waves=4/6 plants=34 losses=8 sun=20 collected=1525 grafts=4 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "moon_08",
+"standard": true,
+"result": "BOT: moon_08 WIN t=262.4 waves=6/6 plants=44 losses=15 sun=20 collected=2575 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_09",
+"standard": true,
+"result": "BOT: moon_09 WIN t=446.4 waves=8/8 plants=58 losses=5 sun=4520 collected=9525 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_10",
+"standard": false,
+"result": "BOT: moon_10 LOSE t=179.7 waves=5/6 plants=19 losses=7 sun=520 collected=1250 grafts=0 reason=Too many plants lost: 7 / 6",
+"strong_rerun": true
+},
+{
+"level": "moon_11",
+"standard": true,
+"result": "BOT: moon_11 WIN t=227.3 waves=6/6 plants=38 losses=10 sun=20 collected=2250 grafts=5 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_12",
+"standard": false,
+"result": "BOT: moon_12 LOSE t=143.9 waves=4/7 plants=28 losses=5 sun=45 collected=1375 grafts=3 reason=Too many plants lost: 5 / 4",
+"strong_rerun": true
+},
+{
+"level": "moon_13",
+"standard": true,
+"result": "BOT: moon_13 WIN t=273.7 waves=7/7 plants=41 losses=6 sun=170 collected=2725 grafts=13 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_14",
+"standard": false,
+"result": "BOT: moon_14 LOSE t=277.6 waves=7/7 plants=54 losses=39 sun=45 collected=2650 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "moon_15",
+"standard": true,
+"result": "BOT: moon_15 WIN t=289.3 waves=7/7 plants=43 losses=4 sun=45 collected=2850 grafts=14 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_16",
+"standard": true,
+"result": "BOT: moon_16 WIN t=138.4 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_17",
+"standard": true,
+"result": "BOT: moon_17 WIN t=291.4 waves=7/7 plants=47 losses=15 sun=70 collected=2875 grafts=5 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_18",
+"standard": false,
+"result": "BOT: moon_18 LOSE t=274.3 waves=7/8 plants=53 losses=39 sun=20 collected=2575 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "moon_19",
+"standard": false,
+"result": "BOT: moon_19 LOSE t=349.0 waves=8/8 plants=51 losses=34 sun=45 collected=2275 grafts=7 reason=",
+"strong_rerun": true
+},
+{
+"level": "moon_20",
+"standard": false,
+"result": "BOT: moon_20 LOSE t=265.0 waves=7/8 plants=49 losses=23 sun=20 collected=2550 grafts=3 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "moon_21",
+"standard": true,
+"result": "BOT: moon_21 WIN t=236.7 waves=8/8 plants=0 losses=0 sun=2370 collected=1250 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_22",
+"standard": true,
+"result": "BOT: moon_22 WIN t=388.9 waves=10/10 plants=70 losses=19 sun=3220 collected=9900 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_23",
+"standard": false,
+"result": "BOT: moon_23 LOSE t=323.7 waves=8/8 plants=26 losses=25 sun=995 collected=2075 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "moon_24",
+"standard": true,
+"result": "BOT: moon_24 WIN t=340.5 waves=9/9 plants=53 losses=24 sun=95 collected=3375 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "moon_25",
+"standard": false,
+"result": "BOT: moon_25 LOSE t=321.8 waves=8/8 plants=59 losses=36 sun=70 collected=3100 grafts=5 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "night_01",
+"standard": true,
+"result": "BOT: night_01 WIN t=179.2 waves=4/4 plants=24 losses=4 sun=120 collected=1475 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_02",
+"standard": true,
+"result": "BOT: night_02 WIN t=187.7 waves=4/4 plants=24 losses=2 sun=120 collected=1525 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_03",
+"standard": true,
+"result": "BOT: night_03 WIN t=228.9 waves=4/4 plants=28 losses=8 sun=75 collected=1925 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_04",
+"standard": true,
+"result": "BOT: night_04 WIN t=197.0 waves=4/4 plants=28 losses=12 sun=45 collected=1625 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_05",
+"standard": true,
+"result": "BOT: night_05 WIN t=191.6 waves=4/4 plants=24 losses=2 sun=75 collected=1550 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_06",
+"standard": false,
+"result": "BOT: night_06 LOSE t=140.0 waves=4/5 plants=23 losses=5 sun=20 collected=1075 grafts=0 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "night_07",
+"standard": false,
+"result": "BOT: night_07 LOSE t=133.2 waves=3/5 plants=24 losses=4 sun=20 collected=1025 grafts=0 reason=Too many plants lost: 4 / 3",
+"strong_rerun": true
+},
+{
+"level": "night_08",
+"standard": true,
+"result": "BOT: night_08 WIN t=213.4 waves=5/5 plants=28 losses=5 sun=45 collected=1775 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_09",
+"standard": true,
+"result": "BOT: night_09 WIN t=371.2 waves=7/7 plants=48 losses=2 sun=4045 collected=8550 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_10",
+"standard": true,
+"result": "BOT: night_10 WIN t=214.2 waves=5/5 plants=19 losses=1 sun=125 collected=1225 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_11",
+"standard": true,
+"result": "BOT: night_11 WIN t=191.7 waves=5/5 plants=27 losses=19 sun=45 collected=1325 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_12",
+"standard": false,
+"result": "BOT: night_12 LOSE t=125.0 waves=3/6 plants=21 losses=6 sun=70 collected=975 grafts=0 reason=Too many plants lost: 6 / 5",
+"strong_rerun": true
+},
+{
+"level": "night_13",
+"standard": true,
+"result": "BOT: night_13 WIN t=244.7 waves=6/6 plants=33 losses=19 sun=45 collected=1850 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_14",
+"standard": true,
+"result": "BOT: night_14 WIN t=289.2 waves=6/6 plants=39 losses=19 sun=100 collected=2450 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_15",
+"standard": true,
+"result": "BOT: night_15 WIN t=230.2 waves=6/6 plants=27 losses=1 sun=145 collected=1950 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_16",
+"standard": true,
+"result": "BOT: night_16 WIN t=131.0 waves=6/6 plants=0 losses=0 sun=200 collected=200 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_17",
+"standard": true,
+"result": "BOT: night_17 WIN t=234.9 waves=6/6 plants=31 losses=10 sun=120 collected=1950 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_18",
+"standard": false,
+"result": "BOT: night_18 LOSE t=305.0 waves=7/7 plants=48 losses=36 sun=45 collected=2525 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "night_19",
+"standard": true,
+"result": "BOT: night_19 WIN t=323.5 waves=7/7 plants=40 losses=15 sun=20 collected=2750 grafts=11 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_20",
+"standard": true,
+"result": "BOT: night_20 WIN t=311.3 waves=7/7 plants=24 losses=19 sun=150 collected=1400 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_21",
+"standard": true,
+"result": "BOT: night_21 WIN t=189.5 waves=7/7 plants=0 losses=0 sun=1770 collected=1300 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_22",
+"standard": true,
+"result": "BOT: night_22 WIN t=361.7 waves=9/9 plants=71 losses=19 sun=2570 collected=10000 grafts=12 reason=",
+"strong_rerun": false
+},
+{
+"level": "night_23",
+"standard": false,
+"result": "BOT: night_23 LOSE t=276.3 waves=7/7 plants=43 losses=24 sun=20 collected=2175 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "night_24",
+"standard": false,
+"result": "BOT: night_24 LOSE t=281.7 waves=7/8 plants=45 losses=29 sun=0 collected=2200 grafts=1 reason=",
+"strong_rerun": true
+},
+{
+"level": "night_25",
+"standard": true,
+"result": "BOT: night_25 WIN t=406.7 waves=8/8 plants=56 losses=30 sun=0 collected=3500 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_01",
+"standard": true,
+"result": "BOT: pool_01 WIN t=151.9 waves=4/4 plants=25 losses=1 sun=35 collected=1850 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_02",
+"standard": true,
+"result": "BOT: pool_02 WIN t=197.3 waves=4/4 plants=28 losses=1 sun=85 collected=2425 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_03",
+"standard": true,
+"result": "BOT: pool_03 WIN t=155.8 waves=4/4 plants=24 losses=0 sun=10 collected=1850 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_04",
+"standard": true,
+"result": "BOT: pool_04 WIN t=154.3 waves=4/4 plants=27 losses=1 sun=35 collected=1850 grafts=5 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_05",
+"standard": true,
+"result": "BOT: pool_05 WIN t=174.5 waves=4/4 plants=29 losses=0 sun=10 collected=2125 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_06",
+"standard": false,
+"result": "BOT: pool_06 LOSE t=160.0 waves=4/5 plants=26 losses=4 sun=10 collected=1825 grafts=6 reason=Too many plants lost: 4 / 3",
+"strong_rerun": false
+},
+{
+"level": "pool_07",
+"standard": true,
+"result": "BOT: pool_07 WIN t=269.9 waves=5/5 plants=22 losses=6 sun=760 collected=2575 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_08",
+"standard": true,
+"result": "BOT: pool_08 WIN t=215.6 waves=5/5 plants=34 losses=2 sun=60 collected=2625 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_09",
+"standard": true,
+"result": "BOT: pool_09 WIN t=301.3 waves=7/7 plants=42 losses=0 sun=3510 collected=7000 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_10",
+"standard": true,
+"result": "BOT: pool_10 WIN t=216.8 waves=5/5 plants=34 losses=3 sun=35 collected=2650 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_11",
+"standard": true,
+"result": "BOT: pool_11 WIN t=166.4 waves=5/5 plants=30 losses=3 sun=85 collected=2000 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_12",
+"standard": true,
+"result": "BOT: pool_12 WIN t=220.2 waves=6/6 plants=32 losses=0 sun=385 collected=2675 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_13",
+"standard": true,
+"result": "BOT: pool_13 WIN t=246.0 waves=6/6 plants=44 losses=18 sun=60 collected=2925 grafts=5 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_14",
+"standard": true,
+"result": "BOT: pool_14 WIN t=236.2 waves=6/6 plants=36 losses=1 sun=35 collected=2900 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_15",
+"standard": true,
+"result": "BOT: pool_15 WIN t=221.7 waves=6/6 plants=31 losses=0 sun=585 collected=2700 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_16",
+"standard": true,
+"result": "BOT: pool_16 WIN t=123.8 waves=6/6 plants=0 losses=0 sun=300 collected=300 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_17",
+"standard": true,
+"result": "BOT: pool_17 WIN t=240.8 waves=6/6 plants=37 losses=1 sun=135 collected=2975 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_18",
+"standard": true,
+"result": "BOT: pool_18 WIN t=246.5 waves=7/7 plants=32 losses=0 sun=135 collected=2300 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_19",
+"standard": true,
+"result": "BOT: pool_19 WIN t=309.6 waves=7/7 plants=24 losses=12 sun=985 collected=3025 grafts=1 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_20",
+"standard": true,
+"result": "BOT: pool_20 WIN t=262.9 waves=7/7 plants=40 losses=2 sun=85 collected=3300 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_21",
+"standard": true,
+"result": "BOT: pool_21 WIN t=193.7 waves=7/7 plants=0 losses=0 sun=1910 collected=1450 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_22",
+"standard": true,
+"result": "BOT: pool_22 WIN t=310.4 waves=9/9 plants=56 losses=11 sun=3060 collected=8750 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_23",
+"standard": true,
+"result": "BOT: pool_23 WIN t=259.4 waves=7/7 plants=39 losses=4 sun=85 collected=3225 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_24",
+"standard": true,
+"result": "BOT: pool_24 WIN t=301.6 waves=8/8 plants=40 losses=2 sun=485 collected=3725 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "pool_25",
+"standard": true,
+"result": "BOT: pool_25 WIN t=318.6 waves=8/8 plants=48 losses=6 sun=335 collected=4025 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_01",
+"standard": true,
+"result": "BOT: roof_01 WIN t=193.3 waves=5/5 plants=28 losses=1 sun=115 collected=1850 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_02",
+"standard": true,
+"result": "BOT: roof_02 WIN t=196.9 waves=5/5 plants=28 losses=1 sun=65 collected=1925 grafts=6 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_03",
+"standard": true,
+"result": "BOT: roof_03 WIN t=194.6 waves=5/5 plants=30 losses=1 sun=40 collected=1900 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_04",
+"standard": true,
+"result": "BOT: roof_04 WIN t=205.1 waves=5/5 plants=30 losses=0 sun=40 collected=2000 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_05",
+"standard": true,
+"result": "BOT: roof_05 WIN t=203.7 waves=5/5 plants=33 losses=8 sun=40 collected=2000 grafts=2 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_06",
+"standard": true,
+"result": "BOT: roof_06 WIN t=228.4 waves=6/6 plants=32 losses=1 sun=90 collected=2225 grafts=8 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_07",
+"standard": false,
+"result": "BOT: roof_07 LOSE t=204.2 waves=6/6 plants=35 losses=1 sun=15 collected=1975 grafts=6 reason=The house was breached. The welcome mat was not an invitation.",
+"strong_rerun": true
+},
+{
+"level": "roof_08",
+"standard": true,
+"result": "BOT: roof_08 WIN t=248.6 waves=6/6 plants=39 losses=11 sun=40 collected=2450 grafts=4 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_09",
+"standard": true,
+"result": "BOT: roof_09 WIN t=404.2 waves=8/8 plants=51 losses=2 sun=4015 collected=8500 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_10",
+"standard": true,
+"result": "BOT: roof_10 WIN t=239.6 waves=6/6 plants=20 losses=12 sun=565 collected=1625 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_11",
+"standard": true,
+"result": "BOT: roof_11 WIN t=226.2 waves=6/6 plants=38 losses=8 sun=15 collected=2250 grafts=3 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_12",
+"standard": true,
+"result": "BOT: roof_12 WIN t=272.0 waves=7/7 plants=29 losses=12 sun=40 collected=1900 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_13",
+"standard": true,
+"result": "BOT: roof_13 WIN t=282.0 waves=7/7 plants=38 losses=4 sun=15 collected=2775 grafts=9 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_14",
+"standard": false,
+"result": "BOT: roof_14 LOSE t=262.2 waves=7/7 plants=48 losses=26 sun=40 collected=2500 grafts=2 reason=",
+"strong_rerun": true
+},
+{
+"level": "roof_15",
+"standard": true,
+"result": "BOT: roof_15 WIN t=262.0 waves=7/7 plants=37 losses=0 sun=115 collected=2575 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_16",
+"standard": true,
+"result": "BOT: roof_16 WIN t=136.0 waves=6/6 plants=0 losses=0 sun=0 collected=0 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_17",
+"standard": true,
+"result": "BOT: roof_17 WIN t=269.1 waves=7/7 plants=39 losses=3 sun=165 collected=2675 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_18",
+"standard": false,
+"result": "BOT: roof_18 LOSE t=259.5 waves=7/8 plants=24 losses=22 sun=290 collected=1525 grafts=0 reason=",
+"strong_rerun": true
+},
+{
+"level": "roof_19",
+"standard": false,
+"result": "BOT: roof_19 WIN t=308.9 waves=8/8 plants=44 losses=7 sun=90 collected=3125 grafts=9 reason=",
+"strong_rerun": true
+},
+{
+"level": "roof_20",
+"standard": true,
+"result": "BOT: roof_20 WIN t=308.6 waves=8/8 plants=43 losses=8 sun=15 collected=3075 grafts=7 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_21",
+"standard": true,
+"result": "BOT: roof_21 WIN t=232.8 waves=8/8 plants=0 losses=0 sun=2040 collected=1250 grafts=0 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_22",
+"standard": true,
+"result": "BOT: roof_22 WIN t=364.7 waves=10/10 plants=72 losses=16 sun=2390 collected=9425 grafts=11 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_23",
+"standard": true,
+"result": "BOT: roof_23 WIN t=342.4 waves=8/8 plants=36 losses=7 sun=115 collected=2375 grafts=10 reason=",
+"strong_rerun": false
+},
+{
+"level": "roof_24",
+"standard": false,
+"result": "BOT: roof_24 LOSE t=263.8 waves=7/9 plants=47 losses=27 sun=40 collected=2500 grafts=4 reason=",
+"strong_rerun": true
+},
+{
+"level": "roof_25",
+"standard": true,
+"result": "BOT: roof_25 WIN t=340.4 waves=8/8 plants=44 losses=6 sun=65 collected=3350 grafts=8 reason=",
+"strong_rerun": false
+}
+]

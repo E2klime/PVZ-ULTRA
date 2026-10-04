@@ -1,0 +1,169 @@
+{
+  "_doc": "Single source of truth for world colour. Read by tools/art/common/palette.py and (via export) by Godot WorldArtConfig .tres files. Colours are sRGB hex. grade = per-world light preset applied to the shared garden kit.",
+  "global": {
+    "key_light": "#ffe2a8",
+    "key_dir_deg": 135,
+    "shadow": "#3a4a78",
+    "outline": "#2c2418",
+    "ink": "#3b2a1a",
+    "paper": "#f4e6c4",
+    "lawn_target": {
+      "L_min": 40,
+      "L_max": 48,
+      "sat_max": 0.36,
+      "hue_min": 96,
+      "hue_max": 106,
+      "stripe_dL": 5.0,
+      "cell_dL": 2.5
+    }
+  },
+  "worlds": {
+    "lawn": {
+      "ground": "grass",
+      "lawn": [
+        "#4a6e34",
+        "#557a3c",
+        "#3e5f2c"
+      ],
+      "soil": "#6b4a2e",
+      "accent": "#7fb24a",
+      "grade": {
+        "gain": "#fff4dc",
+        "lift": "#1c2436",
+        "sat": 1.0,
+        "exposure": 0.0
+      }
+    },
+    "pool": {
+      "ground": "grass",
+      "lawn": [
+        "#476f38",
+        "#527c40",
+        "#3c5f30"
+      ],
+      "soil": "#7a5a3c",
+      "accent": "#4fb3c9",
+      "grade": {
+        "gain": "#fff8e8",
+        "lift": "#18283a",
+        "sat": 1.02,
+        "exposure": 0.05
+      }
+    },
+    "night": {
+      "ground": "grass",
+      "lawn": [
+        "#3d5f4a",
+        "#466b52",
+        "#324f40"
+      ],
+      "soil": "#3e3240",
+      "accent": "#9c8cf0",
+      "grade": {
+        "gain": "#b8c4ff",
+        "lift": "#0c1028",
+        "sat": 0.7,
+        "exposure": -0.55
+      }
+    },
+    "desert": {
+      "ground": "sand",
+      "lawn": [
+        "#b99a62",
+        "#c6a86c",
+        "#a88a55"
+      ],
+      "soil": "#8a6440",
+      "accent": "#e0a34a",
+      "grade": {
+        "gain": "#ffe9c2",
+        "lift": "#2a2030",
+        "sat": 0.95,
+        "exposure": 0.1
+      }
+    },
+    "roof": {
+      "ground": "tile",
+      "lawn": [
+        "#9a5c44",
+        "#a8684c",
+        "#88503b"
+      ],
+      "soil": "#5c3a2c",
+      "accent": "#d9774e",
+      "grade": {
+        "gain": "#ffd8b0",
+        "lift": "#26203a",
+        "sat": 0.95,
+        "exposure": -0.05
+      }
+    },
+    "frost": {
+      "ground": "snow",
+      "lawn": [
+        "#c8d8e2",
+        "#d6e4ec",
+        "#b6c8d6"
+      ],
+      "soil": "#7a8696",
+      "accent": "#8fd0f0",
+      "grade": {
+        "gain": "#eef6ff",
+        "lift": "#1a2a44",
+        "sat": 0.85,
+        "exposure": 0.05
+      }
+    },
+    "factory": {
+      "ground": "soil",
+      "lawn": [
+        "#6a5a3e",
+        "#76664a",
+        "#5c4e36"
+      ],
+      "soil": "#3e3428",
+      "accent": "#c9a23a",
+      "grade": {
+        "gain": "#ffe6c0",
+        "lift": "#1e1e22",
+        "sat": 0.8,
+        "exposure": -0.15
+      }
+    },
+    "moon": {
+      "ground": "gravel",
+      "lawn": [
+        "#7a7a92",
+        "#86869e",
+        "#6a6a84"
+      ],
+      "soil": "#4a4660",
+      "accent": "#b48cf0",
+      "grade": {
+        "gain": "#dcd8ff",
+        "lift": "#120e2a",
+        "sat": 0.75,
+        "exposure": -0.3
+      }
+    }
+  },
+  "ui": {
+    "wood_light": "#d79a55",
+    "wood_mid": "#b0703a",
+    "wood_dark": "#6e4022",
+    "paper": "#f4e6c4",
+    "paper_shade": "#e2cc9c",
+    "leaf": "#6fae3e",
+    "leaf_hover": "#82c24c",
+    "leaf_pressed": "#4f8a2c",
+    "disabled": "#8c9484",
+    "focus": "#ffd45a",
+    "danger": "#d8553c",
+    "rarity": {
+      "common": "#b0703a",
+      "rare": "#6fa6b4",
+      "epic": "#9a6ad0",
+      "legendary": "#e2b23a"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuestData" format=3]
+
+[ext_resource type="Script" path="res://core/data/quest_data.gd" id="1_67sim"]
+
+[resource]
+script = ExtResource("1_67sim")
+id = &"sun_hoarder"
+title_key = "QUEST_SUN_HOARDER_TITLE"
+desc_key = "QUEST_SUN_HOARDER_DESC"
+stat = &"sun"
+amount = 5000
+reward_coins = 100

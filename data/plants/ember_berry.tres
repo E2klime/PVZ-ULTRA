@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_instant.gd" id="1_t5bwc"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_v1kjg"]
+
+[resource]
+script = ExtResource("2_v1kjg")
+id = &"ember_berry"
+name_key = "PLANT_EMBER_BERRY_NAME"
+desc_key = "PLANT_EMBER_BERRY_DESC"
+cost = 150
+recharge = 50.0
+start_cooldown = 35.0
+role = &"instant"
+tags = Array[StringName]([&"fire"])
+behavior = ExtResource("1_t5bwc")
+damage = 1800
+aoe_radius = 1.5
+color_main = Color(0.88, 0.2, 0.18, 1)
+color_accent = Color(1, 0.6, 0.15, 1)

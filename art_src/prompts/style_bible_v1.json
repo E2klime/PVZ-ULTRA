@@ -1,0 +1,29 @@
+{
+  "_doc": "Prompt log for style-bible frames. model = Type-managed OpenAI gpt-image-2.5-flare (the image model available in this environment). The tool exposes no seed parameter, so generations are NOT bit-reproducible; the PNG outputs are therefore committed as sources in art_src/style_bible/frames and every downstream step is deterministic from them.",
+  "model": "gpt-image-2.5-flare",
+  "date": "2026-10-04",
+  "global_negative": "no text, no numbers, no letters, no logos, no people, no characters, no creatures, no plants with faces, not photorealistic, not flat vector, not 3D render",
+  "frames": [
+    {
+      "out": "art_src/style_bible/frames/sb_keyframe_lawn_v1.png",
+      "size": "1672x941",
+      "references": ["art_src/references/entities_scale_light_ref.png"],
+      "role": "mood/target frame only (never shipped; lawn geometry is assembled in code)",
+      "prompt": "Edit/style-match: use the supplied game frame ONLY as a reference for painting style, outline weight, scale and lighting of the characters. Paint a NEW, EMPTY environment mood frame for a 2D casual lane-defense game, 16:9 landscape, no characters at all, no creatures, no plants with faces, no text, no numbers, no logos, no people, no UI. Scene: a cozy suburban back garden seen from a gentle three-quarter top-down view. On the far left edge a small portion of a warm cream-coloured cottage wall with a wooden porch step. Along the top edge a low weathered wooden picket fence with soft hedges and a few rounded shrubs behind it, a tree canopy casting dappled shadows from the top-left. The large central area (roughly 60% of width, 65% of height, centred slightly right and low) is a lush, well-kept lawn with soft horizontal mow stripes, subtle tonal variation, small clover patches and tiny daisies; the lawn edges blend organically into a narrow strip of soil and a few uneven flagstones at the bottom, with grass tufts overhanging the borders, no hard rectangular frame. On the right edge a garden path of worn stepping stones and a gate. Style: stylized hand-painted 2D game art, soft rounded shapes, visible gouache brush texture, clear silhouettes, warm golden key light from the top-left, cool blue-violet soft shadows, gentle ambient occlusion where objects meet the ground, saturated but not neon greens, cohesive limited palette. Not photorealistic, not flat vector, not 3D render. Original design."
+    },
+    {
+      "out": "art_src/style_bible/frames/sb_lawn_ingredients_v1.png",
+      "size": "1224x1285",
+      "references": [],
+      "role": "ingredient style target (tufts, patches, edge strip, tileable swatch)",
+      "prompt": "Game art ingredient sheet on a plain flat light-grey background, for a stylized hand-painted 2D casual garden game. Neatly separated elements with generous empty space between them, no overlaps, no text, no numbers, no logos, no people, no characters, no creatures. Row 1: five different small grass tufts (clumps of soft blades, rounded tips), each with a soft painted contact shadow. Row 2: three irregular clover and moss patches, two small daisy clusters, one small dirt worn patch with a few pebbles. Row 3: a long horizontal lawn edge strip where lush grass overhangs a thin band of dark soil (organic uneven edge), and a short strip of three rounded flagstones with grass growing between them. Row 4: a square swatch of lawn grass texture viewed from directly above, dense short blades, soft brush strokes, even lighting, suitable for tiling. Style: visible gouache brush texture, soft rounded shapes, warm golden key light from top-left, cool blue-green shadows, saturated natural greens, cohesive limited palette. Not photorealistic, not flat vector, not 3D."
+    },
+    {
+      "out": "art_src/style_bible/frames/sb_ui_materials_v1.png",
+      "size": "1536x1024",
+      "references": [],
+      "role": "UI material target (wood + parchment + leaf + brass), rarity trims",
+      "prompt": "UI material concept sheet for a cozy stylized hand-painted 2D casual garden game, on a plain dark neutral background, elements well separated, completely blank surfaces: NO text, NO letters, NO numbers, NO glyphs, NO logos, no people, no characters. Include: (1) a large rectangular panel made of a warm light parchment sheet mounted on a rounded frame of honey-coloured painted wood with small brass corner rivets, soft drop shadow; (2) a row of four rounded wooden pill-shaped buttons with a leaf-green painted face showing four states: normal, hovered (slightly brighter with a soft highlight), pressed (darker, inset), disabled (desaturated grey-green); (3) three empty vertical seed-packet card frames of the same wood and paper, with trim colour variations: plain wood, polished silver-teal, and gold; (4) a horizontal progress bar groove carved in wood with a green leafy vine fill; (5) a round wooden token disc and a square wooden tool slot. Style: soft volume, visible brush texture, warm key light from top-left, cool soft shadows, gentle bevels, clear silhouettes, consistent materials. Not flat vector, not photorealistic, not glossy plastic."
+    }
+  ]
+}

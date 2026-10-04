@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+
+[ext_resource type="Script" path="res://entities/zombies/zombie_shield.gd" id="1_efgvx"]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="2_q4rwr"]
+
+[resource]
+script = ExtResource("2_q4rwr")
+id = &"shield_carrier"
+name_key = "ZOMBIE_SHIELD_CARRIER_NAME"
+desc_key = "ZOMBIE_SHIELD_CARRIER_DESC"
+armor_hp = 1100
+armor_kind = &"shield"
+speed = 0.17
+behavior = ExtResource("1_efgvx")
+threat_cost = 4.0
+weight = 3.0
+color_cloth = Color(0.5, 0.36, 0.3, 1)
+tier = 3

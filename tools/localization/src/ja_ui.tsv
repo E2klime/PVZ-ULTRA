@@ -1,0 +1,573 @@
+ALMANAC_FEE	手数料 +{n}
+ALMANAC_FOUND	接ぎ木 {n}/{max} 種を発見。
+ALMANAC_GRAFTS	接ぎ木
+ALMANAC_GRAFT_COST	{n} 太陽（タネ + 手数料 {fee}）
+ALMANAC_GRAFT_HELP	接ぎ木には触媒となるタネと手数料がかかります。ベースの植物は成長している必要があり、ステージごとに保持できるハイブリッドの数に上限があります。同じ種類の植物2つにもレシピがある場合があります。
+ALMANAC_HINTED	ヒントあり
+ALMANAC_MAX_ON_BOARD	芝生に同時に置けるのは {n} 体までです。
+ALMANAC_NOT_TRIED	未発見
+ALMANAC_PICK	左の項目を選んでください。
+ALMANAC_PLANTS	植物
+ALMANAC_RECIPE	接ぎ木：{a} + {b}
+ALMANAC_ZOMBIES	ゾンビ
+ARMOR_BUCKET	バケツ
+ARMOR_CONE	コーン
+ARMOR_HELMET	ヘルメット
+ARMOR_NONE	なし
+ARMOR_SHIELD	盾
+BANNER_GARGANTUAN_FURNACE	かまどガルガンチュア：サラダを予熱中。
+BANNER_GARGANTUAN_GRANITE	花崗岩ガルガンチュア：インターンが飛んでくるぞ！
+BANNER_GARGANTUAN_STORM	嵐のガルガンチュア：保証期間は終了しました。
+CRAFT_INSTALLED	（導入済み）
+CRAFT_NEEDS_TIER	（先にランク {n} が必要）
+CRAFT_OWNED	（{n} 個所持）
+CRAFT_UNLOCKED	（解放済み）
+DIFFICULTY_HARD	ハード
+DIFFICULTY_HARD_PLUS	ハード+
+DIFFICULTY_STANDARD	ノーマル
+DIFF_DESC_HARD	ゾンビ15%増、かみつきダメージ+15%、被ダメージ10%減。速度とウェーブ間隔は同じ。コイン×1.25。
+DIFF_DESC_HARD_PLUS	ゾンビ25%増、速度+5%、かみつきダメージ+30%、被ダメージ15%減、ウェーブ間隔5%短縮。コイン×1.5。
+DIFF_DESC_STANDARD	想定どおりの遊びごたえ。
+ENDLESS_REACHED	ウェーブ {n} に到達  ·  最高：{best}
+FAIL_BREACH	家に侵入された。玄関マットは招待状じゃない。
+FAIL_LOSSES	失った植物が多すぎる：{n}/{max}
+FAIL_STALL	庭が静まり返った：目標を達成するための太陽収入がない。
+FAIL_TIME	制限時間を超えた。
+FEATURE_GRAFT	接ぎ木が解放された！レシピがあれば、成長した植物にタネを落としてハイブリッドに合体できる。同じ種類の植物2つでもツインハイブリッドになる（サンバッド + サンバッド = ツインサンバッド）。ハイブリッドは直接植えられない。
+FIELD_CONVEYOR	ベルトコンベア
+FIELD_FROST	霜
+FIELD_HEAT	熱波
+FIELD_LOW_GRAVITY	低重力
+FIELD_NIGHT	夜
+FIELD_NORMAL	通常
+FIELD_PULSE	{n} 列目にフィールドパルス：{rule}
+FIELD_TIDE	潮
+FIELD_WIND	風
+GAME_FOOTER	ファンプロジェクト · オリジナルアート · v0.7：ハイブリッド専用＆多言語対応
+GAME_SUBTITLE	育てて、接いで、芝生を守れ。
+GAME_TITLE	ガーデンディフェンス
+HELP_BASICS_B	[b]太陽[/b]を集めて、左のタネ袋に使おう。タネ袋をタップしてからマスをタップ。ゾンビは右から歩いてくる。芝刈り機のない列でゾンビが家にたどり着くと負け。上のバーはウェーブの進行を示し、旗は大きなウェーブを表す。\n\n[b]速度[/b]（右上）で早送り、[b]シャベル[/b]（右下）で植物を取り除ける。
+HELP_BASICS_T	基本
+HELP_FUSION_B	同じレイヤーの対応する植物にタネを植えると[b]ハイブリッド[/b]になる――順番は関係ない。違うレイヤーの植物（例：パンプキンシェル + イバラヅル）はグローブでしか合体できない。発見したレシピは図鑑に載る。\n\n植物がその場でレベルアップすることはない：同じ植物2つも含め、すべての組み合わせがハイブリッドのレシピだ。
+HELP_FUSION_T	合体
+HELP_GLOVE_B	[b]グローブ[/b]（右下）をタップし、植物をタップして持ち上げ、移動先をタップ。\n- 空きマス：植物がそこへ移動する（体力はそのまま）。\n- 別の植物：レイヤーが違っても合体を試みる。\nグローブは移動のたびに数秒チャージが必要。
+HELP_GLOVE_T	グローブ
+HELP_LAYERS_B	各マスには4つのレイヤーがある：\n[b]v 下層[/b]――ピーベッドやトゲカーペットのような地面の植物。低い弾を撃ち、ほとんどのゾンビに無視される。\n[b]メイン[/b]――普通の植物。\n[b]o シェル[/b]――パンプキンシェルのような鎧。ゾンビはまずこれを食べなければならない。\n[b]^ 空中[/b]――ガーリックドローンのような飛ぶ植物。地上のゾンビは届かず、風船ゾンビとパチンコゾンビだけが攻撃できる。
+HELP_LAYERS_T	レイヤー
+HELP_LEGENDARY_B	伝説の植物は金色の枠を持つ。キャンペーン終盤のステージで手に入るレアな報酬だ：イージスパンプキン、サンダールート、スカイドラゴンフルーツ、クロノクローバー、ビーンパトリアーク、スターフォールメロンなど。太陽を大量に消費し、チャージも長い。
+HELP_LEGENDARY_T	伝説の植物
+HELP_MODES_B	[b]アドベンチャー[/b]――8つのワールドに200ステージ、特殊ミッションつき。\n[b]エンドレスゾーン[/b]――できるだけ多くのウェーブを生き延びよう。最高ウェーブが記録される。\n[b]デイリーチャレンジ[/b]――毎日タネ固定の新ステージ、ボーナス報酬つき。
+HELP_MODES_T	ゲームモード
+HELP_TWINS_B	強化やスターはない：植物がその場で強くなることはない。そのかわり、[b]同じ[/b]植物のペアの中には専用のハイブリッドレシピを持つものがある：\n- サンバッド + サンバッド = ツインサンバッド\n- ポッドシューター + ポッドシューター = ツインポッド\n- バークウォール + バークウォール = アイアンバークウォール\n変わった組み合わせもある。例えば霧氷レタス + ポッドシューター = グレイシャーシューター。ツインハイブリッドも他のハイブリッドと同じく、ステージのハイブリッド枠を1つ使う。
+HELP_TWINS_T	ツインハイブリッド
+HELP_ZOMBIES_B	ゾンビには[b]ランク[/b]（ノーマル、装甲、エリート、ボス）と[b]タイプ[/b]がある：\n- 地上：あらゆる攻撃が当たる。\n- 低い（ダンボール）：まっすぐな弾は上を通り過ぎる。低い弾、カタパルト、トゲ、爆発を使おう。\n- 空中（風船）：ほとんどの植物の上を飛んでいく。対空（トゲサボテン）、飛ぶ植物、風、ハチ、凍結、爆発で攻撃しよう。\nパチンコゾンビは離れた場所から飛ぶ植物を攻撃する。
+HELP_ZOMBIES_T	ゾンビのタイプ
+HUB_CAMPAIGN	キャンペーン：{n}/{max} クリア · ワールドは順番に解放
+HUB_CLEARED	{n}/{max} クリア
+HUB_HEADER	ガーデンディフェンス · 8つのワールド
+HUB_LAWN_TAG	クラシックキャンペーン · 16ステージ
+HUB_LOCKED	今後のアップデートで追加予定
+HUB_NEEDS_WORLD	{name}の全 {n} ステージをクリア
+HUB_POOL_TAG	プールサイドルート · 7ステージ
+HUB_READY	育てる準備OK
+HUB_TITLE	庭を選ぼう
+HUD_BASE_INTEGRITY	門 {n}/{max}
+HUD_BREACH	突破された！門の耐久：{n}
+HUD_FINAL_WAVE	最終ウェーブ！
+HUD_GLOVE_MOVE	グローブ：空きマスで移動、植物で合体
+HUD_GLOVE_PICK	グローブ：植物をタップして持ち上げる
+HUD_GRAFT_INTO	接ぎ木 → {name}（{cost}）
+HUD_HUGE_WAVE	大きなウェーブが来る！
+HUD_HYBRIDS	ハイブリッド {n}/{max}
+HUD_MENU	メニュー
+HUD_MOWER_KIT	芝刈り機を修理（{n}）
+HUD_PAUSE	一時停止
+HUD_PAUSED	一時停止中
+HUD_READY_SET_PLANT	よーい……どん……植えろ！
+HUD_SHOVEL	シャベル
+HUD_SPEED	ゲーム速度
+HUD_WAVE_WARNING	大ウェーブまで {n} 秒…
+IMMUNE_DEVOUR	丸のみ
+IMMUNE_FREEZE	凍結
+IMMUNE_PULL	引き寄せ
+IMMUNE_PUSH	押し戻し
+LANG_DE	Deutsch
+LANG_EN	English
+LANG_JA	日本語
+LANG_RU	Русский
+LANG_ZH_CN	简体中文
+LAYER_AIR	空中レイヤー
+LAYER_MAIN	メインレイヤー
+LAYER_SHELL	シェルレイヤー
+LAYER_UNDER	下層レイヤー
+MAP_BEACH_NAME	ビーチ
+MAP_BEST	最高：{name}
+MAP_BONUS	ボーナス
+MAP_CLEARED	クリア ★
+MAP_DIFFICULTY_READONLY	難易度：{name}（設定で変更できます）
+MAP_GATE	スターゲート
+MAP_GATE_DESC	スター {n} 個で開きます。所持：{have} 個。
+MAP_GRAVEYARD_NAME	夜の墓地
+MAP_JUNGLE_NAME	夜のジャングル
+MAP_LAWN_NAME	芝生
+MAP_LOCKED	ロック中。先に隣のポイントをクリアしよう。
+MAP_NEEDS_STARS	スターが {n} 個必要。
+MAP_OASIS_NAME	オアシス
+MAP_OBJECTIVES	目標：{list}
+MAP_POOL_NAME	プールサイド
+MAP_REWARD_COINS	報酬：{n} コイン
+MAP_REWARD_PLANT	報酬：{name}
+MAP_ROOF_NAME	屋根
+MAP_SHOP_DESC	コインでタネ枠、初期太陽、予備の芝刈り機、レシピのヒントを購入できます。
+MAP_TUNDRA_NAME	ツンドラ
+MAT_COMPOST	堆肥
+MAT_CRYSTAL	クリスタル
+MAT_SCRAP	スクラップ
+MENU_ENDLESS_BEST	エンドレス最高：ウェーブ {n}
+MENU_PROGRESS	クリアしたステージ：{n}/{max}
+MISSION_CANNON	マスをクリック：大砲 {s} 秒
+MISSION_REPAIR	植物をクリック：無料修理 {s} 秒
+MODE_DAILY	デイリーチャレンジ
+MODE_ENDLESS	エンドレスゾーン
+MSG_BAD_SURFACE	この植物はここでは育たない
+MSG_CAMPAIGN_VICTORY_RULE	キャンペーンの勝利には全ウェーブと全目標の達成が必要です。
+MSG_CELL_OCCUPIED	ここにはもう何か植わっている
+MSG_COINS_GAINED	+{n} コイン
+MSG_GLOVE_COOLDOWN	グローブをチャージ中（{s} 秒）
+MSG_GLOVE_PICK	先に植物を持ち上げよう
+MSG_GRAFT_DISABLED	ここでは接ぎ木できない
+MSG_HINT_GAINED	ヒント：{a} + {b} を試そう
+MSG_HYBRID_CAP	ハイブリッドの上限に達した
+MSG_LAYER_OCCUPIED	このマスのそのレイヤーはもう使われている
+MSG_LEGENDARY_LIMIT	伝説の植物は各1体まで
+MSG_NEEDS_RAFT	水上：先にスイレンいかだを植えよう
+MSG_NOT_ENOUGH_SUN	太陽が足りない
+MSG_NOT_READY	もう少し育ててから
+MSG_NO_RECIPE	この2つは接ぎ木できない
+MSG_QUEST_DONE	クエスト達成：{name}！クエストログで受け取ろう。
+MSG_RECHARGING	タネをチャージ中
+MSG_RECIPE_DISCOVERED	新しい接ぎ木：{name}！
+OBJTYPE_BANK_SUN	太陽を {n} 貯める
+OBJTYPE_COLLECT_SUN	太陽を {n} 集める
+OBJTYPE_GRAFT_COUNT	接ぎ木を {n} 回行う
+OBJTYPE_LOSS_LIMIT	失う植物は {n} 体まで
+OBJTYPE_NO_BREACH	突破は {n} 回まで
+OBJTYPE_PLANT_LIMIT	植え付けは {n} 回まで
+OBJTYPE_TIME_LIMIT	{n} 秒以内にクリア
+OBJ_BANK_SUN	貯めた太陽 {n}/{max}
+OBJ_BREACHES	突破 {n}/{max}
+OBJ_CLEAR_ALL_WAVES	全ウェーブを撃退
+OBJ_COLLECT_SUN	集めた太陽 {n}/{max}
+OBJ_DEFAULT	全ウェーブを撃退し、家を守ろう。
+OBJ_GRAFTS	接ぎ木 {n}/{max}
+OBJ_LOSSES	損失 {n}/{max}
+OBJ_NO_PLANTING	このミッションでは植え付けできない。用意された防御を使おう。
+OBJ_PLANT_ACTIONS	植え付け {n}/{max}
+OBJ_PLANT_LIMIT_REACHED	植え付け上限に達した（{n}/{max}）。接ぎ木も植え付け1回に数える。
+OBJ_TILE_BLOCKED	このマスは封鎖されている。雑草でさえ許可局には逆らわない。
+OBJ_TIME	時間 {n}/{max} 秒
+OBJ_WAVES_CLEARED	ウェーブ撃退！目標を達成しよう：{s}
+PLANT_AEGIS_PUMPKIN_DESC	伝説の金色シェル。放っておくと再生し、かみつきをゾンビに跳ね返す。
+PLANT_AEGIS_PUMPKIN_NAME	イージスパンプキン
+PLANT_BARK_WALL_DESC	ゾンビがかじり進むしかない太い切り株。弱るとひびが入る。
+PLANT_BARK_WALL_NAME	バークウォール
+PLANT_BEAN_PATRIARCH_DESC	伝説の長老マメ。同じ行と列のすべての植物を35%加速させ、太陽を落とす。
+PLANT_BEAN_PATRIARCH_NAME	ビーンパトリアーク
+PLANT_BEE_CANNON_DESC	ポッドシューターとハイブポッドのハイブリッド。最大4匹のハチの群れを放ち、列を進むゾンビを追いかける。
+PLANT_BRAMBLE_VINE_DESC	トゲだらけのツル。かみつくたびにゾンビの体力を削る。
+PLANT_BRAMBLE_VINE_NAME	イバラヅル
+PLANT_CHILI_DRONE_DESC	ハイブリッドの飛行ドローン。炎のかけらでゾンビを燃やし、むせさせて列を変えさせる。
+PLANT_CHILI_DRONE_NAME	チリドローン
+PLANT_CHRONO_CLOVER_DESC	伝説の四つ葉時計。14秒ごとに芝生のすべてのゾンビを遅くし、全タネのチャージを2秒短縮する。
+PLANT_CHRONO_CLOVER_NAME	クロノクローバー
+PLANT_CLOD_CATAPULT_DESC	盾や壁を越えて土くれを投げる。ダンボールゾンビに当たり、周りのゾンビにも飛び散る。
+PLANT_CLOD_CATAPULT_NAME	ツチクレカタパルト
+PLANT_CLOUD_BLOOM_DESC	小さな雲に乗った花。上空から太陽を作り、地上のゾンビに襲われず、どの植物の上にも置ける。
+PLANT_CLOUD_BLOOM_NAME	クラウドブルーム
+PLANT_DANDELION_PUFF_DESC	安い。隣の列も含め、近くのすべてのゾンビに綿毛を飛ばす。
+PLANT_DANDELION_PUFF_NAME	タンポポパフ
+PLANT_DAWN_BLOOM_DESC	サンバッド + ランタンブルーム。太陽を40作り、隣を少し強化する。花のようにもろい。
+PLANT_DAWN_BLOOM_NAME	ドーンブルーム
+PLANT_ELDER_OAK_DESC	伝説。体力9000の古代の壁。トゲのある樹皮がかみつく敵を傷つけ、放っておくと再生し、ハードラーを止められるほど背が高い。
+PLANT_ELDER_OAK_NAME	エルダーオーク
+PLANT_EMBER_BERRY_DESC	植えてすぐに爆発し、3×3の範囲をすべて焼き尽くす。
+PLANT_EMBER_BERRY_NAME	エンバーベリー
+PLANT_EMBER_POD_DESC	ポッドシューターとエンバーベリーのハイブリッド。燃えるポッドを撃ち、ゾンビを数秒間焼き続ける。
+PLANT_EMBER_SNAPPER_DESC	スナッパートラップとエンバーベリーのハイブリッド。炎のひとかみでゾンビを丸のみし、しばらく噛み続ける。
+PLANT_EMBER_VINE_DESC	イバラヅルとエンバーベリーのハイブリッド。燃えるツルで近くのゾンビを打ち、飛び散る炎で火をつける。
+PLANT_FROST_BARRIER_DESC	バークウォールとフロストミントのハイブリッド。とても頑丈な氷の壁で、かみつくゾンビすべてを傷つける。
+PLANT_FROST_BEDDING_DESC	ハイブリッドの下層植物。低い氷の弾でダンボールゾンビと地上ゾンビを遅くする。
+PLANT_FROST_BEDDING_NAME	フロストベッド
+PLANT_FROST_MINT_DESC	冷たいポッドでゾンビの歩きとかみつきを半分の速さにする。
+PLANT_FROST_MINT_NAME	フロストミント
+PLANT_GALE_FERN_DESC	数秒ごとに、前にいるゾンビを1マス近く吹き戻す。
+PLANT_GALE_FERN_NAME	ゲイルファーン
+PLANT_GALE_POD_DESC	ゲイルファーンとポッドシューターのハイブリッド。突風のポッドでゾンビを列の奥へ押し戻す。
+PLANT_GARLIC_DRONE_DESC	空飛ぶニンニク。かけらはどのゾンビにも当たり、むせさせて列を変えさせる。地上のゾンビは届かない――風船とパチンコだけが攻撃できる。
+PLANT_GARLIC_DRONE_NAME	ガーリックドローン
+PLANT_GLACIAL_HIVE_DESC	ハイブポッドとフロストミントのハイブリッド。最大4匹の氷のハチを放ち、強く素早く刺す。
+PLANT_GLACIER_SHOOTER_DESC	ポッドシューター + フロストミント。より強く遅くし、弾がゾンビをもう1体貫通する。発射は少し遅い。
+PLANT_GLACIER_SHOOTER_NAME	グレイシャーシューター
+PLANT_HAIL_VOLLEY_DESC	ツインポッドとフロストミントのハイブリッド。1回に氷のポッドを3発撃ち、ゾンビを遅くする。
+PLANT_HEALING_LANTERN_DESC	ランタンブルームとサンバッドのハイブリッド。隣の植物を大きく強化し、自分をゆっくり回復する。
+PLANT_HIVE_POD_DESC	最大3匹のハチを放ち、どの列でも一番近いゾンビを追いかける。ハチは盾を飛び越える。
+PLANT_HIVE_POD_NAME	ハイブポッド
+PLANT_ICE_MINE_DESC	トゲマインとフロストミントのハイブリッド。数秒で準備完了し、凍てつく爆発で生き残りを遅くする。
+PLANT_IRONBARK_WALL_DESC	バークウォール2つのハイブリッド。2倍頑丈で、ハードラーを止められるほど背が高い。
+PLANT_IRONBARK_WALL_NAME	アイアンバークウォール
+PLANT_LANTERN_BLOOM_DESC	その光で周囲8マスの植物が25%よく働く。
+PLANT_LANTERN_BLOOM_NAME	ランタンブルーム
+PLANT_LAVA_CATAPULT_DESC	溶岩の塊を投げるハイブリッドのカタパルト：範囲ダメージと炎上。
+PLANT_LAVA_CATAPULT_NAME	ラヴァカタパルト
+PLANT_LILY_RAFT_DESC	プールの水に浮かぶ。芝生の植物ならどれでも上に植えられる。上の植物が食べられても、いかだは残る。
+PLANT_LILY_RAFT_NAME	スイレンいかだ
+PLANT_NEEDLE_STORM_DESC	ペッパースティンガーとランタンブルームのハイブリッド。雷の針を撃ち、さらに最大3体のゾンビへ跳ねる。
+PLANT_NEEDLE_VOLLEY_DESC	ツインポッド + ペッパースティンガー。貫通する針を3連射。リロードが長い。
+PLANT_NEEDLE_VOLLEY_NAME	ニードルボレー
+PLANT_PEA_BEDDING_DESC	他の植物の下に植える小さなポッドのじゅうたん。低い弾を撃ち、ダンボールゾンビに当たる。上に何もないときだけ食べられる。
+PLANT_PEA_BEDDING_NAME	ピーベッド
+PLANT_PEPPER_HIVE_DESC	ハイブポッドとペッパースティンガーのハイブリッド。痛い針を持つ激辛のハチを最大5匹放つ。
+PLANT_PEPPER_STINGER_DESC	列のすべてのゾンビを貫くトゲを撃つ。リロードが遅い。
+PLANT_PEPPER_STINGER_NAME	ペッパースティンガー
+PLANT_PEPPER_WALL_DESC	バークウォールとペッパースティンガーのハイブリッド。激辛のトゲに覆われた頑丈な壁で、かみつくゾンビに大ダメージ。
+PLANT_PHOENIX_LILY_DESC	伝説。燃えさかるタネを撃ち、ゾンビ2体を貫通して火をつける。倒されても一度だけ灰からよみがえる。
+PLANT_PHOENIX_LILY_NAME	フェニックスリリー
+PLANT_POD_SHOOTER_DESC	同じ列のゾンビにポッドを撃つ。
+PLANT_POD_SHOOTER_NAME	ポッドシューター
+PLANT_PUMPKIN_SHELL_DESC	他の植物にかぶせる。ゾンビはまずシェルをかじらないといけない。空きマスにもどの植物の上にも植えられる。
+PLANT_PUMPKIN_SHELL_NAME	パンプキンシェル
+PLANT_RIME_LETTUCE_DESC	太陽コストなし。最初に踏んだゾンビを10秒間（ブルートは5秒）凍らせ、その後もしばらく冷やす。使い切り。
+PLANT_RIME_LETTUCE_NAME	霧氷レタス
+PLANT_SKY_DRAGON_DESC	伝説の空飛ぶドラゴンフルーツ。列の前方4マスに炎を吐き、風船も含めてすべてを焼く。
+PLANT_SKY_DRAGON_NAME	スカイドラゴンフルーツ
+PLANT_SNAPPER_TRAP_DESC	目の前のゾンビを丸のみし、40秒間噛み続ける。ブルートは大きすぎて、かみつくだけ。
+PLANT_SNAPPER_TRAP_NAME	スナッパートラップ
+PLANT_SOLAR_BARRICADE_DESC	バークウォールとサンバッドのハイブリッド。太陽も作る頑丈な壁。
+PLANT_SOLAR_TURRET_DESC	サンバッドとポッドシューターのハイブリッド。ポッドを撃ちながら太陽も作る。
+PLANT_SPINE_CACTUS_DESC	貫通するトゲを撃ち、風船を割り、高く飛ぶゾンビにも当たる。
+PLANT_SPINE_CACTUS_NAME	トゲサボテン
+PLANT_STARFALL_MELON_DESC	星のメロンを投げる伝説のカタパルト。広い範囲ダメージで、生き残りを遅くし、ダンボールをつぶす。
+PLANT_STARFALL_MELON_NAME	スターフォールメロン
+PLANT_STORM_POD_DESC	ポッドシューターとランタンブルームのハイブリッド。帯電したポッドを撃ち、火花がさらに2体のゾンビへ跳ねる。
+PLANT_STORM_THISTLE_DESC	伝説。列の先頭のゾンビに雷を落とす。雷はどの列でも近くのゾンビ4体へ跳ね、短時間スタンさせる。盾を無視する。
+PLANT_STORM_THISTLE_NAME	ストームシスル
+PLANT_SUNBUD_DESC	24秒ごとに太陽を25作る。序盤にいくつか植えよう。
+PLANT_SUNBUD_NAME	サンバッド
+PLANT_SUN_MINE_DESC	トゲマインとサンバッドのハイブリッド。すぐ準備でき、触れると爆発して太陽の山を残す。
+PLANT_SUN_SOVEREIGN_DESC	伝説。20秒ごとに太陽を50作り、そのコロナで周囲8マスの植物が20%よく働く。
+PLANT_SUN_SOVEREIGN_NAME	サンソブリン
+PLANT_THORNWALL_DESC	バークウォール + イバラヅル。かみつく敵すべてを傷つけるが、背は高くない：ハードラーには跳び越えられる。
+PLANT_THORNWALL_NAME	トゲウォール
+PLANT_THORN_CARPET_DESC	他の植物の下に植えるトゲのマット。上を歩く地上ゾンビすべてを刺す。ダンボール入りも例外ではない。食べられない。
+PLANT_THORN_CARPET_NAME	トゲカーペット
+PLANT_THORN_LANTERN_DESC	ランタンブルームとバークウォールのハイブリッド。トゲだらけの頑丈なランタンで、隣を強化する。
+PLANT_THORN_MINE_DESC	安い。準備に14秒かかり、最初に踏んだゾンビの足元で炸裂する。モグラゾンビにも当たる。
+PLANT_THORN_MINE_NAME	トゲマイン
+PLANT_THORN_PUMPKIN_DESC	トゲだらけのハイブリッドシェル：かみつくたびに相手が傷つく。
+PLANT_THORN_PUMPKIN_NAME	トゲパンプキン
+PLANT_THUNDER_ROOT_DESC	他の植物の下に植える伝説の根。雷が列を駆け抜け、最大6体の地上ゾンビを打ってスタンさせる。
+PLANT_THUNDER_ROOT_NAME	サンダールート
+PLANT_TURBO_BEAN_DESC	ジェットの芽を持つ空飛ぶマメ。周囲3×3の植物の攻撃と生産が50%速くなる。
+PLANT_TURBO_BEAN_NAME	ターボビーン
+PLANT_TWIN_POD_DESC	ポッドシューター2つのハイブリッド。1回にポッドを2発撃つ。
+PLANT_TWIN_POD_NAME	ツインポッド
+PLANT_TWIN_SUNBUD_DESC	サンバッド2つのハイブリッド。花が2つで、太陽も2倍。
+PLANT_TWIN_SUNBUD_NAME	ツインサンバッド
+PLANT_VOLCANO_MINE_DESC	トゲマイン + エンバーベリー。準備は遅いが、3×3の範囲で噴火し、燃える地面を残す。
+PLANT_VOLCANO_MINE_NAME	ボルケーノマイン
+PLANT_VORTEX_TRAP_DESC	スナッパートラップ + ゲイルファーン。かみつくたびに隣の列のゾンビを自分の列へ引き込む。
+PLANT_VORTEX_TRAP_NAME	ボルテックストラップ
+QUEST_BUCKET_LIST_DESC	バケツヘッドを {n} 体倒す。
+QUEST_BUCKET_LIST_TITLE	バケツリスト
+QUEST_CLAIM	受け取る
+QUEST_CLAIMED	受け取り済み
+QUEST_CLEAN_LAWN_DESC	芝刈り機を使わずに {n} ステージ勝利する。
+QUEST_CLEAN_LAWN_TITLE	無傷の芝生
+QUEST_CONE_CRACKER_DESC	コーンヘッドを {n} 体倒す。
+QUEST_CONE_CRACKER_TITLE	コーンクラッシャー
+QUEST_FIRST_GRAFT_DESC	ハイブリッドを {n} 体接ぎ木する。
+QUEST_FIRST_GRAFT_TITLE	緑の親指
+QUEST_FIRST_STEPS_DESC	{n} ステージ勝利する。
+QUEST_FIRST_STEPS_TITLE	はじめの一歩
+QUEST_GARDENER_DESC	植物を {n} 体植える。
+QUEST_GARDENER_TITLE	庭師
+QUEST_GIANT_SLAYER_DESC	ブルートを {n} 体倒す。
+QUEST_GIANT_SLAYER_TITLE	巨人殺し
+QUEST_HARD_SOIL_DESC	ハードかハード+で {n} ステージ勝利する。
+QUEST_HARD_SOIL_TITLE	固い土
+QUEST_RECIPE_BOOK_DESC	異なる接ぎ木を {n} 種発見する。
+QUEST_RECIPE_BOOK_TITLE	レシピ帳
+QUEST_REWARD	{n} コイン
+QUEST_REWARD_HINT	レシピのヒント
+QUEST_SHAMBLER_HUNTER_DESC	シャンブラーを {n} 体倒す。
+QUEST_SHAMBLER_HUNTER_TITLE	シャンブラーハンター
+QUEST_SUN_HOARDER_DESC	太陽を合計 {n} 集める。
+QUEST_SUN_HOARDER_TITLE	太陽コレクター
+QUEST_TWINS_DESC	同じ種類の植物2つを {n} 回接ぎ木する。
+QUEST_TWINS_TITLE	ダブルアップ
+RARITY_LEGENDARY	伝説
+RESULT_CAMPAIGN_DONE	キャンペーンを全クリアした！エンドレスゾーンとデイリーチャレンジに挑戦しよう。
+RESULT_COINS	+{n} コイン
+RESULT_LOSE	侵入された……
+RESULT_LOSE_DESC	ゾンビが家にたどり着いた。弱い列を見直して、もう一度挑戦しよう。
+RESULT_NEW_PLANT	新しい植物：{name}
+RESULT_STAR	★ スター獲得
+RESULT_WIN	芝生を守りきった！
+ROLE_AOE	範囲
+ROLE_BLOCKER	ブロッカー
+ROLE_CHAIN	連鎖雷
+ROLE_CONTROL	妨害
+ROLE_FREEZE	凍結
+ROLE_INSTANT	即効
+ROLE_MINE	地雷
+ROLE_PIERCE	貫通
+ROLE_PLATFORM	水上の足場
+ROLE_PRODUCER	生産
+ROLE_SHOOTER	シューター
+ROLE_SLOWER	減速
+ROLE_SUMMONER	召喚
+ROLE_SUPPORT	サポート
+ROLE_TRAP	トラップ
+ROLE_WALL	壁
+SEEDS_FIXED	このステージではタネが固定されています。
+SEEDS_HOVER_HINT	タネにカーソルを合わせると説明が読めます。
+SEEDS_HYBRIDS_ALLOWED	接ぎ木可：ハイブリッドは最大 {n} 体。材料は両方ともデッキに必要です。
+SEEDS_HYBRIDS_BANNED	このステージでは接ぎ木できません。
+SEEDS_SLOTS	枠 {n}/{max}
+SEEDS_START	育てよう！
+SEEDS_TITLE	タネを選ぼう
+SEEDS_WAVES	{n} ウェーブ
+SEEDS_ZOMBIES	出現予定：
+SETTINGS_ALWAYS	常に
+SETTINGS_AUTO_SUN	太陽を自動で集める
+SETTINGS_CB_HINTS	色覚サポート
+SETTINGS_CB_HINTS_HINT	色だけで表示される効果に記号を追加します。
+SETTINGS_DAMAGED	ダメージ時
+SETTINGS_DEFAULTS	初期設定に戻す
+SETTINGS_DEFAULT_SPEED	バトルの標準速度
+SETTINGS_DIFFICULTY	標準の難易度
+SETTINGS_DIFFICULTY_HINT	難易度が高いほどゾンビが増え、コインも多くもらえます。
+SETTINGS_DRAG	ドラッグで植える
+SETTINGS_DRAG_HINT	2回タップの代わりに、タネ袋を芝生へドラッグします。
+SETTINGS_FPS	フレームレート上限
+SETTINGS_FPS_HINT	上限を下げるとスマホのバッテリーを節約できます。
+SETTINGS_FULLSCREEN	フルスクリーン
+SETTINGS_HAPTICS	振動
+SETTINGS_HC_HP	高コントラストの体力バー
+SETTINGS_HEALTH_BARS	体力バー
+SETTINGS_HIGH	高
+SETTINGS_HINTS	ヒントを表示
+SETTINGS_KEYS	キー：1-9、0 タネ · Q/S シャベル · G/W グローブ · P/Esc 一時停止 · 右クリックでキャンセル
+SETTINGS_LANGUAGE	言語
+SETTINGS_LANGUAGE_HINT	ミッションや図鑑を含め、ゲーム全体の言語を変更します。
+SETTINGS_LONG_PRESS	長押しで植物の情報を表示
+SETTINGS_LOW	低
+SETTINGS_MUTE_UNFOCUSED	バックグラウンドでミュート
+SETTINGS_OFF	オフ
+SETTINGS_PARTICLES	パーティクル
+SETTINGS_REDUCE_MOTION	動きを減らす
+SETTINGS_REDUCE_MOTION_HINT	揺れ、フラッシュ、カメラの動きを減らします。
+SETTINGS_RESET	進行状況をリセット
+SETTINGS_RESET_CONFIRM	もう一度押すとすべて消去します
+SETTINGS_RESET_DONE	進行状況をリセットしました。
+SETTINGS_SAVE_PATH	セーブフォルダー：{p}
+SETTINGS_SHAKE	画面の揺れ
+SETTINGS_SHOW_FPS	FPSを表示
+SETTINGS_STATS_LINE	勝利：{wins} · 植えた数：{plants} · 接ぎ木：{grafts}
+SETTINGS_STICKY_TOOLS	シャベル/グローブを選択したままにする
+SETTINGS_STICKY_TOOLS_HINT	使用後もツールが選択されたままになります。
+SETTINGS_TAB_ACCESS	アクセシビリティ
+SETTINGS_TAB_AUDIO	オーディオ
+SETTINGS_TAB_CONTROLS	操作
+SETTINGS_TAB_DATA	データ
+SETTINGS_TAB_GAMEPLAY	ゲームプレイ
+SETTINGS_TAB_LANGUAGE	言語
+SETTINGS_TAB_VIDEO	画面
+SETTINGS_TEST_SOUND	テスト音
+SETTINGS_VOL_MASTER	マスター音量
+SETTINGS_VOL_MUSIC	音楽
+SETTINGS_VOL_SFX	効果音
+SETTINGS_VSYNC	垂直同期
+SHOP_BUY	購入 · {n}
+SHOP_EQUIP	装備
+SHOP_EQUIPPED	装備中
+SHOP_EXTRA_SLOT_DESC	すべてのステージでタネを1つ多く持てる（最大10）。
+SHOP_EXTRA_SLOT_NAME	タネ枠
+SHOP_LEGEND_ELDER_OAK_DESC	伝説のタネ。自己再生する古代の壁。芝生13のクリア報酬でもある。
+SHOP_LEGEND_ELDER_OAK_NAME	エルダーオーク
+SHOP_LEGEND_PHOENIX_LILY_DESC	伝説のタネ。燃える貫通弾を撃ち、一度だけよみがえる。
+SHOP_LEGEND_PHOENIX_LILY_NAME	フェニックスリリー
+SHOP_LEGEND_STORM_THISTLE_DESC	伝説のタネ。列をまたぐ連鎖雷。プール6のクリア報酬でもある。
+SHOP_LEGEND_STORM_THISTLE_NAME	ストームシスル
+SHOP_LEGEND_SUN_SOVEREIGN_DESC	伝説のタネ。隣に力を与え強化する、王冠をかぶったヒマワリ。
+SHOP_LEGEND_SUN_SOVEREIGN_NAME	サンソブリン
+SHOP_LEGEND_THANKS	{name}が庭の仲間になった！
+SHOP_MOWER_KIT_DESC	使い切り。ステージ中に使用済みの芝刈り機を1台作り直す。
+SHOP_MOWER_KIT_NAME	芝刈り機修理キット
+SHOP_OWNED	所持：{n}
+SHOP_RECIPE_HINT_DESC	未知の接ぎ木の材料2つを明かす。
+SHOP_RECIPE_HINT_NAME	レシピのヒント
+SHOP_SKIN_AZURE_DESC	見た目のみ。芝刈り機を青く塗装する。
+SHOP_SKIN_AZURE_NAME	アズール芝刈り機
+SHOP_SKIN_GOLD_DESC	見た目のみ。ただ自慢するためのもの。
+SHOP_SKIN_GOLD_NAME	ゴールド芝刈り機
+SHOP_SKIN_MOSS_DESC	見た目のみ。芝生に溶け込む緑色。
+SHOP_SKIN_MOSS_NAME	モス芝刈り機
+SHOP_SOLD_OUT	売り切れ
+SHOP_START_SUN_DESC	各ステージ開始時に太陽+25。
+SHOP_START_SUN_NAME	朝つゆ
+SHOP_THANKS	ありがとう！またいつでもどうぞ。
+SPEED_FAST	速い
+SPEED_NORMAL	普通
+SPEED_SLOW	遅い
+STATS_CAMPAIGN	キャンペーンステージ
+STATS_COINS	コイン
+STATS_DAILIES	デイリーチャレンジ勝利数
+STATS_ENDLESS	エンドレス最高ウェーブ
+STATS_GLOVE	グローブ移動回数
+STATS_GRAFTS	接ぎ木
+STATS_PLANTED	植えた植物
+STATS_PLANTS	解放したタネ
+STATS_RECIPES	発見したレシピ
+STATS_STARS	スター
+STATS_SUN	集めた太陽
+STATS_TWIN_GRAFTS	ツインハイブリッド
+STATS_WINS	勝利数
+STATS_ZOMBIES	見たゾンビ
+STAT_ALL	列上のすべて
+STAT_AREA	爆発範囲
+STAT_ARM	準備時間
+STAT_ARMOR	装甲
+STAT_BITE	かみつき
+STAT_BITE_V	{s} 秒ごとに {d}
+STAT_BUFF	隣への強化
+STAT_BURN	炎上
+STAT_BURN_V	{d} ダメージ/秒、{s} 秒間
+STAT_CELLS	{n} マス
+STAT_CHAIN	連鎖
+STAT_CHAIN_V	{n} 回跳ねる、間隔 {r} マス
+STAT_CHEW	噛む時間
+STAT_CROSS	芝生を横断する時間
+STAT_DAMAGE	1発のダメージ
+STAT_DPS	秒間ダメージ
+STAT_EAT_DPS	食べるダメージ/秒
+STAT_EVERY	{n} 秒ごと
+STAT_FREEZE	凍結
+STAT_GRAFT	接ぎ木専用
+STAT_GRAFTS_INTO	接ぎ木先
+STAT_GROW_TIME	接ぎ木可能まで
+STAT_IMMUNE	無効
+STAT_LAWN	芝生（水上ならスイレンいかだ）
+STAT_LIMIT	配置上限
+STAT_LIMIT_V	同時に {n} 体
+STAT_MADE_BY	入手方法
+STAT_PER_BITE	ひとかみ {n}
+STAT_PIERCE	貫通
+STAT_POD_HITS	ポッドシューターで倒す命中数
+STAT_PROJECTILE	弾速
+STAT_PULL	引き寄せ範囲
+STAT_PUSH	押し戻し
+STAT_RANGE	射程
+STAT_RATE	攻撃間隔
+STAT_REBIRTHS	復活回数
+STAT_RECIPE	レシピ
+STAT_REGEN	再生
+STAT_SIZE	サイズ
+STAT_SLOW	減速
+STAT_SLOW_V	速度 -{p}%、{s} 秒間
+STAT_SPEED_V	{c} マス/秒（{p} px/秒）
+STAT_START_COOLDOWN	最初に使えるまで
+STAT_STUN	スタン
+STAT_SUMMONS	最大召喚数
+STAT_SUN	太陽 {n}
+STAT_SUN_MADE	太陽の生産
+STAT_SUN_V	{s} 秒ごとに {n}（約 {m}/分）
+STAT_SURFACE	植えられる場所
+STAT_THORNS	トゲ
+STAT_THREAT	ウェーブコスト
+STAT_WATER	水上のみ
+STAT_WHOLE_LANE	前方の列全体
+TIP_1	成長したポッドシューターにポッドシューターのタネを落とすと、ツインポッドに接ぎ木できる。
+TIP_10	バトルを一時停止すれば、ステージを出ずに設定を変更できる。
+TIP_11	エンドレスゾーンはウェーブごとに難しくなる。どこまで行ける？
+TIP_12	タネ固定の新しいデイリーチャレンジが毎日登場する。
+TIP_2	パンプキンは植物の上に、ピーベッドは植物の下に――1マスに3体の植物を置ける。
+TIP_3	ガーリックドローンのような飛ぶ植物は、風船ゾンビとパチンコゾンビにしか傷つけられない。
+TIP_4	ダンボールゾンビは他のゾンビの後ろに隠れる。低い弾、カタパルト、爆弾を使おう。
+TIP_5	グローブで植物を別のマスへ移動できる。植物の上に落とすと、レイヤーをまたいだ接ぎ木を試せる。
+TIP_6	合体は順番を問わない：AをBに植えても、BをAに植えても同じハイブリッドになる。
+TIP_7	伝説の植物は高価だが、1体で列をまるごと守れる。
+TIP_8	ターボビーンは同じ行と列のすべての植物を加速させる。
+TIP_9	トゲカーペットは上を歩くすべてのゾンビを傷つける。ダンボールも例外ではない。
+TOAST_BOMB_FUSE	爆弾の導火線：3秒。アロマキャンドルでは断じてない。
+TOAST_SUN_STOLEN	太陽を盗まれた！請求書には「コンサル料」とある。
+TOAST_TOOL_USED	使用：{name}
+TOAST_TOOL_NO_EFFECT	今は使う対象がありません。道具は残しました。
+TOOL_COMPOST_TEA	堆肥ティー
+TOOL_FROST_BOTTLE	フロストボトル
+TOOL_GLUE_TRAP	粘着トラップ
+TOOL_PEPPER_BOMB	ペッパーボム
+TOOL_REPAIR_KIT	修理キット
+TOOL_SEED_CLOCK	タネ時計
+TOOL_SUN_FLASK	太陽のボトル
+TOOL_SUN_MAGNET	太陽マグネット
+UI_ADVENTURE	アドベンチャー
+UI_ALMANAC	図鑑
+UI_BACK	戻る
+UI_COINS	{n} コイン
+UI_CONTINUE	続ける
+UI_COST	コスト
+UI_DIFFICULTY	難易度
+UI_HEALTH	体力
+UI_HELP	ヘルプ
+UI_HP	体力
+UI_LEGENDARY	伝説
+UI_OFF	オフ
+UI_ON	オン
+UI_OPEN_SHOP	ショップを開く
+UI_PLAY	プレイ
+UI_QUESTS	クエストログ
+UI_QUIT	終了
+UI_RECHARGE	チャージ
+UI_RESTART	ステージをやり直す
+UI_RESUME	再開
+UI_RETRY	もう一度
+UI_ROLE	役割
+UI_SETTINGS	設定
+UI_SHOP	ショップ
+UI_SPEED	速度
+UI_STATS	統計
+UI_TOUGHNESS	耐久力
+UI_TO_MAP	マップへ戻る
+UI_WORKSHOP	クラフト工房
+UNIT_HP_PER_SEC	{n} HP/秒
+UNIT_PX_PER_SEC	{n} px/秒
+UNIT_SEC	{n} 秒
+WORKSHOP_BACK	ワールドへ戻る
+WORKSHOP_COST	コスト：{cost} · ワールド：{world}
+WORKSHOP_CRAFT	クラフト
+WORKSHOP_INTRO	素材は勝利で手に入る。初回クリアは報酬全額、再プレイでは堆肥とスクラップ、節目の再プレイ（5ステージごと）ではさらにクリスタル1個。ツールは9個まで重ねられ、どのミッションでも使用は任意。アップグレードは永続・段階式で、効果は小さめ。
+ZOMBIE_BALLOON_ZOMBIE_DESC	地上の植物の上を漂い、飛ぶ植物をかじる。対空トゲ、飛ぶ植物、風、爆発で風船を割ろう。
+ZOMBIE_BALLOON_ZOMBIE_NAME	風船ゾンビ
+ZOMBIE_BOX_ZOMBIE_DESC	別のゾンビのすぐ後ろでダンボールに隠れている。まっすぐな弾は箱の上を通り過ぎる――箱が破れるまでは、低い弾（ピーベッド、トゲカーペット）、放物線の弾（カタパルト）、爆発しか当たらない。
+ZOMBIE_BOX_ZOMBIE_NAME	ダンボールゾンビ
+ZOMBIE_BRUTE_DESC	巨大でのろく、丸太で植物を叩きつぶす。大きすぎて丸のみも押し戻しもできない。
+ZOMBIE_BRUTE_NAME	ブルート
+ZOMBIE_BUCKET_HEAD_DESC	金属のバケツでおよそ5倍頑丈になっている。
+ZOMBIE_BUCKET_HEAD_NAME	バケツヘッド
+ZOMBIE_BURROWER_DESC	芝生の下を掘り進んで家の近くに出てきて、食べながら戻っていく。地中にいる間は地雷しか届かない。
+ZOMBIE_BURROWER_NAME	モグラゾンビ
+ZOMBIE_CONE_HEAD_DESC	三角コーンが最初の数発を受け止める。
+ZOMBIE_CONE_HEAD_NAME	コーンヘッド
+ZOMBIE_FLAGBEARER_DESC	大きなウェーブの先頭に立つ。他より少し速い。
+ZOMBIE_FLAGBEARER_NAME	旗持ちゾンビ
+ZOMBIE_HURDLER_DESC	棒で最初の植物を跳び越え、その後はゆっくり歩く。背の高い植物は棒を折る。
+ZOMBIE_HURDLER_NAME	ハードラー
+ZOMBIE_SHAMBLER_DESC	歩く。かむ。止まらない。
+ZOMBIE_SHAMBLER_NAME	シャンブラー
+ZOMBIE_SHIELD_CARRIER_DESC	ドアを前に構えている。弾とトゲはドアに当たる。爆発、範囲攻撃、ハチはドアに防がれない。
+ZOMBIE_SHIELD_CARRIER_NAME	盾持ちゾンビ
+ZOMBIE_SLINGSHOT_ZOMBIE_DESC	立ち止まり、4マス以内の飛ぶ植物に石を浴びせる。地上の植物はたどり着くまで無視する。
+ZOMBIE_SLINGSHOT_ZOMBIE_NAME	パチンコゾンビ
+ZOMBIE_SPRINTER_DESC	2倍の速さで走る。崩れるのも同じくらい速い。
+ZOMBIE_SPRINTER_NAME	スプリンター

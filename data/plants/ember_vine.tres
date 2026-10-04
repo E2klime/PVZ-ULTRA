@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/plants/plant_aoe.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"ember_vine"
+name_key = "Ember Vine"
+desc_key = "Graft bramble_vine + ember_berry. {'damage': 40, 'burn_dps': 25, 'burn_time': 4, 'aoe_radius': 1.2, 'attack_interval': 2.6}"
+behavior = ExtResource("2")
+is_seed = false
+is_hybrid = true
+role = &"aoe"
+color_main = Color(0.4, 0.65, 0.6, 1)
+color_accent = Color(0.9, 0.7, 0.2, 1)
+damage = 40
+burn_dps = 25
+burn_time = 4
+aoe_radius = 1.2
+attack_interval = 2.6

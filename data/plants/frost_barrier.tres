@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="1"]
+[ext_resource type="Script" path="res://entities/plants/plant_wall.gd" id="2"]
+[resource]
+script = ExtResource("1")
+id = &"frost_barrier"
+name_key = "Frost Barrier"
+desc_key = "Graft bark_wall + frost_mint. {'max_hp': 4800, 'thorns_damage': 55}"
+behavior = ExtResource("2")
+is_seed = false
+is_hybrid = true
+role = &"wall"
+color_main = Color(0.4, 0.65, 0.6, 1)
+color_accent = Color(0.9, 0.7, 0.2, 1)
+max_hp = 4800
+thorns_damage = 55

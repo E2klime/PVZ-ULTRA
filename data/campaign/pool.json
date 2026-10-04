@@ -1,0 +1,5192 @@
+{
+ "schema_version": 1,
+ "id": "pool",
+ "name": "2 · Poolside Panic",
+ "order": 1,
+ "previous": "lawn",
+ "color": "#4d9db0",
+ "rule_text": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds.",
+ "levels": [
+  {
+   "id": "pool_01",
+   "number": 1,
+   "title": "2-01 · Water You Doing",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Establish economy and cover all five lanes.",
+   "joke": "The welcome mat says hello, not all-you-can-eat. No diving, except the guy who ignored the sign. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "intro",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "....~~~~.",
+    "..~~~.~..",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "lily_raft",
+   "reward_feature": "",
+   "reward_coins": 108,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_02",
+   "number": 2,
+   "title": "2-02 · Raft Before Reason",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Build sun production before doubling your shooters.",
+   "joke": "Sunlight remains free. The zombie subscription is harder to cancel. The pool filter is reconsidering its career. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "economy",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~.~~..",
+    "...~~~.~.",
+    "..~.~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 111,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_03",
+   "number": 3,
+   "title": "2-03 · The Deep End",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Local traffic cone promoted to middle management. The lifeguard whistle is decorative, apparently.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "...~~~~~.",
+    "....~~~~.",
+    "..~.~~~~.",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "diver",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "garlic_drone",
+   "reward_feature": "",
+   "reward_coins": 114,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_04",
+   "number": 4,
+   "title": "2-04 · Certified Lifeguard",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "The doctor recommends more brains. Seek a second opinion. The shallow end has surprisingly deep staffing issues. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "....~~~..",
+    "...~~~~~.",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "snorkeler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "snorkeler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 117,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_05",
+   "number": 5,
+   "title": "2-05 · Fishy Business",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Your delivery is three lanes away and marked delivered. A rubber duck has filed the only useful incident report. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    "...~~~~..",
+    "....~.~~.",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "lifeguard",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "rime_lettuce",
+   "reward_feature": "",
+   "reward_coins": 120,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_06",
+   "number": 6,
+   "title": "2-06 · No Splashing the Sunbuds",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Lose no more than 3 plants to attacks or shoveling. Single-use plants do not count.",
+   "joke": "The roots have formed a union. Please keep them alive. The pool filter is reconsidering its career. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "preserve",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "...~~~~~.",
+    "..~~~~~..",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 3
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 560,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 123,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_07",
+   "number": 7,
+   "title": "2-07 · Twenty-Two Floating Decisions",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Win with at most 22 planting actions, including grafts and rafts.",
+   "joke": "Twenty plants. Infinite unsolicited gardening opinions. No diving, except the guy who ignored the sign. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "limit",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    ".....~~~.",
+    "..~~~~...",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 22
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 610,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 126,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_08",
+   "number": 8,
+   "title": "2-08 · Lane Rope Optional",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. A new specialist joins the queue. Read its almanac counter before starting.",
+   "joke": "Turn signals are apparently a living-person feature. The lifeguard whistle is decorative, apparently. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "introduce",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    "...~~~~~.",
+    "..~.~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "spine_cactus",
+   "reward_feature": "",
+   "reward_coins": 129,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_09",
+   "number": 9,
+   "title": "2-09 · Solar Pool Heater",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Hold 3500 unspent sun and clear all waves. Collection continues after the last zombie.",
+   "joke": "Four thousand sun in savings. Still cannot afford a garden shed. The shallow end has surprisingly deep staffing issues. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "bank",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "...~~.~~.",
+    "....~~~~.",
+    "..~~~~~~.",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "bank_sun",
+     "target": 3500
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 75,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 132,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_10",
+   "number": 10,
+   "title": "2-10 · Adults Swim Last",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. No mowers. Any breach fails the mission.",
+   "joke": "The mowers have requested a mental-health day. A rubber duck has filed the only useful incident report. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "mowerless",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "....~~...",
+    "...~~~~~.",
+    "...~.~~..",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "no_breach",
+     "target": 0
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 4,
+       "delay": 2.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 660,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": false,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 135,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_11",
+   "number": 11,
+   "title": "2-11 · Diving for Complaints",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Clear the fast waves within 330 seconds.",
+   "joke": "An internship with excellent exposure and no pulse. No diving, except the guy who ignored the sign. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "rush",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    "...~.....",
+    "..~~~~~..",
+    "....~~~..",
+    "....~~~~.",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "time_limit",
+     "target": 330
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.8
+      },
+      {
+       "id": "snorkeler",
+       "row": 3,
+       "delay": 4.2
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.8
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 1,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.8
+      },
+      {
+       "id": "diver",
+       "row": 0,
+       "delay": 4.2
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 3.6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 5.6
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 1.4
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.8
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 5.6
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 560,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 35,
+   "wave_interval": 27,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 138,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_12",
+   "number": 12,
+   "title": "2-12 · Poolside Buffet",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. The supplied seed menu is fixed. Supplies are borrowed even if not yet unlocked.",
+   "joke": "The chef insists the menu is a tactical constraint. The lifeguard whistle is decorative, apparently.",
+   "scenario": "fixed",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".....~...",
+    "....~~~~.",
+    "..~~~.~..",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "thorn_mine",
+    "ember_berry"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 560,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "cloud_bloom",
+   "reward_feature": "",
+   "reward_coins": 141,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_13",
+   "number": 13,
+   "title": "2-13 · Fast Lane Snorkel",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Cover the specialist wave; avoid relying on a single front wall.",
+   "joke": "This wave has read the terms and conditions. You have not. The pool filter is reconsidering its career. Cardboard Box zombies hide behind others: use low shots, catapults or thorns.",
+   "scenario": "elite",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    "....~~~~.",
+    "..~~~~~..",
+    "....~...."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 6
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 144,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_14",
+   "number": 14,
+   "title": "2-14 · Island Gardening",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Dark crossed tiles cannot be planted. Zombies still travel through them.",
+   "joke": "These tiles are reserved for a future parking lot. The pool filter is reconsidering its career. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air.",
+   "scenario": "blocked",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    "....~#...",
+    "..~~~~.#.",
+    "...~~~~..",
+    "....~.~~.",
+    ".....#..."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 5.29
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 2.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 147,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_15",
+   "number": 15,
+   "title": "2-15 · Grafted Water Lilies",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Create at least 2 grafts and clear the waves. Same-plant twin hybrids count too.",
+   "joke": "Botany: now with legally questionable welding. A rubber duck has filed the only useful incident report.",
+   "scenario": "graft",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    "..~......",
+    "...~~~~~.",
+    "....~~~~.",
+    "..~.~~~~.",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "graft_count",
+     "target": 2
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "frost_mint",
+    "bark_wall"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 710,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 150,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_16",
+   "number": 16,
+   "title": "2-16 · Depth Charge Tuesday",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. No plants or seeds required. Click a board tile to fire a free recharging area cannon.",
+   "joke": "No plants today. The salad has authorized artillery. No diving, except the guy who ignored the sign.",
+   "scenario": "artillery",
+   "mode": "artillery",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "....~~~..",
+    "...~~~~~.",
+    "...~~~~..",
+    "...~....."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "diver",
+    "snorkeler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 0,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 8,
+   "wave_interval": 24,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 153,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_17",
+   "number": 17,
+   "title": "2-17 · Five Floaters Maximum",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Lose no more than 5 plants. Transformations and deliberate single-use plants are exempt.",
+   "joke": "Five losses are a tragedy. Six are a failed level. The shallow end has surprisingly deep staffing issues. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "loss",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~.~~..",
+    "...~~~.~.",
+    "..~.~~~..",
+    "......~.."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 4.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 1.73
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 4.12
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 156,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_18",
+   "number": 18,
+   "title": "2-18 · Lights Out at the Lido",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. No sky sun. Start from the supplied savings and plant your own economy.",
+   "joke": "Solar power at night: accounting would like a word. The lifeguard whistle is decorative, apparently.",
+   "scenario": "blackout",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    ".....~~~.",
+    "..~~~~...",
+    ".....~..."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 610,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 159,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_19",
+   "number": 19,
+   "title": "2-19 · Raft Rationing",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Fixed five-seed deck (graft two Pod Shooters into a Twin Pod for double fire) and a total limit of 24 planting actions.",
+   "joke": "The seeds were packed by a minimalist. A rubber duck has filed the only useful incident report.",
+   "scenario": "limited_fixed",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    "...~~~~~.",
+    "..~.~~~..",
+    "..~......"
+   ],
+   "objectives": [
+    {
+     "type": "plant_limit",
+     "target": 24
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "flagbearer"
+   ],
+   "fixed_seeds": [
+    "sunbud",
+    "pod_shooter",
+    "bark_wall",
+    "frost_mint",
+    "pepper_stinger"
+   ],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 660,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 162,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_20",
+   "number": 20,
+   "title": "2-20 · Bucket and Spade",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Armor soaks projectiles. Save explosives for tightly grouped helmets.",
+   "joke": "Buckets protect brains, not fragile workplace morale. The shallow end has surprisingly deep staffing issues. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "armor",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    "......~..",
+    "...~~~~~.",
+    "..~~~~~..",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 0,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 2.35
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 1.3
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 1.39
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shield_carrier",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "bucket_head",
+    "shield_carrier",
+    "angler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 165,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_21",
+   "number": 21,
+   "title": "2-21 · Save the Lifeguard Chair",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. No planting. A mature garden is provided. Protect it; click a damaged plant for a free 1200-HP repair every 3 seconds. Crafted tools are optional.",
+   "joke": "The garden is already planted. Your job description says keep it that way. No diving, except the guy who ignored the sign.",
+   "scenario": "holdout",
+   "mode": "holdout",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+   ],
+   "objectives": [
+    {
+     "type": "loss_limit",
+     "target": 5
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 1,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 1,
+       "delay": 0
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "flagbearer"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [
+    {
+     "id": "sunbud",
+     "row": 0,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 0,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 0,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 0,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 1,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 1,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 1,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 1,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 2,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 2,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 2,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 2,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 3,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 3,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 3,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 3,
+     "col": 5
+    },
+    {
+     "id": "sunbud",
+     "row": 4,
+     "col": 0
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 1
+    },
+    {
+     "id": "twin_pod",
+     "row": 4,
+     "col": 2
+    },
+    {
+     "id": "frost_mint",
+     "row": 4,
+     "col": 3
+    },
+    {
+     "id": "ironbark_wall",
+     "row": 4,
+     "col": 5
+    }
+   ],
+   "start_sun": 460,
+   "sky_sun": false,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 10,
+   "wave_interval": 28,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 168,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8
+  },
+  {
+   "id": "pool_22",
+   "number": 22,
+   "title": "2-22 · Four Thousand Sunblock",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Collect a total of 4000 sun in this battle. Spending does not reduce this total.",
+   "joke": "Collect 4000 sun. Do not stare directly at the counter. The pool filter is reconsidering its career. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "collect",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "....~~...",
+    "...~~~~~.",
+    "...~.~~..",
+    "....~...."
+   ],
+   "objectives": [
+    {
+     "type": "collect_sun",
+     "target": 4000
+    }
+   ],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 4.9
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 2,
+       "delay": 5.09
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 5.99
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 3,
+       "delay": 2.02
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 8.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 2.15
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "bucket_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 3,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 2,
+       "delay": 0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 0,
+       "delay": 2.06
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 100,
+   "sky_sun_interval": 5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 171,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_23",
+   "number": 23,
+   "title": "2-23 · Interns Overboard",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Summoners and small runners require rear coverage, not just one front tank.",
+   "joke": "Fresh interns have arrived. Their onboarding is your problem. The lifeguard whistle is decorative, apparently. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "summons",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".....~...",
+    "..~~~~~..",
+    "....~~~..",
+    "....~~~~.",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 2,
+       "delay": 0.8
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 1,
+       "delay": 5.69
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 2.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 0.8
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 4.41
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 3,
+       "delay": 0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 4.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "angler",
+    "snorkeler",
+    "intern_imp",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 460,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 40.0,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 174,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_24",
+   "number": 24,
+   "title": "2-24 · Everyone Out of the Pool",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Long mixed assault. Pace your economy: the waves never stop being polite about it.",
+   "joke": "The committee has decided to attack simultaneously. The shallow end has surprisingly deep staffing issues. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Slingshots target flying plants.",
+   "scenario": "gauntlet",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    ".........",
+    "..~~~~~..",
+    "....~~~~.",
+    "..~~~~~..",
+    "......~.."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "snorkeler",
+       "row": 0,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "sprinter",
+       "row": 1,
+       "delay": 10.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 1,
+       "delay": 4.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 12.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 12.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 10.8
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 12.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "angler",
+       "row": 1,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 12.0
+      },
+      {
+       "id": "hurdler",
+       "row": 0,
+       "delay": 14.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 4,
+       "delay": 8.8
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 12.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 4,
+       "delay": 0
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 0,
+       "delay": 2.94
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "sprinter",
+    "flagbearer",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 610,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "",
+   "reward_feature": "",
+   "reward_coins": 177,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 0
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  },
+  {
+   "id": "pool_25",
+   "number": 25,
+   "title": "2-25 · Granite Makes a Splash",
+   "briefing": "Water needs Lily Rafts. A tide pulse delivers 75 sun every 28 seconds. Two giant arrivals with a rebuilding window. Counter its special ability, then clear the field.",
+   "joke": "The giant brought a club. The homeowners association brought a fine. A rubber duck has filed the only useful incident report. Cardboard Box zombies hide behind others: use low shots, catapults or thorns. Balloons fly over ground plants: bring anti-air. Slingshots target flying plants.",
+   "scenario": "boss",
+   "mode": "defense",
+   "field_rule": "tide",
+   "layout": [
+    "..~......",
+    "....~~~~.",
+    "..~~~.~..",
+    "...~~~~..",
+    "........."
+   ],
+   "objectives": [],
+   "wave_specs": [
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "intern_imp",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "shield_carrier",
+       "row": 3,
+       "delay": 6.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "hurdler",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 1.73
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 1,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 3,
+       "delay": 3.89
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 2,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 4.0
+      },
+      {
+       "id": "angler",
+       "row": 1,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 8.0
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 0.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 4.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 4,
+       "delay": 8.0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 2,
+       "delay": 3.13
+      },
+      {
+       "id": "slingshot_zombie",
+       "row": 4,
+       "delay": 1.5
+      }
+     ]
+    },
+    {
+     "flag": false,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 0.0
+      },
+      {
+       "id": "cone_head",
+       "row": 4,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 4.0
+      },
+      {
+       "id": "diver",
+       "row": 3,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 0,
+       "delay": 8.0
+      },
+      {
+       "id": "diver",
+       "row": 2,
+       "delay": 10.0
+      },
+      {
+       "id": "balloon_zombie",
+       "row": 4,
+       "delay": 1.18
+      }
+     ]
+    },
+    {
+     "flag": true,
+     "spawns": [
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 0.0
+      },
+      {
+       "id": "angler",
+       "row": 0,
+       "delay": 2.0
+      },
+      {
+       "id": "shambler",
+       "row": 2,
+       "delay": 4.0
+      },
+      {
+       "id": "lifeguard",
+       "row": 4,
+       "delay": 6.0
+      },
+      {
+       "id": "shambler",
+       "row": 1,
+       "delay": 8.0
+      },
+      {
+       "id": "shambler",
+       "row": 3,
+       "delay": 10.0
+      },
+      {
+       "id": "flagbearer",
+       "row": 0,
+       "delay": 0
+      },
+      {
+       "id": "gargantuan_granite",
+       "row": 2,
+       "delay": 8.0
+      },
+      {
+       "id": "box_zombie",
+       "row": 0,
+       "delay": 0.8
+      }
+     ]
+    }
+   ],
+   "zombie_pool": [
+    "shambler",
+    "cone_head",
+    "bucket_head",
+    "diver",
+    "snorkeler",
+    "lifeguard",
+    "angler",
+    "intern_imp",
+    "shield_carrier",
+    "hurdler",
+    "sprinter",
+    "gargantuan_granite",
+    "flagbearer",
+    "balloon_zombie",
+    "box_zombie",
+    "slingshot_zombie"
+   ],
+   "fixed_seeds": [],
+   "banned_plants": [],
+   "preplants": [],
+   "start_sun": 860,
+   "sky_sun": true,
+   "sky_sun_value": 25,
+   "sky_sun_interval": 7.5,
+   "first_wave_delay": 50,
+   "wave_interval": 34.0,
+   "hybrid_cap": 7,
+   "mowers": true,
+   "reward_plant": "aegis_pumpkin",
+   "reward_feature": "",
+   "reward_coins": 180,
+   "materials": {
+    "compost": 3,
+    "scrap": 2,
+    "crystal": 1
+   },
+   "artillery_damage": 650,
+   "artillery_cooldown": 1.8,
+   "v07": true
+  }
+ ],
+ "balance_revision": "v0.6"
+}

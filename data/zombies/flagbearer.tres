@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ZombieData" format=3]
+
+[ext_resource type="Script" path="res://entities/zombies/zombie.gd" id="1_a5slr"]
+[ext_resource type="Script" path="res://core/data/zombie_data.gd" id="2_dkiw1"]
+
+[resource]
+script = ExtResource("2_dkiw1")
+id = &"flagbearer"
+name_key = "ZOMBIE_FLAGBEARER_NAME"
+desc_key = "ZOMBIE_FLAGBEARER_DESC"
+speed = 0.28
+behavior = ExtResource("1_a5slr")
+weight = 0.0
+color_cloth = Color(0.35, 0.3, 0.42, 1)
+tier = 1

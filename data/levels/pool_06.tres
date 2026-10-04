@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelData" format=3]
+
+[ext_resource type="Script" path="res://core/data/level_data.gd" id="1_8f1vh"]
+
+[resource]
+script = ExtResource("1_8f1vh")
+id = &"pool_06"
+name_key = "LEVEL_POOL_06_NAME"
+desc_key = "LEVEL_POOL_06_DESC"
+waves = 14
+zombie_pool = Array[StringName]([&"shambler", &"cone_head", &"bucket_head", &"sprinter", &"hurdler", &"shield_carrier", &"burrower", &"brute"])
+threat_growth = 0.8
+start_sun = 150
+hybrid_cap = 6
+reward_plant = &"storm_thistle"
+reward_coins = 350
+water = PackedStringArray("...~~~~~~", "...~.....", "...~~~~..", "......~..", "..~~~~~..")

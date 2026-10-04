@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_shooter.gd" id="1_h587y"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_7a3nt"]
+
+[resource]
+script = ExtResource("2_7a3nt")
+id = &"needle_volley"
+name_key = "PLANT_NEEDLE_VOLLEY_NAME"
+desc_key = "PLANT_NEEDLE_VOLLEY_DESC"
+cost = 400
+role = &"pierce"
+behavior = ExtResource("1_h587y")
+is_seed = false
+is_hybrid = true
+damage = 20
+attack_interval = 2.6
+shots = 3
+pierce = 99
+projectile_speed = 720.0
+color_main = Color(0.42, 0.7, 0.3, 1)
+color_accent = Color(0.9, 0.4, 0.25, 1)

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="PlantData" format=3]
+
+[ext_resource type="Script" path="res://entities/plants/plant_aura.gd" id="1_b"]
+[ext_resource type="Script" path="res://core/data/plant_data.gd" id="2_d"]
+
+[resource]
+script = ExtResource("2_d")
+id = &"turbo_bean"
+name_key = "PLANT_TURBO_BEAN_NAME"
+desc_key = "PLANT_TURBO_BEAN_DESC"
+behavior = ExtResource("1_b")
+cost = 150
+recharge = 20.0
+max_hp = 300
+role = &"support"
+layer = &"air"
+allowed_surfaces = Array[StringName]([&"grass", &"water"])
+badge = "Flying · Speed aura"
+speed_aura = 1.5
+aura_radius = 1
+color_main = Color(0.95, 0.75, 0.15, 1)
+color_accent = Color(0.85, 0.3, 0.1, 1)

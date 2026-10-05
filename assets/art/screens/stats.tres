@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ScreenArt" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/art/screen_art.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/art/screens/bg_menu.webp" id="2"]
+
+[resource]
+script = ExtResource("1")
+texture = ExtResource("2")
+dim = 0.5
+tint = Color(1.0, 1.0, 1.0, 1)

@@ -6,7 +6,7 @@ is carried by one broad mow band per lane (5 bands, the zombies' path) and a fai
 column tone, both with irregular painted boundaries; per-cell tonal jitter and a warm
 top-left / cool bottom-right light bake finish it. No checkerboard, no borders.
 Usage:
-    python3 tools/art/assemble/lawn_surface.py --world lawn --out assets/art/worlds/lawn/ground.png
+    python3 tools/art/assemble/lawn_surface.py --world lawn --out assets/art/worlds/lawn/ground.webp
 """
 from __future__ import annotations
 
@@ -28,8 +28,11 @@ GROUND_STYLE: dict[str, dict[str, float]] = {
     "grass": {"scale": 0.5, "stripe": 0.021, "row": 0.085, "seam": 0.11, "cell": 0.015, "detail": 0.7},
     "sand": {"scale": 0.5, "seam": 0.09, "stripe": 0.015, "row": 0.065, "cell": 0.015, "detail": 0.8},
     "tile": {"scale": 0.6, "seam": 0.10, "stripe": 0.017, "row": 0.07, "cell": 0.015, "detail": 0.75},
+    "turf": {"scale": 0.45, "stripe": 0.024, "row": 0.09, "seam": 0.10, "cell": 0.012, "detail": 0.6},
+    "clover": {"scale": 0.55, "stripe": 0.018, "row": 0.075, "seam": 0.10, "cell": 0.018, "detail": 0.8},
     "snow": {"scale": 0.7, "seam": 0.08, "stripe": 0.012, "row": 0.05, "cell": 0.01, "detail": 0.5},
     "soil": {"scale": 1.0, "seam": 0.10, "stripe": 0.017, "row": 0.07, "cell": 0.015, "detail": 0.9},
+    "concrete": {"scale": 0.6, "seam": 0.09, "stripe": 0.012, "row": 0.06, "cell": 0.014, "detail": 0.85},
     "gravel": {"scale": 1.0, "seam": 0.10, "stripe": 0.015, "row": 0.07, "cell": 0.015, "detail": 0.9},
 }
 
@@ -110,7 +113,7 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(name)s: %(message)s")
     img = build(args.world, args.seed)
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    cv2.imwrite(str(args.out), cv2.cvtColor(img, cv2.COLOR_RGB2BGR))
+    cv2.imwrite(str(args.out), cv2.cvtColor(img, cv2.COLOR_RGB2BGR), [cv2.IMWRITE_WEBP_QUALITY, 92])
     log.info("wrote %s %s L/sat=%s", args.out, img.shape, palette.lab_stats(img))
 
 

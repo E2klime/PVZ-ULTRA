@@ -19,6 +19,7 @@ SaveManager="*res://autoload/save_manager.gd"
 Settings="*res://autoload/settings.gd"
 GameState="*res://autoload/game_state.gd"
 Sfx="*res://autoload/audio_manager.gd"
+UIBoot="*res://autoload/ui_boot.gd"
 
 [debug]
 
@@ -37,10 +38,6 @@ window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
 window/stretch/aspect.mobile="expand"
 window/handheld/orientation=4
-
-[gui]
-
-theme/custom="res://ui/theme.tres"
 
 [input_devices]
 

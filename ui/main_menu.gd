@@ -7,11 +7,7 @@ const UI := "res://assets/ui/"
 
 func _ready() -> void:
 	UIKit.full(self)
-	var art := TextureRect.new()
-	art.texture = load("res://assets/art/keyart.jpg")
-	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	add_child(UIKit.full(art))
+	add_child(ScreenBg.for_screen(&"menu"))
 	var shade := ColorRect.new()
 	shade.color = Color(0.02, 0.05, 0.03, 0.18)
 	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE

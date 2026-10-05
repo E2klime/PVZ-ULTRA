@@ -9,7 +9,7 @@ func set_args(args: Dictionary) -> void:
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.with_art("res://assets/art/keyart.jpg", 0.5))
+	add_child(ScreenBg.for_screen(&"help"))
 	var p := build_panel(func() -> void: GameState.goto(_back))
 	add_child(UIKit.centered(p))
 

@@ -5,7 +5,7 @@ var _list: VBoxContainer
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.with_art("res://assets/art/bg/hub_greenhouse.jpg", 0.15))
+	add_child(ScreenBg.for_screen(&"workshop"))
 	var panel := UIKit.panel(22)
 	panel.position = Vector2(180, 100)
 	panel.size = Vector2(1560, 880)

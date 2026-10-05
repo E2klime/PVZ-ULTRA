@@ -1,7 +1,7 @@
-"""Compose per-world hub thumbnails from the built battle layers (environment + lawn + edge).
+"""Per-world hub thumbnails, cut from that world's painted overworld (art_src/finals/screens/map_<w>).
 
-The hub shows each world as its actual battlefield, so thumbnails are derived from
-assets/art/worlds/<w>/ and never drawn by hand. Usage:
+The bare battle ground read as flat stripes on the hub (and lacked the pool, which is drawn
+at runtime), so cards now show the same painted world the map screen uses. Usage:
     python3 tools/art/ui/build_thumbs.py [--size 400x225]
 """
 from __future__ import annotations
@@ -15,29 +15,27 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[3]
 WORLDS = ROOT / "assets/art/worlds"
 OUT = ROOT / "assets/ui/kit/thumbs"
-BOARD_POS = (310, 200)
-EDGE_MARGIN = 40
+MAPS = ROOT / "art_src/finals/screens"
 log = logging.getLogger("build_thumbs")
 
 
 def compose(world: Path) -> Image.Image:
-    img = Image.open(world / "environment.jpg").convert("RGBA")
-    ground = Image.open(world / "ground.png").convert("RGBA")
-    img.alpha_composite(ground, BOARD_POS)
-    edge_path = world / "edge.png"
-    if edge_path.exists():
-        edge = Image.open(edge_path).convert("RGBA")
-        img.alpha_composite(edge, (BOARD_POS[0] - EDGE_MARGIN, BOARD_POS[1] - EDGE_MARGIN))
-    # frame the lawn: crop to board plus a little scenery, 16:9
-    x0, y0, x1, y1 = 180, 120, 1640, 941
-    return img.crop((x0, y0, x1, y1)).convert("RGB")
+    src = MAPS / f"map_{world.name}.webp"
+    if not src.exists():
+        raise FileNotFoundError(f"build_thumbs: MISSING map art {src}")
+    img = Image.open(src).convert("RGB")
+    # keep the full painted frame (props live at the borders), 16:9
+    w, h = img.size
+    ch = round(w * 9 / 16)
+    y0 = max(0, (h - ch) // 2)
+    return img.crop((0, y0, w, y0 + min(ch, h)))
 
 
 def build_all(size: tuple[int, int] = (400, 225)) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for world in sorted(p for p in WORLDS.iterdir() if (p / "environment.jpg").exists()):
         thumb = compose(world).resize(size, Image.LANCZOS)
-        thumb.save(OUT / f"{world.name}.jpg", quality=88)
+        thumb.save(OUT / f"{world.name}.jpg", quality=86)
         log.info("thumb %s", world.name)
 
 

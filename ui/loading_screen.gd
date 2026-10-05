@@ -15,11 +15,7 @@ const TIPS := 12
 
 func _ready() -> void:
 	UIKit.full(self)
-	var art := TextureRect.new()
-	art.texture = load("res://assets/art/keyart.jpg")
-	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	add_child(UIKit.full(art))
+	add_child(ScreenBg.for_screen(&"loading"))
 	_logo = TextureRect.new()
 	_logo.texture = load("res://assets/ui/logo.png")
 	_logo.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
@@ -51,8 +47,9 @@ func _ready() -> void:
 		_queue.append(func() -> void: Rig.plant(id))
 	for id: StringName in DB.ZOMBIE_ORDER:
 		_queue.append(func() -> void: Rig.zombie(id))
-	for p: String in ["res://assets/art/bg/battle_lawn.jpg", "res://assets/art/bg/battle_pool.jpg", "res://assets/ui/logo.png"]:
-		_queue.append(func() -> void: load(p))
+	for w: StringName in WorldArtLoader.WORLDS:
+		_queue.append(func() -> void: WorldArtLoader.load_world(w))
+	_queue.append(func() -> void: load("res://assets/ui/logo.png"))
 	_total = maxi(1, _queue.size())
 	Sfx.play_music(&"menu")
 

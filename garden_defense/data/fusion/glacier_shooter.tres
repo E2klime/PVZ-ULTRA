@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="FusionRecipe" format=3]
-
-[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1_5bmup"]
-
-[resource]
-script = ExtResource("1_5bmup")
-base_id = &"pod_shooter"
-catalyst_id = &"frost_mint"
-result_id = &"glacier_shooter"

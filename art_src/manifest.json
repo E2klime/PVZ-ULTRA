@@ -1,0 +1,292 @@
+{
+ "_doc": "Chosen art finals (committed, re-encoded). Raw/rejected generations live in art_src/generated/ (git-ignored, local only). model: Type-managed gpt-image-2.5-flare; the tool exposes no seed, so 'seed' is null and the committed final is the reproducibility anchor.",
+ "finals": [
+  {
+   "file": "art_src/finals/env/env_desert_v1.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "faec6ad5a420c8f438b1725b3c58947d",
+   "source_name": "env_desert_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/env/env_factory_v1.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "a375ddadc779d23a704663abe645bc7c",
+   "source_name": "env_factory_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/env/env_frost_v1.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "403c9b8d473705a9e493a9577be4e6a0",
+   "source_name": "env_frost_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/env/env_garden_v3.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "0833fe04d551bab1c3c056540a60dccb",
+   "source_name": "env_garden_v3.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/env/env_moon_v1.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "e8c1f97517a5d83df15d759d22f76ebc",
+   "source_name": "env_moon_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/env/env_roof_v1.webp",
+   "category": "env",
+   "encoding": "webp-lossy",
+   "size": [
+    1671,
+    941
+   ],
+   "source_md5": "060b63df38c06c20dc516b67efb79f2a",
+   "source_name": "env_roof_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ground/grass.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "55f6cff67ef96dc068fd96d3449370c9",
+   "source_name": "grass.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ground/sand.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "412f1c401e1b670bdbbf23fcc5a0bb52",
+   "source_name": "sand.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ground/gravel.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    860,
+    520
+   ],
+   "source_md5": "97a0bc3274d458b109921d947e4c8463",
+   "source_name": "gravel.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ground/soil.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    900,
+    520
+   ],
+   "source_md5": "1027abc5f80bba871a328cd84f8f85a7",
+   "source_name": "soil.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/props/props_blocked_v1.webp",
+   "category": "props",
+   "encoding": "webp-lossless",
+   "size": [
+    1536,
+    1024
+   ],
+   "source_md5": "77c5200b5950d10c7672c1bf8e2864e1",
+   "source_name": "props_blocked_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_button_green_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1774,
+    887
+   ],
+   "source_md5": "8ab86e2412f669a623ae8cc7c98e008d",
+   "source_name": "ui_button_green_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_card_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1024,
+    1536
+   ],
+   "source_md5": "885904657558fd726cd340d650b8ac37",
+   "source_name": "ui_card_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_panel_paper_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1536,
+    1024
+   ],
+   "source_md5": "4ef3d00f4b846f06a4bdd973122151b8",
+   "source_name": "ui_panel_paper_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_panel_wood_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1536,
+    1024
+   ],
+   "source_md5": "235d6a4cd4e24312f8ec11509560b1d5",
+   "source_name": "ui_panel_wood_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_pill_wood_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1774,
+    887
+   ],
+   "source_md5": "1cb6402eb0e6c39baf6948448dbb5720",
+   "source_name": "ui_pill_wood_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ui/ui_round_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "d76431c0207f394e354718f6fa5a9061",
+   "source_name": "ui_round_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/style_bible/sb_keyframe_lawn_v1.webp",
+   "category": "style_bible",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "07f3a15e143f97285f6c513ccf5ad3b6",
+   "source_name": "sb_keyframe_lawn_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/style_bible/sb_lawn_ingredients_v1.webp",
+   "category": "style_bible",
+   "encoding": "webp-lossy",
+   "size": [
+    1224,
+    1285
+   ],
+   "source_md5": "2c99689a67bdb9d5af81c485b2ab57bb",
+   "source_name": "sb_lawn_ingredients_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/style_bible/sb_ui_materials_v1.webp",
+   "category": "style_bible",
+   "encoding": "webp-lossy",
+   "size": [
+    1536,
+    1024
+   ],
+   "source_md5": "19ea77c3d8eb1957f717ca0b74646723",
+   "source_name": "sb_ui_materials_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": null
+  }
+ ],
+ "dropped_duplicates": {
+  "art_src/generated/ground/snow.png": "byte-identical to sand.png (frost ground was never distinct)",
+  "art_src/generated/ground/tile.png": "byte-identical to sand.png (roof ground was never distinct)",
+  "art_src/generated/env/sand_swatch_v1.png": "byte-identical to ground/sand.png",
+  "art_src/generated/env/grass_swatch_v1.png": "byte-identical to ground/grass.png",
+  "art_src/generated/env/env_garden_v2.png": "rejected iteration (v3 chosen)"
+ }
+}

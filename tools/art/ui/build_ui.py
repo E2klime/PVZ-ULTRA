@@ -1,4 +1,4 @@
-"""Build the raster UI kit from model-painted sources in art_src/generated/ui/.
+"""Build the raster UI kit from model-painted sources in art_src/finals/ui/.
 
 Every element is keyed off its magenta backdrop, scaled so the frame lands at a
 fixed pixel thickness, colour-graded into the style-bible palette and exported as

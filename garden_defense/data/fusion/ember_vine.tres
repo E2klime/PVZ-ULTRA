@@ -1,8 +1,0 @@
-[gd_resource type="Resource" script_class="FusionRecipe" format=3]
-[ext_resource type="Script" path="res://core/data/fusion_recipe.gd" id="1"]
-[resource]
-script = ExtResource("1")
-base_id = &"bramble_vine"
-catalyst_id = &"ember_berry"
-result_id = &"ember_vine"
-fee = 75

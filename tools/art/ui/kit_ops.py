@@ -12,11 +12,11 @@ from PIL import Image
 
 from common import keying
 
-SRC = Path(__file__).resolve().parents[3] / "art_src/generated/ui"
+SRC = Path(__file__).resolve().parents[3] / "art_src/finals/ui"
 
 
 def load(name: str) -> np.ndarray:
-    rgb = np.asarray(Image.open(SRC / f"{name}.png").convert("RGB"), np.float32) / 255.0
+    rgb = np.asarray(Image.open(SRC / f"{name}.webp").convert("RGB"), np.float32) / 255.0
     return keying.trim(keying.key_magenta(rgb))
 
 

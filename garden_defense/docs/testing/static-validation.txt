@@ -1,2 +1,0 @@
-NOTICE: enemies not scheduled in current baseline: scrapling
-PASS: 200 levels, 8 worlds, 46 plants, 46 zombies, 24 grafts, 23 workshop recipes, 40 distinct field layouts, 200 unique titles and jokes.

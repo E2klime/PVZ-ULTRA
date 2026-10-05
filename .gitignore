@@ -10,3 +10,8 @@ review/contact_sheets/
 review/reports/
 .type/
 *.import.tmp
+
+# local-only art outputs (never committed): raw generations and review captures
+art_src/generated/
+review/*
+!review/.gdignore

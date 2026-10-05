@@ -57,4 +57,7 @@ static func _thumb(map: MapData) -> Texture2D:
 				key = WorldArtLoader.world_key(DB.level(n.level_id))
 				break
 	var path := THUMB % key
-	return load(path) if ResourceLoader.exists(path) else load(THUMB % "lawn")
+	if not ResourceLoader.exists(path):
+		push_error("HubWorldCard: MISSING world thumbnail %s" % path)
+		return KitStyles.placeholder_texture(64)
+	return load(path)

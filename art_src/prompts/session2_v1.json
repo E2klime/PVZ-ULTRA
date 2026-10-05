@@ -1,0 +1,131 @@
+{
+  "_doc": "Prompts for the session-2 generations (Part A). model gpt-image-2.5-flare, no seed exposed. 'refs' are the style references fed to the model. Entries marked summary=true were recorded as a faithful summary of the prompt, not verbatim.",
+  "common_map_suffix": "NO paths, NO text, NO letters, NO characters, NO creatures, NO UI. Same hand-painted style as the reference: warm key light from top-left, cool blue-violet shadows, soft brush texture.",
+  "common_map_prefix": "Painterly 3/4 high-angle overworld map background for a casual garden tower-defense game, 16:9 landscape, 1920x1080 composition. The center-left area must be calm, open, low-detail terrain so UI level nodes can sit on top; the right third slightly darker/softer for an info panel.",
+  "prompts": {
+    "ground_snow_v1.png": {
+      "summary": true,
+      "refs": [
+        "grass swatch"
+      ],
+      "prompt": "Seamless top-down hand-painted ground texture swatch, packed snow with soft wind ripples, tiny ice glints, subtle blue-violet shadows, no objects, no lighting gradient, square tileable."
+    },
+    "ground_tile_v1.png": {
+      "summary": true,
+      "refs": [
+        "grass swatch"
+      ],
+      "prompt": "Seamless top-down hand-painted ground texture swatch, terracotta roof tiles in overlapping rows, weathered, painterly, no lighting gradient, square tileable."
+    },
+    "ground_clover_v1.png": {
+      "summary": true,
+      "refs": [
+        "grass swatch"
+      ],
+      "prompt": "Seamless top-down hand-painted ground texture swatch, dense clover and short grass, small trefoil leaves, painterly, no flowers, no lighting gradient, square tileable."
+    },
+    "ground_turf_v1.png": {
+      "summary": true,
+      "refs": [
+        "grass swatch"
+      ],
+      "prompt": "Seamless top-down hand-painted ground texture swatch, short manicured lawn turf with faint mowing texture, painterly, no lighting gradient, square tileable."
+    },
+    "ui_widgets_v1.png": {
+      "summary": true,
+      "refs": [
+        "sb_ui_materials"
+      ],
+      "prompt": "Sprite sheet of hand-painted game UI widgets on transparent background in the reference wood/leaf/gold material style: checkbox off, checkbox on (leaf tick), radio off, radio on, slider knob, slider knob highlighted, dropdown arrow, horizontal slider track; evenly spaced, no text."
+    },
+    "bg_menu_v1.png": {
+      "summary": true,
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "Painterly main-menu background: sunny cottage garden with a wooden gate, a small greenhouse and a garden shed, flower beds, open calm centre for a logo and buttons, no text, no characters."
+    },
+    "bg_hub_v1.png": {
+      "summary": true,
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "Painterly greenhouse interior background, wooden benches with potted seedlings, warm light through glass panes, calm centre for UI cards, no text, no characters."
+    },
+    "bg_loading_v1.png": {
+      "summary": true,
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "Painterly close-up of rich soil with sprouting seedlings and a trowel at dawn, soft warm light, calm centre for a progress bar, no text, no characters."
+    },
+    "bg_almanac_v1.png": {
+      "summary": true,
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "Painterly wooden desk seen from above with an open herbarium, pressed leaves, seed packets without text, magnifier, calm area for UI panels, no text, no characters."
+    },
+    "bg_shop_v1.png": {
+      "summary": true,
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "Painterly garden shed shop interior with a wooden counter, shelves of pots and tools, warm lantern light, calm centre for item cards, no text, no characters."
+    },
+    "map_lawn_v1.png": {
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "World: SUNNY BACKYARD LAWN. Rolling soft green meadow with gentle hills, a few flower beds, a white picket fence and a small cottage at the far top-right edge, hedges and trees framing the borders."
+    },
+    "map_pool_v1.png": {
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "World: BACKYARD SWIMMING POOL. A large turquoise backyard pool with stone coping takes the lower-middle area, surrounded by short manicured turf, pool loungers, potted palms and a patio at the far edges, sunny afternoon."
+    },
+    "ground_concrete_v1.png": {
+      "refs": [
+        "grass swatch"
+      ],
+      "prompt": "Seamless tileable top-down hand-painted ground texture swatch for a garden tower-defense game, square 1:1. Subject: weathered cracked factory-yard concrete with fine cinder grit, scattered tiny rust flakes and small metal washers, faint oil stains, hairline cracks. Even flat lighting, no shadows from objects, no lighting gradient, no large objects, no text, no markings, no lines or grid. Medium-detail painterly brush texture matching the reference swatch's stroke scale. Neutral warm grey palette."
+    },
+    "map_night_v1.png": {
+      "refs": [
+        "env_garden_v3"
+      ],
+      "prompt": "World: BACKYARD AT NIGHT. Moonlit clover meadow, glowing fireflies, a few mushroom rings, dark hedges and a silhouetted house with warm lit windows at the far top edge, starry deep-blue sky strip at top. Readable not too dark: moonlight gives soft cyan-lavender highlights."
+    },
+    "map_desert_v1.png": {
+      "refs": [
+        "env_desert_v1"
+      ],
+      "prompt": "World: SUN-BAKED DESERT GARDEN. Warm golden sand dunes with wind ripples, scattered cacti, sandstone mesas and a dry riverbed rocks at the far edges, hazy bright sky strip at top."
+    },
+    "map_roof_v1.png": {
+      "refs": [
+        "env_roof_v1"
+      ],
+      "prompt": "World: HOUSE ROOFTOPS. A wide expanse of terracotta tiled rooftops of a cozy town seen from above, chimneys, little rooftop planters and moss patches, rain gutters, distant rooftops and a soft late-afternoon sky at the top edge."
+    },
+    "map_frost_v1.png": {
+      "refs": [
+        "env_frost_v1"
+      ],
+      "prompt": "World: FROZEN WINTER GARDEN. Soft packed snowfields with gentle drifts, frosted hedges, icy frozen pond patches, snow-covered pine trees and a small frosted greenhouse at the far edges, pale cold sky strip at top with light snowfall."
+    },
+    "map_factory_v1.png": {
+      "refs": [
+        "env_factory_v1"
+      ],
+      "prompt": "World: ABANDONED FACTORY YARD. Cracked concrete yard with weeds pushing through, rusty pipes, stacked crates, old gears and a brick factory wall with smokestacks at the far top edge, warm hazy industrial light. NO rails, NO signs."
+    },
+    "map_moon_v1.png": {
+      "refs": [
+        "env_moon_v1"
+      ],
+      "prompt": "World: MOON GARDEN. Soft grey-lavender lunar regolith plain with gentle craters, small glowing alien-looking crystal sprouts, a tiny dome greenhouse at the far top-right, Earth and stars in a deep indigo sky strip at the top. NO astronauts."
+    }
+  }
+}

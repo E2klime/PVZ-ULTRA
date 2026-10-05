@@ -12,10 +12,7 @@ func set_args(args: Dictionary) -> void:
 
 func _ready() -> void:
 	UIKit.full(self)
-	var bg := ScreenBg.new()
-	bg.sky_top = Color(0.95, 0.75, 0.45)
-	bg.sky_bottom = Color(0.98, 0.9, 0.7)
-	add_child(bg)
+	add_child(ScreenBg.for_screen(&"shop"))
 	var root := UIKit.vbox(14)
 	root.position = Vector2(260, 30)
 	root.custom_minimum_size = Vector2(1400, 1000)

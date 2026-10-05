@@ -13,7 +13,7 @@ func _notification(what: int) -> void:
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.with_art("res://assets/art/keyart.jpg", 0.5))
+	add_child(ScreenBg.for_screen(&"stats"))
 	var p := UIKit.panel(28)
 	p.custom_minimum_size = Vector2(1000, 0)
 	var v := UIKit.vbox(10)

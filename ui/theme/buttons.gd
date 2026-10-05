@@ -24,10 +24,11 @@ static func apply(t: Theme) -> void:
 	t.set_stylebox("hover", "WoodButton", KitStyles.get_style("button_wood_hover"))
 	t.set_stylebox("pressed", "WoodButton", KitStyles.get_style("button_wood_pressed"))
 	t.set_stylebox("disabled", "WoodButton", KitStyles.get_style("button_disabled"))
+	t.set_stylebox("focus", "WoodButton", KitStyles.get_style("button_focus"))
 	t.set_color("font_outline_color", "WoodButton", Color(0.22, 0.11, 0.04))
 	var flat := StyleBoxEmpty.new()
 	flat.set_content_margin_all(6)
 	var hov := flat.duplicate() as StyleBoxEmpty
-	for s: String in ["normal", "pressed", "hover_pressed", "focus"]:
+	for s: String in ["normal", "pressed", "hover_pressed", "focus", "disabled"]:
 		t.set_stylebox(s, "CheckBox", flat)
 	t.set_stylebox("hover", "CheckBox", hov)

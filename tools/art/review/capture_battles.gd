@@ -23,6 +23,7 @@ func _ready() -> void:
 	if args.size() > 1:
 		worlds.assign(args[1].split(","))
 	DirAccess.make_dir_recursive_absolute(out_dir)
+	_match_mobile_aspect()
 	SaveManager.data = SaveManager._default_data()
 	for id: StringName in DB.PLANT_ORDER:
 		SaveManager.unlock_plant(id)
@@ -71,3 +72,11 @@ func _shot(shot_name: String) -> void:
 	var img := get_viewport().get_texture().get_image()
 	img.save_png(out_dir.path_join(shot_name + ".png"))
 	print("SHOT ", shot_name)
+
+
+## Non-16:9 windows are phone shapes: mirror project.godot's aspect.mobile="expand" so the
+## narrow capture shows what a phone shows instead of a letterboxed 16:9 frame.
+func _match_mobile_aspect() -> void:
+	var win := DisplayServer.window_get_size()
+	if absf(float(win.x) / float(win.y) - 16.0 / 9.0) > 0.02:
+		get_tree().root.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_EXPAND

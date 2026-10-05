@@ -4,7 +4,7 @@ extends Control
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.with_art("res://assets/art/bg/hub_greenhouse.jpg", 0.1))
+	add_child(ScreenBg.for_screen(&"hub"))
 	var v := UIKit.vbox(16)
 	v.add_child(UIKit.title(tr("HUB_HEADER"), 48))
 	v.add_child(UIKit.label(tr("HUB_CAMPAIGN").format({"n": _campaign_count(), "max": DB.levels.size()}), 26, Color.WHITE, HORIZONTAL_ALIGNMENT_CENTER))

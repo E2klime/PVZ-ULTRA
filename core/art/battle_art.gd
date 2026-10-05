@@ -6,7 +6,11 @@ extends RefCounted
 
 static func build(world: Node2D, board: Board, entities: Node2D, level: LevelData) -> WorldArtConfig:
 	var cfg := WorldArtLoader.load_for(level)
-	world.add_child(LawnRenderer.new(cfg))
+	var renderer := LawnRenderer.new(cfg)
+	world.add_child(renderer)
+	var frame := world.get_parent() as BattleFrame
+	if frame:
+		frame.set_renderer(renderer)
 	world.add_child(LawnEdgeOverlay.new(cfg))
 	world.add_child(board)
 	world.add_child(LawnLighting.new(cfg, entities))

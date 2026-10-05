@@ -30,10 +30,13 @@ static func kit(kit_name: String, content: int = -1, tint: Color = Color.WHITE) 
 static func panel_box() -> StyleBox:
 	return KitStyles.get_style("panel")
 
+## Built at runtime (autoload UIBoot sets it as the root Window theme); never baked to .tres.
 static func build() -> Theme:
 	var t := Theme.new()
 	t.default_font_size = 26
 	ThemeButtons.apply(t)
 	ThemePanels.apply(t)
 	ThemeBars.apply(t)
+	ThemeWidgets.apply(t)
+	ThemeFillIns.apply(t)
 	return t

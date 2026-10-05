@@ -1,7 +1,7 @@
 """One-command rebuild of every generated runtime art asset.
 
-Re-runs the deterministic post-processing over the committed model outputs in
-art_src/generated/ (it never calls the image model). Stages:
+Re-runs the deterministic post-processing over the committed model finals in
+art_src/finals/ (it never calls the image model). Stages:
     worlds   environment plate, ground layer, edge/fringe overlays, world_art.tres
     ui       UI kit: 9-slice frames, buttons, cards, icons, screen backgrounds, logo
     validate tools/art/review/validate_assets.py
@@ -22,19 +22,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ART = ROOT / "tools/art"
-ENV = ROOT / "art_src/generated/env"
+ENV = ROOT / "art_src/finals/env"
 log = logging.getLogger("build_all")
 
 # world -> environment plate (shared plates are graded per world by palettes.json)
 WORLD_PLATES: dict[str, str] = {
-    "lawn": "env_garden_v3.png",
-    "night": "env_garden_v3.png",
-    "pool": "env_garden_v3.png",
-    "desert": "env_desert_v1.png",
-    "roof": "env_roof_v1.png",
-    "frost": "env_frost_v1.png",
-    "factory": "env_factory_v1.png",
-    "moon": "env_moon_v1.png",
+    "lawn": "env_garden_v3.webp",
+    "night": "env_garden_v3.webp",
+    "pool": "env_garden_v3.webp",
+    "desert": "env_desert_v1.webp",
+    "roof": "env_roof_v1.webp",
+    "frost": "env_frost_v1.webp",
+    "factory": "env_factory_v1.webp",
+    "moon": "env_moon_v1.webp",
 }
 STAGES = ("worlds", "ui", "validate", "import")
 

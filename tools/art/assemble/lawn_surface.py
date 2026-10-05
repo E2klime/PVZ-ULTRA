@@ -1,6 +1,6 @@
 """Assemble the playfield ground layer for one world: exactly board_rect() (1170x700).
 
-A painted ground swatch (art_src/generated/ground/<ground>.png) is made seamless,
+A painted ground swatch (art_src/finals/ground/<ground>.webp) is made seamless,
 tiled, and gradient-mapped onto the world's ramp from palettes.json. The 9x5 grid
 is carried by one broad mow band per lane (5 bands, the zombies' path) and a faint
 column tone, both with irregular painted boundaries; per-cell tonal jitter and a warm
@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import board, noise, palette  # noqa: E402
 
 log = logging.getLogger("lawn_surface")
-GROUND_DIR = palette.ROOT / "art_src" / "generated" / "ground"
+GROUND_DIR = palette.ROOT / "art_src" / "finals" / "ground"
 # swatch scale (source px -> screen px) and grid strength per ground type
 GROUND_STYLE: dict[str, dict[str, float]] = {
     "grass": {"scale": 0.5, "stripe": 0.021, "row": 0.085, "seam": 0.11, "cell": 0.015, "detail": 0.7},
@@ -54,9 +54,9 @@ def build(world: str, seed: int) -> np.ndarray:
     st = GROUND_STYLE[ground]
     rng = np.random.default_rng(seed)
     w, h = board.SIZE
-    src = cv2.imread(str(GROUND_DIR / f"{ground}.png"), cv2.IMREAD_COLOR)
+    src = cv2.imread(str(GROUND_DIR / f"{ground}.webp"), cv2.IMREAD_COLOR)
     if src is None:
-        raise FileNotFoundError(GROUND_DIR / f"{ground}.png")
+        raise FileNotFoundError(GROUND_DIR / f"{ground}.webp")
     src = cv2.cvtColor(src, cv2.COLOR_BGR2RGB).astype(np.float32) / 255.0
     src = cv2.resize(src, None, fx=st["scale"], fy=st["scale"], interpolation=cv2.INTER_AREA)
     tile = noise.make_seamless(src)

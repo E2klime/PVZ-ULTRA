@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import keying  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
-SRC = ROOT / "art_src/generated/props/props_blocked_v1.png"
+SRC = ROOT / "art_src/finals/props/props_blocked_v1.webp"
 OUT = ROOT / "assets/art/props"
 NAMES = ("boulder", "tiles", "ice", "moonrock")
 log = logging.getLogger("slice_props")

@@ -1,6 +1,7 @@
 """Board tiles: painted lawn cells, tileable water + caustics, modular pool
 coping (edge / outer corner / inner corner) and pre-baked water-cell variants.
-Run: python3 tiles.py  -> assets/tiles/{lawn,pool}/"""
+Run: python3 tiles.py  -> assets/tiles/pool/  (the lawn cells were retired:
+world grounds now come from tools/art/worlds, see docs/ART_WIRING_REPORT.md)"""
 import os, sys, math
 import numpy as np, cv2, cairo
 sys.path.insert(0, os.path.dirname(__file__))
@@ -32,70 +33,6 @@ def periodic_noise(w, h, beta=2.0, seed=0):
     n = np.real(np.fft.ifft2(spec)).astype(np.float32)
     n -= n.min(); n /= max(1e-6, n.max())
     return n
-
-
-# ------------------------------------------------------------------ lawn
-def lawn_cell(light: bool, seed: int):
-    rng = np.random.default_rng(seed)
-    base_top = hexc('7fc451') if light else hexc('5fa63c')
-    base_bot = hexc('6cb444') if light else hexc('4f9433')
-    yy = np.linspace(0, 1, CH)[:, None, None]
-    img = base_top * (1 - yy) + base_bot * yy
-    img = np.broadcast_to(img, (CH, CW, 3)).copy()
-    n = noise(CW, CH, 40, 3, seed)
-    img *= (0.9 + 0.2 * n)[..., None]
-    # blades, drawn back-to-front with cairo onto an RGBA surface
-    surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, CW, CH)
-    ctx = cairo.Context(surf)
-    ctx.set_antialias(cairo.ANTIALIAS_BEST)
-    count = 2600
-    ys = np.sort(rng.random(count) * (CH + 30) - 10)
-    for y in ys:
-        x = rng.random() * (CW + 20) - 10
-        ln = 9 + rng.random() * 13
-        lean = rng.normal(0.15, 0.35)
-        wdt = 1.6 + rng.random() * 1.6
-        hue = rng.normal(0, 0.03)
-        light_amt = 0.35 + 0.65 * rng.random()
-        c_root = hsv_shift(base_bot, dh=hue, dv=0.62)
-        c_tip = hsv_shift(base_top, dh=hue - 0.02, ds=0.85, dv=1.0 + 0.32 * light_amt)
-        tx, ty = x + lean * ln, y - ln
-        g = cairo.LinearGradient(x, y, tx, ty)
-        g.add_color_stop_rgba(0, *c_root, 0.95)
-        g.add_color_stop_rgba(1, *c_tip, 1.0)
-        ctx.set_source(g)
-        ctx.move_to(x - wdt, y)
-        ctx.curve_to(x - wdt * 0.6, y - ln * 0.5, tx - lean * 2, ty + ln * 0.25, tx, ty)
-        ctx.curve_to(tx + 0.4, ty + ln * 0.3, x + wdt * 0.6, y - ln * 0.5, x + wdt, y)
-        ctx.close_path()
-        ctx.fill()
-    # a few clover leaves and tiny daisies
-    for _ in range(rng.integers(1, 4)):
-        cx, cy = rng.random() * CW, rng.random() * CH
-        for k in range(3):
-            a = k * 2.1 + rng.random()
-            ctx.set_source_rgba(*hsv_shift(base_top, dv=0.85), 1)
-            ctx.arc(cx + math.cos(a) * 5, cy + math.sin(a) * 4, 4.5, 0, 2 * math.pi)
-            ctx.fill()
-    if rng.random() < 0.45:
-        cx, cy = rng.random() * CW, rng.random() * CH
-        for k in range(6):
-            a = k * math.pi / 3
-            ctx.set_source_rgba(1, 1, 0.97, 1)
-            ctx.save(); ctx.translate(cx + math.cos(a) * 4, cy + math.sin(a) * 4); ctx.rotate(a); ctx.scale(4, 2); ctx.arc(0, 0, 1, 0, 2 * math.pi); ctx.restore(); ctx.fill()
-        ctx.set_source_rgba(1, 0.82, 0.2, 1); ctx.arc(cx, cy, 2.6, 0, 2 * math.pi); ctx.fill()
-    buf = np.ndarray((CH, surf.get_stride() // 4, 4), np.uint8, surf.get_data())[:, :CW].astype(np.float32) / 255
-    a = buf[..., 3:4]
-    rgb = buf[..., [2, 1, 0]] / np.maximum(a, 1e-6)
-    img = img * (1 - a) + rgb * a
-    # soft cell framing: slightly darker rim, light top edge, so the grid reads
-    yy, xx = np.mgrid[0:CH, 0:CW].astype(np.float32)
-    d = np.minimum.reduce([xx, yy, CW - 1 - xx, CH - 1 - yy])
-    rim = np.clip(1 - d / 10.0, 0, 1) ** 2
-    img *= (1 - rim * 0.16)[..., None]
-    top = np.clip(1 - yy / 4.0, 0, 1)
-    img += top[..., None] * 0.05
-    return img
 
 
 # ------------------------------------------------------------------ water
@@ -210,10 +147,6 @@ def compose_variant(water_rgb, caust, sides, path):
 
 
 def main():
-    lawn = os.path.join(ROOT, 'lawn')
-    for i in range(4):
-        save(lawn_cell(True, 10 + i), os.path.join(lawn, 'cell_light_%d.png' % i))
-        save(lawn_cell(False, 20 + i), os.path.join(lawn, 'cell_dark_%d.png' % i))
     pool = os.path.join(ROOT, 'pool')
     water, caust = water_textures()
     save(water, os.path.join(pool, 'water.png'))

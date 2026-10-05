@@ -128,23 +128,9 @@
    "prompt_ref": null
   },
   {
-   "file": "art_src/finals/ground/soil.webp",
-   "category": "ground",
-   "encoding": "webp-lossy",
-   "size": [
-    900,
-    520
-   ],
-   "source_md5": "1027abc5f80bba871a328cd84f8f85a7",
-   "source_name": "soil.png",
-   "model": "gpt-image-2.5-flare",
-   "seed": null,
-   "prompt_ref": null
-  },
-  {
    "file": "art_src/finals/props/props_blocked_v1.webp",
    "category": "props",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1536,
     1024
@@ -158,7 +144,7 @@
   {
    "file": "art_src/finals/ui/ui_button_green_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1774,
     887
@@ -172,7 +158,7 @@
   {
    "file": "art_src/finals/ui/ui_card_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1024,
     1536
@@ -186,7 +172,7 @@
   {
    "file": "art_src/finals/ui/ui_panel_paper_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1536,
     1024
@@ -200,7 +186,7 @@
   {
    "file": "art_src/finals/ui/ui_panel_wood_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1536,
     1024
@@ -214,7 +200,7 @@
   {
    "file": "art_src/finals/ui/ui_pill_wood_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1774,
     887
@@ -228,7 +214,7 @@
   {
    "file": "art_src/finals/ui/ui_round_v1.webp",
    "category": "ui",
-   "encoding": "webp-lossless",
+   "encoding": "webp-q94",
    "size": [
     1254,
     1254
@@ -280,6 +266,272 @@
    "model": "gpt-image-2.5-flare",
    "seed": null,
    "prompt_ref": null
+  },
+  {
+   "file": "art_src/finals/ground/snow.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "e3ee3c478648effa8004a4d9442e52bc",
+   "source_name": "ground_snow_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ground_snow_v1.png"
+  },
+  {
+   "file": "art_src/finals/ground/tile.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "6dd111b38ddc71cca294573c483b60ff",
+   "source_name": "ground_tile_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ground_tile_v1.png"
+  },
+  {
+   "file": "art_src/finals/ground/clover.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "54d8a0add85da8cd4302076a26e29f5c",
+   "source_name": "ground_clover_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ground_clover_v1.png"
+  },
+  {
+   "file": "art_src/finals/ground/turf.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "9c0152c0a691af38836531f25967c7a2",
+   "source_name": "ground_turf_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ground_turf_v1.png"
+  },
+  {
+   "file": "art_src/finals/ground/concrete.webp",
+   "category": "ground",
+   "encoding": "webp-lossy",
+   "size": [
+    1254,
+    1254
+   ],
+   "source_md5": "cbd8495a4d07dd2e836d499cae42cf7e",
+   "source_name": "ground_concrete_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ground_concrete_v1.png"
+  },
+  {
+   "file": "art_src/finals/ui/ui_widgets_v1.webp",
+   "category": "ui",
+   "encoding": "webp-lossless",
+   "size": [
+    1536,
+    1024
+   ],
+   "source_md5": "89e9d0630ce0b2b5227796d1825f29ce",
+   "source_name": "ui_widgets_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#ui_widgets_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/bg_almanac.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "9bccbacc471a5b20e87b2ca749c84a93",
+   "source_name": "bg_almanac_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#bg_almanac_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/bg_hub.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    940
+   ],
+   "source_md5": "6b8192c337dd5f568a4c9ad2945754ec",
+   "source_name": "bg_hub_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#bg_hub_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/bg_loading.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "02c519f97f71baecc4480a984b0d4f15",
+   "source_name": "bg_loading_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#bg_loading_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/bg_menu.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "796f004c643dd39fc753a894a26b2e1b",
+   "source_name": "bg_menu_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#bg_menu_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/bg_shop.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "588ecd20e2758b6586c14057b01cf418",
+   "source_name": "bg_shop_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#bg_shop_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_desert.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "b2553d0f54a1f75727354d781967f9f0",
+   "source_name": "map_desert_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_desert_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_factory.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "fa9df8a80461c2f47f31cbe62c0e7730",
+   "source_name": "map_factory_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_factory_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_frost.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "b16695625559a16ce9fe22660e9324bf",
+   "source_name": "map_frost_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_frost_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_lawn.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "7f72043de3da04c7cfac3e0b20876cc3",
+   "source_name": "map_lawn_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_lawn_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_moon.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "82915b744d6972df393b8790a3f762d9",
+   "source_name": "map_moon_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_moon_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_night.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "ede163eaec7bd5a4d3bde7dc8f60189e",
+   "source_name": "map_night_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_night_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_pool.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "af1b7b4bfaa07cf70770bca7b7fd0682",
+   "source_name": "map_pool_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_pool_v1.png"
+  },
+  {
+   "file": "art_src/finals/screens/map_roof.webp",
+   "category": "screens",
+   "encoding": "webp-lossy",
+   "size": [
+    1672,
+    941
+   ],
+   "source_md5": "d1932d7dac2bee71ff914d632fecca8f",
+   "source_name": "map_roof_v1.png",
+   "model": "gpt-image-2.5-flare",
+   "seed": null,
+   "prompt_ref": "art_src/prompts/session2_v1.json#map_roof_v1.png"
   }
  ],
  "dropped_duplicates": {

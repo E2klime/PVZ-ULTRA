@@ -1,0 +1,56 @@
+class_name ThemeWidgets
+extends RefCounted
+## Small-control family: painted check/radio icons, slider groove + acorn knob, dropdown
+## arrow, popup menus, tooltips, line edits and horizontal scrollbars.
+
+static func apply(t: Theme) -> void:
+	var off := KitStyles.texture("check_off")
+	var on := KitStyles.texture("check_on")
+	var r_off := KitStyles.texture("radio_off")
+	var r_on := KitStyles.texture("radio_on")
+	for type: String in ["CheckBox", "CheckButton"]:
+		t.set_icon("unchecked", type, off)
+		t.set_icon("checked", type, on)
+		t.set_icon("unchecked_disabled", type, off)
+		t.set_icon("checked_disabled", type, on)
+		t.set_icon("radio_unchecked", type, r_off)
+		t.set_icon("radio_checked", type, r_on)
+		t.set_icon("radio_unchecked_disabled", type, r_off)
+		t.set_icon("radio_checked_disabled", type, r_on)
+		t.set_constant("h_separation", type, 10)
+	t.set_icon("arrow", "OptionButton", KitStyles.texture("arrow_down"))
+	t.set_constant("arrow_margin", "OptionButton", 14)
+	for type: String in ["HSlider", "VSlider"]:
+		t.set_stylebox("slider", type, KitStyles.get_style("slider_track"))
+		t.set_stylebox("grabber_area", type, KitStyles.get_style("bar_fill", 0))
+		t.set_stylebox("grabber_area_highlight", type, KitStyles.get_style("bar_fill", 0))
+		t.set_icon("grabber", type, KitStyles.texture("knob"))
+		t.set_icon("grabber_highlight", type, KitStyles.texture("knob_hover"))
+		t.set_icon("grabber_disabled", type, KitStyles.texture("knob"))
+		t.set_constant("center_grabber", type, 1)
+	_popup(t)
+	t.set_stylebox("normal", "LineEdit", KitStyles.get_style("panel_small"))
+	t.set_stylebox("focus", "LineEdit", KitStyles.get_style("button_focus"))
+	t.set_color("font_color", "LineEdit", UITheme.INK)
+	t.set_stylebox("scroll", "HScrollBar", KitStyles.get_style("bar_bg", 2))
+	t.set_stylebox("scroll_focus", "HScrollBar", KitStyles.get_style("bar_bg", 2))
+	t.set_stylebox("grabber", "HScrollBar", KitStyles.get_style("bar_fill", 2))
+	t.set_stylebox("grabber_highlight", "HScrollBar", KitStyles.get_style("bar_fill", 2))
+	t.set_stylebox("grabber_pressed", "HScrollBar", KitStyles.get_style("bar_fill", 2))
+
+static func _popup(t: Theme) -> void:
+	t.set_stylebox("panel", "PopupMenu", KitStyles.get_style("board_small"))
+	t.set_stylebox("hover", "PopupMenu", KitStyles.get_style("button_hover", 6))
+	t.set_stylebox("separator", "PopupMenu", StyleBoxEmpty.new())
+	t.set_color("font_color", "PopupMenu", Color(1, 0.95, 0.85))
+	t.set_color("font_hover_color", "PopupMenu", Color.WHITE)
+	t.set_color("font_outline_color", "PopupMenu", Color(0.2, 0.1, 0.04))
+	t.set_constant("outline_size", "PopupMenu", 3)
+	t.set_constant("v_separation", "PopupMenu", 10)
+	t.set_icon("radio_checked", "PopupMenu", KitStyles.texture("radio_on"))
+	t.set_icon("radio_unchecked", "PopupMenu", KitStyles.texture("radio_off"))
+	t.set_icon("checked", "PopupMenu", KitStyles.texture("check_on"))
+	t.set_icon("unchecked", "PopupMenu", KitStyles.texture("check_off"))
+	t.set_stylebox("panel", "TooltipPanel", KitStyles.get_style("panel_small"))
+	t.set_color("font_color", "TooltipLabel", UITheme.INK)
+	t.set_stylebox("panel", "PopupPanel", KitStyles.get_style("board_small"))

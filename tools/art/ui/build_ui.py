@@ -183,13 +183,11 @@ def main() -> None:
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(name)s: %(message)s")
     build_boxes(args.out.resolve())
-    from ui import build_thumbs  # noqa: E402
+    from ui import build_screens, build_thumbs, build_widgets  # noqa: E402
+    build_widgets.build(args.out.resolve())
     build_thumbs.build_all()
-    icons = Path(__file__).with_name("build_icons.py")
-    if icons.exists():
-        from ui import build_icons  # noqa: E402  (separate family: icons, backgrounds, logo)
-        build_icons.build_all(ROOT)
-
+    if build_screens.build_all():
+        raise SystemExit("build_ui: screen sources missing (see errors above)")
 
 if __name__ == "__main__":
     main()

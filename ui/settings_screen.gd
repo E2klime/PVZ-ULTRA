@@ -11,7 +11,7 @@ func set_args(args: Dictionary) -> void:
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.with_art("res://assets/art/keyart.jpg", 0.45))
+	add_child(ScreenBg.for_screen(&"settings"))
 	var p := UIKit.panel(26)
 	p.custom_minimum_size = Vector2(1180, 820)
 	var v := UIKit.vbox(14)
@@ -92,17 +92,23 @@ class Switch:
 		for st: String in ["normal", "hover", "pressed", "hover_pressed", "focus", "disabled"]:
 			add_theme_stylebox_override(st, StyleBoxEmpty.new())
 		toggled.connect(func(_on: bool) -> void: queue_redraw())
+	var _track_off: StyleBox = KitStyles.get_style("bar_bg", 0)
+	var _track_on: StyleBox = KitStyles.get_style("bar_fill", 0)
+	var _knob: Texture2D = KitStyles.texture("knob")
 	func _draw() -> void:
 		var w := 100.0
-		var h := 44.0
+		var h := 40.0
 		var r := Rect2(Vector2(size.x - w, (size.y - h) * 0.5), Vector2(w, h))
 		var on := button_pressed
-		DrawUtil.rrect(self, r, Color(0.3, 0.62, 0.2) if on else Color(0.55, 0.5, 0.45), h * 0.5, 0)
-		DrawUtil.rrect(self, r.grow(-3), Color(0.42, 0.78, 0.28) if on else Color(0.72, 0.67, 0.6), h * 0.5 - 3, 0)
-		var kx := r.end.x - h * 0.5 if on else r.position.x + h * 0.5
-		draw_circle(Vector2(kx, r.get_center().y), h * 0.5 - 5, Color(1, 1, 0.97))
-		var f := ThemeDB.fallback_font
-		draw_string(f, Vector2(r.position.x + (10 if on else 48), r.get_center().y + 7), tr("UI_ON") if on else tr("UI_OFF"), HORIZONTAL_ALIGNMENT_LEFT, -1, 18, Color(1, 1, 1, 0.95))
+		draw_style_box(_track_on if on else _track_off, r)
+		var ks := Vector2(h + 6, h + 6)
+		var kx := r.end.x - ks.x * 0.5 - 2 if on else r.position.x + ks.x * 0.5 + 2
+		draw_texture_rect(_knob, Rect2(Vector2(kx, r.get_center().y) - ks * 0.5, ks), false)
+		var f := get_theme_font("font")
+		var txt := tr("UI_ON") if on else tr("UI_OFF")
+		var tx := r.position.x + 12 if on else r.position.x + 52
+		draw_string_outline(f, Vector2(tx, r.get_center().y + 7), txt, HORIZONTAL_ALIGNMENT_LEFT, -1, 18, 4, Color(0.2, 0.1, 0.04))
+		draw_string(f, Vector2(tx, r.get_center().y + 7), txt, HORIZONTAL_ALIGNMENT_LEFT, -1, 18, Color(1, 1, 0.95))
 
 static func toggle(key: StringName, extra: Callable = Callable()) -> Button:
 	var c := Switch.new()

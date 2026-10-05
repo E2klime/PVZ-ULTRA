@@ -109,12 +109,12 @@ Sheets: sparkle (8×64), flame (6×64×96), frost_burst (6×128), lightning
 `Battle._tex_burst()` uses them as CPUParticles2D textures.
 
 ## 3. Backdrops and the modular board
-- `assets/art/bg/battle_lawn.jpg` and `battle_pool.jpg` (1920×1080, illustrated in v0.3) give the
-  surroundings: house, hedges, deck and street. The playfield (x 255–1425, y 200–900) is
-  **fully covered** by painted tiles. The v0.3 semi-transparent grass overlay is gone.
-- `assets/tiles/lawn/cell_{light,dark}_{0..3}.png` (260×280, drawn at 130×140) are painted grass
-  cells with blades, clover and the odd daisy. The board uses a light/dark checker and picks one
-  of 4 variants per cell from a hash.
+- Each world's surround and playfield ground come from `assets/art/worlds/<world>/`
+  (`world_art.tres`: `environment.jpg` 1920×1080, `ground.webp` exactly 1170×700 = the board
+  rect, edge overlay, per-lane fringe strips, tufts, blocked prop). They are built by
+  `python3 tools/art/build_all.py --only worlds` and loaded by `WorldArtLoader`. Missing art logs
+  a loud error and shows a magenta placeholder. `BattleFrame` centres the 1920×1080 stage on
+  wider/taller screens and `LawnRenderer` mirrors the surround into the margins.
 - `assets/tiles/pool/`:
   - `water.png` and `caustics.png`: 512 px tileable textures, animated by `shaders/water.gdshader`
     with world-space UVs, two caustic layers, wobble and sparkle.

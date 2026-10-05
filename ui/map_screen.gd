@@ -20,29 +20,7 @@ func _ready() -> void:
 	if map == null:
 		map = DB.maps[0]
 	_open_gates()
-	# Each world uses its own art: a dedicated map illustration when there is one,
-	# otherwise that world's battle backdrop (night, desert, roof, ... used to show the lawn).
-	var art := "res://assets/art/bg/map_%s.jpg" % map.id
-	if not ResourceLoader.exists(art):
-		art = "res://assets/art/bg/battle_%s.jpg" % map.id
-	if not ResourceLoader.exists(art):
-		art = "res://assets/art/bg/map_lawn.jpg"
-	# Battle backdrops are busier than map illustrations: dim them more behind the node graph.
-	var bg := ScreenBg.with_art(art, 0.12 if art.get_file().begins_with("map_") else 0.3)
-	if map.id == &"pool":
-		bg.sky_top = Color(0.23, 0.49, 0.72)
-		bg.sky_bottom = Color(0.65, 0.88, 0.88)
-		bg.hill = Color(0.16, 0.5, 0.55)
-	else:
-		bg.sky_top = Color(0.5, 0.75, 0.45)
-		bg.sky_bottom = Color(0.62, 0.82, 0.5)
-		bg.hill = Color(0.42, 0.66, 0.3)
-	add_child(bg)
-	# (MapDecor - procedural water/flowers - is kept for the art-less fallback.)
-	if bg.texture == null:
-		var decor := MapDecor.new()
-		decor.map_id = map.id
-		add_child(UIKit.full(decor))
+	add_child(ScreenBg.for_screen(StringName("map_" + String(map.id))))
 	_graph = MapGraph.new()
 	(_graph as MapGraph).screen = self
 	add_child(UIKit.full(_graph))

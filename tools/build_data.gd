@@ -24,7 +24,6 @@ func _ready() -> void:
 	_map()
 	_quests()
 	_shop()
-	_save(UITheme.build(), "res://ui/theme.tres")
 	print("Data build finished.")
 	get_tree().quit()
 

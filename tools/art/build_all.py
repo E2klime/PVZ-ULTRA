@@ -53,8 +53,8 @@ def build_world(world: str) -> None:
     out = ROOT / "assets/art/worlds" / world
     out.mkdir(parents=True, exist_ok=True)
     py("process/plate.py", ENV / WORLD_PLATES[world], out / "environment.jpg", "--world", world)
-    py("assemble/lawn_surface.py", "--world", world, "--out", out / "ground.png")
-    py("assemble/lawn_edges.py", "--world", world, "--ground", out / "ground.png", "--out-dir", out)
+    py("assemble/lawn_surface.py", "--world", world, "--out", out / "ground.webp")
+    py("assemble/lawn_edges.py", "--world", world, "--ground", out / "ground.webp", "--out-dir", out)
     py("export/world_art_tres.py", "--world", world)
     log.info("world %s done", world)
 

@@ -28,6 +28,7 @@ var base_integrity: int = 3
 var max_base_integrity: int = 3
 
 var world: Node2D
+var frame: BattleFrame
 var board: Board
 var art: WorldArtConfig
 var entities: Node2D
@@ -71,6 +72,7 @@ func _ready() -> void:
 	hud = BattleHUD.new()
 	hud.battle = self
 	add_child(hud)
+	frame.bind_hud(hud)
 	field_rules = FieldRules.new()
 	field_rules.setup(self)
 	world.add_child(field_rules)
@@ -93,7 +95,9 @@ func _exit_tree() -> void:
 
 func _build_world() -> void:
 	world = Node2D.new()
-	add_child(world)
+	frame = BattleFrame.new()
+	add_child(frame)
+	frame.add_child(world)
 	board = Board.new()
 	board.set_layout(level.water)
 	entities = Node2D.new()

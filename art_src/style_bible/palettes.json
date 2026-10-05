@@ -1,5 +1,5 @@
 {
-  "_doc": "Single source of truth for world colour. Read by tools/art/common/palette.py and (via export) by Godot WorldArtConfig .tres files. Colours are sRGB hex. grade = per-world light preset applied to the shared garden kit.",
+  "_doc": "Single source of truth for world colour. Read by tools/art/common/palette.py and (via export) by Godot WorldArtConfig .tres files. Colours are sRGB hex. grade = per-world light preset applied to the shared garden kit. shadow_tint = contact shadow colour (#rrggbbaa); light_tint = whole-scene light grade; blocked = obstacle prop id (assets/art/props/blocked_<id>.png).",
   "global": {
     "key_light": "#ffe2a8",
     "key_dir_deg": 135,
@@ -32,14 +32,17 @@
         "lift": "#1c2436",
         "sat": 1.0,
         "exposure": 0.0
-      }
+      },
+      "shadow_tint": "#2a3458cc",
+      "light_tint": "#ffffff",
+      "blocked": "boulder"
     },
     "pool": {
-      "ground": "grass",
+      "ground": "turf",
       "lawn": [
-        "#55803f",
-        "#628c48",
-        "#486f36"
+        "#6f9c46",
+        "#7daa50",
+        "#5e8a3c"
       ],
       "soil": "#7a5a3c",
       "accent": "#4fb3c9",
@@ -48,10 +51,13 @@
         "lift": "#18283a",
         "sat": 1.02,
         "exposure": 0.05
-      }
+      },
+      "shadow_tint": "#1f4058bb",
+      "light_tint": "#f4fbff",
+      "blocked": "boulder"
     },
     "night": {
-      "ground": "grass",
+      "ground": "clover",
       "lawn": [
         "#4a7158",
         "#557d62",
@@ -63,8 +69,11 @@
         "gain": "#b8c4ff",
         "lift": "#0c1028",
         "sat": 0.7,
-        "exposure": -0.4
-      }
+        "exposure": -0.3
+      },
+      "shadow_tint": "#0c1030dd",
+      "light_tint": "#c8ccff",
+      "blocked": "boulder"
     },
     "desert": {
       "ground": "sand",
@@ -80,7 +89,10 @@
         "lift": "#2a2030",
         "sat": 0.95,
         "exposure": 0.1
-      }
+      },
+      "shadow_tint": "#5a3a2abb",
+      "light_tint": "#fff2dc",
+      "blocked": "boulder"
     },
     "roof": {
       "ground": "tile",
@@ -96,7 +108,10 @@
         "lift": "#26203a",
         "sat": 0.95,
         "exposure": -0.05
-      }
+      },
+      "shadow_tint": "#3a2030c4",
+      "light_tint": "#ffe8d4",
+      "blocked": "tiles"
     },
     "frost": {
       "ground": "snow",
@@ -112,14 +127,17 @@
         "lift": "#1a2a44",
         "sat": 0.85,
         "exposure": 0.05
-      }
+      },
+      "shadow_tint": "#3a5a88aa",
+      "light_tint": "#eef6ff",
+      "blocked": "ice"
     },
     "factory": {
-      "ground": "soil",
+      "ground": "concrete",
       "lawn": [
-        "#6a5a3e",
-        "#76664a",
-        "#5c4e36"
+        "#7a7268",
+        "#8a8278",
+        "#655f58"
       ],
       "soil": "#3e3428",
       "accent": "#c9a23a",
@@ -128,7 +146,10 @@
         "lift": "#1e1e22",
         "sat": 0.8,
         "exposure": -0.15
-      }
+      },
+      "shadow_tint": "#18181ccc",
+      "light_tint": "#f2e4cc",
+      "blocked": "boulder"
     },
     "moon": {
       "ground": "gravel",
@@ -144,7 +165,10 @@
         "lift": "#120e2a",
         "sat": 0.75,
         "exposure": -0.3
-      }
+      },
+      "shadow_tint": "#1a0e3ad4",
+      "light_tint": "#d8d0ff",
+      "blocked": "moonrock"
     }
   },
   "ui": {

@@ -1,8 +1,8 @@
 class_name ScreenBg
 extends Control
-## Background: a generated static illustration (assets/art/bg) when one is set,
-## otherwise a procedural sky gradient with layered hills. Clouds drift on top
-## of both for a little life; `dim` darkens the art so UI stays readable.
+## Screen background. for_screen(id) is the one entry point for painted screen art (data in
+## assets/art/screens/<id>.tres via ScreenArt). Missing art draws a loud magenta debug
+## placeholder. A bare ScreenBg.new() is only the procedural sky used inside small previews.
 
 var sky_top: Color = Color(0.45, 0.72, 0.92)
 var sky_bottom: Color = Color(0.85, 0.93, 0.85)
@@ -11,10 +11,19 @@ var _t: float = 0.0
 var texture: Texture2D
 var dim: float = 0.0
 
-static func with_art(path: String, p_dim: float = 0.0) -> ScreenBg:
+var tint: Color = Color.WHITE
+var missing: StringName = &""
+
+static func for_screen(id: StringName) -> ScreenBg:
 	var b := ScreenBg.new()
-	b.texture = load(path) as Texture2D
-	b.dim = p_dim
+	b.name = "ScreenBg_" + String(id)
+	var art := ScreenArt.for_screen(id)
+	if art == null:
+		b.missing = id
+		return b
+	b.texture = art.texture
+	b.dim = art.dim
+	b.tint = art.tint
 	return b
 
 func _init() -> void:
@@ -28,6 +37,9 @@ func _process(d: float) -> void:
 func _draw() -> void:
 	var w := size.x
 	var h := size.y
+	if missing != &"":
+		_draw_missing(w, h)
+		return
 	if texture:
 		_draw_art(w, h)
 		return
@@ -56,7 +68,7 @@ func _draw_art(w: float, h: float) -> void:
 	var ts := texture.get_size()
 	var k: float = max(w / ts.x, h / ts.y)
 	var ds := ts * k
-	draw_texture_rect(texture, Rect2((Vector2(w, h) - ds) * 0.5, ds), false)
+	draw_texture_rect(texture, Rect2((Vector2(w, h) - ds) * 0.5, ds), false, tint)
 	# slow drifting cloud shadows
 	for i: int in 3:
 		var x := fmod(_t * (10.0 + i * 3.0) + i * 700.0, w + 600.0) - 300.0
@@ -65,3 +77,10 @@ func _draw_art(w: float, h: float) -> void:
 			draw_circle(Vector2(x + j * 70.0, y + (j % 2) * 24.0), 70.0, Color(0.1, 0.2, 0.1, 0.06))
 	if dim > 0.0:
 		draw_rect(Rect2(0, 0, w, h), Color(0.08, 0.1, 0.06, dim))
+
+func _draw_missing(w: float, h: float) -> void:
+	var cell := 80.0
+	for y: int in int(h / cell) + 1:
+		for x: int in int(w / cell) + 1:
+			draw_rect(Rect2(x * cell, y * cell, cell, cell), KitStyles.MISSING if (x + y) % 2 == 0 else Color.BLACK)
+	draw_string(ThemeDB.fallback_font, Vector2(40, 80), "MISSING SCREEN ART: " + String(missing), HORIZONTAL_ALIGNMENT_LEFT, -1, 48, Color.WHITE)

@@ -11,7 +11,7 @@ func set_args(args: Dictionary) -> void:
 
 func _ready() -> void:
 	UIKit.full(self)
-	add_child(ScreenBg.new())
+	add_child(ScreenBg.for_screen(&"almanac"))
 	var root := UIKit.vbox(12)
 	root.position = Vector2(40, 24)
 	root.custom_minimum_size = Vector2(1840, 1030)

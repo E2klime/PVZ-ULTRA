@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://core/art/world_art_config.gd" id="0_cfg"]
 [ext_resource type="Texture2D" path="res://assets/art/worlds/night/environment.jpg" id="1_tex"]
-[ext_resource type="Texture2D" path="res://assets/art/worlds/night/ground.png" id="2_tex"]
+[ext_resource type="Texture2D" path="res://assets/art/worlds/night/ground.webp" id="2_tex"]
 [ext_resource type="Texture2D" path="res://assets/art/worlds/night/edge.png" id="3_tex"]
 [ext_resource type="Texture2D" path="res://assets/art/garden_kit/contact_shadow.png" id="4_tex"]
 [ext_resource type="Texture2D" path="res://assets/art/worlds/night/fringe_0.png" id="5_tex"]
@@ -24,8 +24,8 @@ fringe_offset_y = -20.0
 tuft = ExtResource("10_tex")
 blocked = ExtResource("11_tex")
 contact_shadow = ExtResource("4_tex")
-contact_shadow_color = Color(1, 1, 1, 0.8)
+contact_shadow_color = Color(0.0471, 0.0627, 0.1882, 0.867)
 contact_shadow_offset = Vector2(10, 0)
-light_tint = Color(1.0000, 1.0000, 1.0000, 1.000)
+light_tint = Color(0.7843, 0.8000, 1.0000, 1.000)
 accent = Color(0.6118, 0.5490, 0.9412, 1.000)
-ground_type = &"grass"
+ground_type = &"clover"

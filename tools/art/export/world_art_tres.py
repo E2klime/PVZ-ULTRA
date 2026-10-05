@@ -1,7 +1,6 @@
 """Write assets/art/worlds/<world>/world_art.tres (WorldArtConfig) from palettes.json.
 
-Only references files that exist, so worlds without a fringe (sand, tile...) get an
-empty fringe array. Usage:
+Every world has a fringe (5 strips) and a tuft; a missing file is a build error. Usage:
     python3 tools/art/export/world_art_tres.py --world lawn
 """
 from __future__ import annotations
@@ -20,10 +19,11 @@ KIT = "res://assets/art/garden_kit/contact_shadow.png"
 
 
 def color(h: str, a: float = 1.0) -> str:
-    r, g, b = palette.hex_rgb(h)
+    """'#rrggbb' or '#rrggbbaa' -> Godot Color()."""
+    r, g, b = palette.hex_rgb(h[:7])
+    if len(h) == 9:
+        a = int(h[7:9], 16) / 255.0
     return f"Color({r:.4f}, {g:.4f}, {b:.4f}, {a:.3f})"
-
-PROPS = {"tile": "tiles", "snow": "ice", "gravel": "moonrock"}  # ground type -> obstacle prop
 
 
 def write(world: str) -> Path:
@@ -37,14 +37,16 @@ def write(world: str) -> Path:
         return f'ExtResource("{len(ext)}_tex")'
 
     env = ref(res + "environment.jpg")
-    ground = ref(res + "ground.png")
+    ground = ref(res + "ground.webp")
     edge = ref(res + "edge.png")
     shadow = ref(KIT)
-    fringe = [ref(res + f"fringe_{r}.png") for r in range(board.ROWS) if (d / f"fringe_{r}.png").exists()]
-    tuft = ref(res + "tuft.png") if (d / "tuft.png").exists() else "null"
-    prop = PROPS.get(pal["ground"], "boulder")
-    blocked = ref(f"res://assets/art/props/blocked_{prop}.png")
-    tint = pal.get("light_tint", "#ffffff")
+    for f in ["environment.jpg", "ground.webp", "edge.png", "tuft.png"] + [f"fringe_{r}.png" for r in range(board.ROWS)]:
+        if not (d / f).exists():
+            raise FileNotFoundError(d / f)
+    fringe = [ref(res + f"fringe_{r}.png") for r in range(board.ROWS)]
+    tuft = ref(res + "tuft.png")
+    blocked = ref(f"res://assets/art/props/blocked_{pal['blocked']}.png")
+    tint = pal["light_tint"]
     lines = [f'[gd_resource type="Resource" script_class="WorldArtConfig" load_steps={len(ext) + 2} format=3]', ""]
     lines.append('[ext_resource type="Script" path="res://core/art/world_art_config.gd" id="0_cfg"]')
     for i, p in ext:
@@ -52,7 +54,7 @@ def write(world: str) -> Path:
     lines += ["", "[resource]", 'script = ExtResource("0_cfg")',
               f"environment = {env}", f"ground = {ground}", f"edge = {edge}", "edge_margin = 40.0",
               f'fringe = Array[Texture2D]([{", ".join(fringe)}])', "fringe_offset_y = -20.0", f"tuft = {tuft}", f"blocked = {blocked}",
-              f"contact_shadow = {shadow}", "contact_shadow_color = Color(1, 1, 1, 0.8)",
+              f"contact_shadow = {shadow}", f"contact_shadow_color = {color(pal['shadow_tint'])}",
               "contact_shadow_offset = Vector2(10, 0)", f"light_tint = {color(tint)}",
               f"accent = {color(pal['accent'])}", f'ground_type = &"{pal["ground"]}"', ""]
     out = d / "world_art.tres"

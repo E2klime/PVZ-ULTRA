@@ -32,3 +32,13 @@ Plants are read first by **silhouette at 96 px**, then by colour, then by face.
 96 px silhouette sheet; pairwise silhouette IoU < 0.80; mean palette distance ≥ 18 (ΔE76)
 between plants of the same role; readability (silhouette contrast against every world ground);
 checklist per brief.
+
+## Status (v2 roster)
+- Redone (34): pod_shooter sunbud bark_wall dandelion_puff snapper_trap lantern_bloom lily_raft elder_oak,
+  ironbark_wall frost_barrier pepper_wall solar_barricade thornwall bramble_vine pumpkin_shell thorn_pumpkin,
+  twin_pod ember_pod gale_pod pepper_stinger frost_mint glacier_shooter spine_cactus needle_volley hail_volley,
+  solar_turret phoenix_lily storm_thistle storm_pod needle_storm healing_lantern thorn_lantern twin_sunbud dawn_bloom.
+- Still v1 art (30): briefs ready in briefs.json; generate a 5x3 sheet, then
+  `split_sheet.py sheet.png 3 <ids...>` and `ingest.py --rebuild`.
+- Rebuild: `python3 tools/art/plants/ingest.py --rebuild` (re-cuts every stored concept onto the frozen
+  label maps in labels/), `python3 tools/art/plants/preview_sheet.py out.jpg` (96 px silhouettes + IoU).

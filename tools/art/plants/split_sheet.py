@@ -21,7 +21,7 @@ def main(path, rows, ids):
     r, g, b, al = a[..., 0], a[..., 1], a[..., 2], a[..., 3]
     fg = (al > 128) & ~((r > 200) & (b > 200) & (g < 90))
     fg = ndimage.binary_opening(fg, iterations=2)
-    lbl, n = ndimage.label(ndimage.binary_dilation(fg, iterations=14))
+    lbl, n = ndimage.label(ndimage.binary_dilation(fg, iterations=int(sys.argv[-1][2:]) if sys.argv[-1].startswith("-d") else 14))
     objs = ndimage.find_objects(lbl)
     sizes = ndimage.sum(fg, lbl, range(1, n + 1))
     keep = [i for i in range(n) if sizes[i] > sizes.max() * 0.08]
@@ -46,4 +46,4 @@ def main(path, rows, ids):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], int(sys.argv[2]), sys.argv[3:])
+    main(sys.argv[1], int(sys.argv[2]), [a for a in sys.argv[3:] if not a.startswith("-d")])

@@ -28,7 +28,7 @@ def main(args):
     CON.mkdir(parents=True, exist_ok=True)
     if args and args[0] == "--grid":
         # --grid sheet.png id_tl id_tr id_bl id_br : 2x2 sheet, one plant per quadrant
-        im = Image.open(args[1]).convert("RGB")
+        im = Image.open(args[1]).convert("RGBA")
         w, h = im.size
         ids = [a for a in args[2:6] if a != "-"]
         for i, pid in enumerate(args[2:6]):
@@ -43,7 +43,7 @@ def main(args):
         ids = []
         for a in args:
             p = Path(a)
-            im = Image.open(p).convert("RGB")
+            im = Image.open(p).convert("RGBA")
             k = 768 / max(im.size)
             im.resize((round(im.size[0] * k), round(im.size[1] * k)), Image.LANCZOS).save(CON / f"{p.stem}.webp", quality=90)
             ids.append(p.stem)
